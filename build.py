@@ -14,6 +14,11 @@ DISC = ("本ページは個人の調査メモであり、特定の銘柄の売�
         "掲載内容の正確性には注意していますが、誤りや時間の経過による変化があり得ます。"
         "投資の判断はご自身の責任で行ってください。株価などの数値は記載時点のものです。")
 QUIZ_DISC = "クイズは投資用語を学ぶための教育目的のもので、特定の銘柄や売買を勧めるものではありません。"
+CSS_LEARN = """
+.bk{border-top:1px solid var(--ln);padding:12px 0}.bk:first-child{border-top:0}
+.bk a{font-weight:700;color:var(--ac);overflow-wrap:anywhere}.bk .by{color:var(--mu);font-size:.84rem}.bk p{margin:4px 0 0;font-size:.92rem}
+.aff{background:var(--acs);border-radius:12px;padding:10px 14px;font-size:.84rem;margin:14px 0}
+"""
 COLORS = ["#ef9a78", "#7db5a3", "#8fa9d6"]
 NG = "\u7aaa\u7530"  # 専門家名(公開データに混ざっていたら生成を止めるための安全確認)
 
@@ -115,7 +120,7 @@ def page(title, body, depth=0, desc=""):
             f'<title>{esc(title)}</title><meta name="description" content="{esc(desc or TAGLINE)}">{FONT_LINK}'
             f'<link rel="stylesheet" href="{pre}style.css"></head><body><div class="wrap">'
             f'<header><h1><a href="{pre}index.html">{SITE}</a></h1><p class="tag">{TAGLINE}</p>'
-            f'<nav class="links"><a href="{pre}index.html">新着一覧</a><a href="{pre}quiz/index.html">投資用語クイズ</a>'
+            f'<nav class="links"><a href="{pre}index.html">新着一覧</a><a href="{pre}learn/index.html">先人から知る投資</a><a href="{pre}quiz/index.html">投資用語クイズ</a>'
             f'<a href="{pre}about.html">このサイトについて・免責</a></nav></header>{body}'
             f'<footer><p>{DISC}</p></footer></div></body></html>')
 
@@ -252,6 +257,41 @@ def quiz_page(qz, prev, nxt, total):
     return page(f"{qz['term']}クイズ 第{n}問 | {SITE}", body, 1, f"{qz['term']}の選択式クイズ。回答後に初心者向けの解説が表示されます。")
 
 
+def learn_page():
+    cfg = json.load(open(os.path.join(ROOT, "data", "learn.json"), encoding="utf8"))
+    tag, author = cfg["amazon_tag"], cfg["author"]
+    groups = []
+    for b in cfg["books"]:
+        if b["g"] not in groups:
+            groups.append(b["g"])
+    body = ""
+    for g in groups:
+        items = ""
+        for b in cfg["books"]:
+            if b["g"] != g:
+                continue
+            url = f"https://www.amazon.co.jp/s?k={b['isbn']}&amp;tag={tag}"
+            items += (f'<div class="bk"><a href="{url}" rel="sponsored noopener" target="_blank">{esc(b["title"])}</a>'
+                      f'<div class="by">{esc(author)} / {esc(b["pub"])} / {b["year"]}年 / ISBN {b["isbn"]}</div><p>{esc(b["note"])}</p></div>')
+        body += f"<h3>{esc(g)}</h3>{items}"
+    intro = (f"<article><h2>先人から知る投資</h2>"
+             f"<p class=\"theme\">経験のある人の考え方を、本で学ぶためのページです。ここでは、{esc(author)}さんの書籍を、出版年の新しい順ではなく、読みやすい順にまとめました。</p>"
+             f"<p class=\"aff\"><b>広告について</b> このページの書籍リンクはアフィリエイトリンク(広告)です。リンク先で購入されると、運営者に報酬が入ることがあります。"
+             f"Amazonのアソシエイトとして、{SITE}は適格販売により収入を得ています。</p>"
+             f"<p>{esc(author)}さんは、楽天証券経済研究所のチーフ・ストラテジストとして、投資に関する解説を書いています。"
+             f"当サイトは、{esc(author)}さんや各出版社とは関係のない、個人の運営です。紹介は、当サイトの運営者の判断によるものです。</p>"
+             f"{AD_SLOT}{body}"
+             f"<h3>先人の本を読むときの注意</h3><ul>"
+             f"<li>出版年が古い本は、制度や税金、市場の状況が今と違うことがあります。</li>"
+             f"<li>本に書かれているのは、著者の考え方と、書かれた時点の事例です。同じ結果になるとは限りません。</li>"
+             f"<li>紹介文は、書名と出版社の情報から書いたもので、本の中身を要約したものではありません。内容は、各書籍のページで確かめてください。</li>"
+             f"<li>書籍は参考です。投資の判断は、ご自身の責任で行ってください。</li></ul>"
+             f"<p class=\"disc\">{DISC}</p></article>")
+    os.makedirs(os.path.join(OUT, "learn"), exist_ok=True)
+    open(os.path.join(OUT, "learn", "index.html"), "w", encoding="utf8").write(
+        page("先人から知る投資 | " + SITE, intro, 1, f"{author}さんの書籍を、読みやすい順に紹介するページです。"))
+
+
 def main():
     picks = json.load(open(os.path.join(ROOT, "data", "picks.json"), encoding="utf8"))
     quizzes = json.load(open(os.path.join(ROOT, "data", "quizzes.json"), encoding="utf8"))
@@ -268,6 +308,8 @@ def main():
                  f'<span><b>{esc(p["name"])}</b>({esc(p["code"])})</span><span class="t">{esc(p["theme"])}</span></a>')
     teaser = (f'<a class="teaser" href="quiz/index.html"><b>投資用語クイズ(全{len(quizzes)}問)</b><br>'
               'PER・PBR・配当利回りなどを、選択式で楽しく学べます。回答後に初心者向けの解説つき。</a>')
+    teaser += ('<a class="teaser" href="learn/index.html" style="margin-top:10px"><b>先人から知る投資</b><br>'
+               '経験のある人の書籍を、読みやすい順に紹介します(広告リンクを含みます)。</a>')
     idx = f'{teaser}<p class="note" style="margin-top:14px">記事は全{len(picks)}件。新しい順です。</p><nav class="list">{rows}</nav>{AD_SLOT}'
     open(os.path.join(OUT, "index.html"), "w", encoding="utf8").write(page(SITE, idx))
     qrows = "".join(f'<a href="{q["id"]}.html"><span class="d">第{int(q["id"][1:])}問</span><span><b>{esc(q["term"])}</b></span>'
@@ -284,7 +326,8 @@ def main():
              f"<p>情報の出典は各記事の末尾に記載しています。確認できなかった項目は「未確認」と書き、推測では埋めないようにしています。</p>"
              f"<h3>広告について</h3><p>当サイトは広告を掲載することがあります。広告の内容と記事の評価は無関係です。</p></article>")
     open(os.path.join(OUT, "about.html"), "w", encoding="utf8").write(page("このサイトについて | " + SITE, about))
-    open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS)
+    learn_page()
+    open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
     print("built", len(picks), "posts,", len(quizzes), "quizzes")
 
