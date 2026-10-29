@@ -3,7 +3,7 @@
 毎日の更新: data/picks.json の配列の先頭に1件追加して `python3 build.py` を実行する。
 記事には任意で flow(儲けの仕組みの図解)と charts(数値表に対応するグラフ)を付けられる。
 公開リポジトリなので、非公開の評価データ(チェック表・特定の専門家名など)は絶対にここへ入れない。"""
-import json, html, os
+import json, html, os, re
 
 SITE = "注目銘柄メモ"
 TAGLINE = "今は目立たないが、これから重要になりそうな日本企業の個人調査メモ"
@@ -208,6 +208,78 @@ def apply_extras(p):
     return secs
 
 
+
+TAGS = [
+    ("edu", "教育・学習", ["教育", "学習", "塾", "学び", "検定", "スクール", "eラーニング", "学力"]),
+    ("lang", "語学・翻訳", ["語学", "英語", "日本語", "翻訳", "多言語", "音声認識"]),
+    ("ai", "AI・音声", ["AI", "音声認識"]),
+    ("dev", "ソフト開発・IT", ["アプリ", "開発", "ソフト", "IT", "SDV", "テスト", "デジタル", "システム"]),
+    ("hr", "人材・研修", ["人材", "研修", "リカレント", "外国人", "社会人"]),
+]
+
+
+def tags_of(p):
+    """手動指定(p['tags'])があればそれを使い、なければテーマ文のキーワードに当てはまる数が多い順に、最大2つ付ける。"""
+    names = {k: n for k, n, _ in TAGS}
+    if p.get("tags"):
+        return [k for k in p["tags"] if k in names]
+    text = p["name"] + p["theme"]
+    scored = [(sum(text.count(w) for w in kws), -i, k) for i, (k, n, kws) in enumerate(TAGS)]
+    scored = [x for x in scored if x[0] > 0]
+    scored.sort(reverse=True)
+    return [k for _, _, k in scored[:2]]
+
+
+def num(v):
+    m = re.search(r"\d+(?:\.\d+)?", str(v))
+    return float(m.group(0)) if m else None
+
+
+def row(p, pre=""):
+    a = {"minbuy": num(p["minBuy"]), "per": num(p["per"]), "pbr": num(p["pbr"]), "yield": num(p["yield"])}
+    attrs = " ".join(f'data-{k}="{v}"' for k, v in a.items() if v is not None)
+    tg = " ".join(tags_of(p))
+    short = lambda x: re.sub(r"[()（）].*$", "", str(x)).replace("予想", "").replace("約", "").strip()
+    meta = (f'最低 {esc(short(p["minBuy"]))} ／ PER {esc(short(p["per"]))} ／ PBR {esc(short(p["pbr"]))} ／ 利回り {esc(short(p["yield"]))}')
+    return (f'<a href="{pre}posts/{p["id"]}.html" data-id="{p["id"]}" data-tags="{tg}" {attrs} '
+            f'data-q="{esc(p["name"] + " " + p["code"] + " " + p["theme"])}">'
+            f'<span class="d">{p["date"]}</span><span><b>{esc(p["name"])}</b>({esc(p["code"])})</span>'
+            f'<span class="t">{esc(p["theme"])}</span><span class="m">{meta}</span></a>')
+
+
+def tag_chips(p, pre=""):
+    names = {k: n for k, n, _ in TAGS}
+    return "".join(f'<a class="chip" href="{pre}theme/{k}.html">{names[k]}</a>' for k in tags_of(p))
+
+
+FILTER_JS = """<script>(function(){var L=document.getElementById('plist');if(!L)return;
+var items=[].slice.call(L.querySelectorAll('a[data-id]')),q=document.getElementById('fq'),s=document.getElementById('fs'),
+c=document.getElementById('fc'),cnt=document.getElementById('fn'),chips=[].slice.call(document.querySelectorAll('[data-tagbtn]')),tag='';
+function val(a,k){var v=parseFloat(a.getAttribute('data-'+k));return isNaN(v)?null:v}
+function run(){var w=q.value.trim().toLowerCase(),n=0;items.forEach(function(a){
+var ok=(!w||a.getAttribute('data-q').toLowerCase().indexOf(w)>=0)&&(!tag||(' '+a.getAttribute('data-tags')+' ').indexOf(' '+tag+' ')>=0);
+if(ok&&c.checked){var m=val(a,'minbuy');ok=m!==null&&m<=10}
+a.style.display=ok?'':'none';if(ok)n++});
+var key=s.value,arr=items.slice();
+if(key!=='new'){var dir=key==='yield'?-1:1;arr.sort(function(x,y){var a=val(x,key==='min'?'minbuy':key),b=val(y,key==='min'?'minbuy':key);
+if(a===null&&b===null)return 0;if(a===null)return 1;if(b===null)return -1;return dir*(a-b)})}
+else{arr.sort(function(x,y){return x.getAttribute('data-id')<y.getAttribute('data-id')?1:-1})}
+arr.forEach(function(a){L.appendChild(a)});cnt.textContent=n+'件を表示';document.getElementById('fe').style.display=n?'none':''}
+q.addEventListener('input',run);s.addEventListener('change',run);c.addEventListener('change',run);
+chips.forEach(function(b){b.addEventListener('click',function(){tag=b.getAttribute('data-tagbtn')===tag?'':b.getAttribute('data-tagbtn');
+chips.forEach(function(x){x.setAttribute('aria-pressed',x.getAttribute('data-tagbtn')===tag?'true':'false')});run()})});run()})();</script>"""
+
+CSS_LIST = """
+.list .m{grid-column:2;color:var(--mu);font-size:.8rem}
+.chip{display:inline-block;margin:2px 6px 2px 0;padding:1px 12px;border-radius:99px;border:1px solid var(--ln);background:var(--s);color:var(--ac);font:inherit;font-size:.82rem;text-decoration:none;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ac);color:#fff;border-color:var(--ac)}
+.fbox{background:var(--s);border:1px solid var(--ln);border-radius:var(--r);padding:12px 14px;margin:10px 0}
+.fbox input[type=search],.fbox select{font:inherit;font-size:.92rem;padding:6px 10px;border:1px solid var(--ln);border-radius:10px;background:#fff;color:var(--fg);max-width:100%}
+.fbox input[type=search]{width:100%;margin-bottom:8px}.fbox label{font-size:.88rem;margin-right:12px;display:inline-block;margin-top:6px}
+.sh{font-size:1.1rem;margin:22px 0 6px}
+"""
+
+
 def post(p):
     st = "".join(f"<div><dt>{k}</dt><dd>{esc(v)}</dd></div>" for k, v in
                  [("株価", f"{p['price']}({p['asOf']})"), ("最低購入代金", p["minBuy"]), ("PER", p["per"]), ("PBR", p["pbr"]), ("配当利回り", p["yield"])])
@@ -218,7 +290,7 @@ def post(p):
             secs += AD_SLOT
     src = "".join(f'<li><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>' for x in p["sources"])
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
-            f'<p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p>{secs}'
+            f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p>{secs}'
             f'{AD_SLOT}<h3>参考にした資料</h3><ul class="src">{src}</ul><p class="disc">{DISC}</p></article>')
     return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, p["theme"])
 
@@ -301,16 +373,39 @@ def main():
         os.makedirs(os.path.join(OUT, d), exist_ok=True)
         for f in os.listdir(os.path.join(OUT, d)):
             os.remove(os.path.join(OUT, d, f))
-    rows = ""
+    for d in ("theme",):
+        os.makedirs(os.path.join(OUT, d), exist_ok=True)
+        for f in os.listdir(os.path.join(OUT, d)):
+            os.remove(os.path.join(OUT, d, f))
     for p in picks:
         open(os.path.join(OUT, "posts", p["id"] + ".html"), "w", encoding="utf8").write(post(p))
-        rows += (f'<a href="posts/{p["id"]}.html"><span class="d">{p["date"]}</span>'
-                 f'<span><b>{esc(p["name"])}</b>({esc(p["code"])})</span><span class="t">{esc(p["theme"])}</span></a>')
+    rows = "".join(row(p) for p in picks)
+    latest = "".join(row(p) for p in picks[:5])
     teaser = (f'<a class="teaser" href="quiz/index.html"><b>投資用語クイズ(全{len(quizzes)}問)</b><br>'
               'PER・PBR・配当利回りなどを、選択式で楽しく学べます。回答後に初心者向けの解説つき。</a>')
     teaser += ('<a class="teaser" href="learn/index.html" style="margin-top:10px"><b>先人から知る投資</b><br>'
                '経験のある人の書籍を、読みやすい順に紹介します(広告リンクを含みます)。</a>')
-    idx = f'{teaser}<p class="note" style="margin-top:14px">記事は全{len(picks)}件。新しい順です。</p><nav class="list">{rows}</nav>{AD_SLOT}'
+    counts = {k: sum(1 for p in picks if k in tags_of(p)) for k, _, _ in TAGS}
+    tagbtns = "".join(f'<button type="button" class="chip" data-tagbtn="{k}" aria-pressed="false">{n}({counts[k]})</button>'
+                      for k, n, _ in TAGS if counts[k])
+    theme_links = "".join(f'<a class="chip" href="theme/{k}.html">{n}</a>' for k, n, _ in TAGS if counts[k])
+    fbox = ('<div class="fbox"><input type="search" id="fq" placeholder="社名・コード・キーワードで探す" aria-label="検索">'
+            f'<div>{tagbtns}</div>'
+            '<label>並べ替え <select id="fs"><option value="new">新しい順</option><option value="min">最低購入代金が安い順</option>'
+            '<option value="per">PERが低い順</option><option value="pbr">PBRが低い順</option><option value="yield">配当利回りが高い順</option></select></label>'
+            '<label><input type="checkbox" id="fc"> 最低購入代金10万円以下</label> <span class="note" id="fn"></span></div>')
+    idx = (f'{teaser}<h2 class="sh">最新の5件</h2><nav class="list">{latest}</nav>'
+           f'<h2 class="sh">テーマから探す</h2><div>{theme_links}</div>{AD_SLOT}'
+           f'<h2 class="sh">すべての記事(全{len(picks)}件)</h2>{fbox}'
+           f'<nav class="list" id="plist">{rows}</nav><p class="note" id="fe" style="display:none">条件に合う記事はありません。</p>{FILTER_JS}')
+    for k, n, _ in TAGS:
+        sub = [p for p in picks if k in tags_of(p)]
+        if not sub:
+            continue
+        body = (f'<article><h2>{n}</h2><p>「{n}」に関わる記事です(全{len(sub)}件)。分類は、記事のテーマ文のキーワードから自動で付けています。</p>'
+                f'<nav class="list">{"".join(row(p, "../") for p in sub)}</nav>{AD_SLOT}</article>')
+        open(os.path.join(OUT, "theme", k + ".html"), "w", encoding="utf8").write(
+            page(f"{n} | {SITE}", body, 1, f"{n}に関わる日本の上場企業の調査メモ一覧。"))
     open(os.path.join(OUT, "index.html"), "w", encoding="utf8").write(page(SITE, idx))
     qrows = "".join(f'<a href="{q["id"]}.html"><span class="d">第{int(q["id"][1:])}問</span><span><b>{esc(q["term"])}</b></span>'
                     f'<span class="t">{esc(q["question"])}</span></a>' for q in quizzes)
@@ -327,7 +422,7 @@ def main():
              f"<h3>広告について</h3><p>当サイトは広告を掲載することがあります。広告の内容と記事の評価は無関係です。</p></article>")
     open(os.path.join(OUT, "about.html"), "w", encoding="utf8").write(page("このサイトについて | " + SITE, about))
     learn_page()
-    open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN)
+    open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN + CSS_LIST)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
     print("built", len(picks), "posts,", len(quizzes), "quizzes")
 
