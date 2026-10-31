@@ -114,10 +114,15 @@ def fmt(v, k=0):
     return f"{v:,.{k}f}"
 
 
+GA_TAG = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-MS9416YMMM"></script>'
+          '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+          "gtag('js',new Date());gtag('config','G-MS9416YMMM');</script>")
+
+
 def page(title, body, depth=0, desc=""):
     pre = "../" * depth
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{esc(title)}</title><meta name="description" content="{esc(desc or TAGLINE)}">{FONT_LINK}'
+            f'<title>{esc(title)}</title><meta name="description" content="{esc(desc or TAGLINE)}">{FONT_LINK}{GA_TAG}'
             f'<link rel="stylesheet" href="{pre}style.css"></head><body><div class="wrap">'
             f'<header><h1><a href="{pre}index.html">{SITE}</a></h1><p class="tag">{TAGLINE}</p>'
             f'<nav class="links"><a href="{pre}index.html">新着一覧</a><a href="{pre}learn/index.html">先人から知る投資</a><a href="{pre}quiz/index.html">投資用語クイズ</a>'
