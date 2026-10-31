@@ -1,17 +1,43 @@
 {
- "updated_at": "2026-10-31 13:52 JST",
+ "updated_at": "2026-10-31 17:08 JST",
  "sites": [
   {
    "key": "stock",
    "name": "投資銘柄ピックアップ(注目銘柄メモ)",
    "path": "/stock-memo2/",
    "last30": {
-    "views": 0,
-    "users": 0,
-    "sessions": 0
+    "views": 6,
+    "users": 3,
+    "sessions": 3
    },
-   "daily": [],
-   "top_pages": []
+   "daily": [
+    {
+     "date": "2026-10-31",
+     "views": 6,
+     "users": 3,
+     "sessions": 3
+    }
+   ],
+   "top_pages": [
+    {
+     "path": "/stock-memo2/",
+     "title": "注目銘柄メモ",
+     "views": 4,
+     "users": 3
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-6.html",
+     "title": "Sun Asterisk(サン・アスタリスク)(4053) | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261029.html",
+     "title": "システナ(2317) | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    }
+   ]
   },
   {
    "key": "claude",
