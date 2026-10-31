@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31 17:08 JST",
+ "updated_at": "2026-11-01 08:10 JST",
  "sites": [
   {
    "key": "stock",
@@ -44,24 +44,76 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 0,
-    "users": 0,
-    "sessions": 0
+    "views": 4,
+    "users": 1,
+    "sessions": 1
    },
-   "daily": [],
-   "top_pages": []
+   "daily": [
+    {
+     "date": "2026-10-31",
+     "views": 4,
+     "users": 1,
+     "sessions": 1
+    }
+   ],
+   "top_pages": [
+    {
+     "path": "/anna-konna-claude/",
+     "title": "あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-log.html",
+     "title": "log.mdに、やったことを日付つきで残して、続きから始める | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-sources.html",
+     "title": "sources.mdに、確認済みの出典をまとめて、毎回の調べ直しをなくす | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-todo.html",
+     "title": "todo.mdに、やることを書き出して、優先順位をClaudeと決める | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    }
+   ]
   },
   {
    "key": "kasegi",
    "name": "稼ぎ方トリセツ(稼ぎのトリセツ)",
    "path": "/kasegi-torisetsu/",
    "last30": {
-    "views": 0,
-    "users": 0,
-    "sessions": 0
+    "views": 2,
+    "users": 1,
+    "sessions": 1
    },
-   "daily": [],
-   "top_pages": []
+   "daily": [
+    {
+     "date": "2026-10-31",
+     "views": 2,
+     "users": 1,
+     "sessions": 1
+    }
+   ],
+   "top_pages": [
+    {
+     "path": "/kasegi-torisetsu/",
+     "title": "稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/account-trading.html",
+     "title": "口座の売買・貸し(口座を売ると犯罪になる) | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    }
+   ]
   }
  ]
 }
