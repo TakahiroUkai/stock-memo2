@@ -1,0 +1,41 @@
+{
+ "updated_at": "2026-10-31 13:52 JST",
+ "sites": [
+  {
+   "key": "stock",
+   "name": "投資銘柄ピックアップ(注目銘柄メモ)",
+   "path": "/stock-memo2/",
+   "last30": {
+    "views": 0,
+    "users": 0,
+    "sessions": 0
+   },
+   "daily": [],
+   "top_pages": []
+  },
+  {
+   "key": "claude",
+   "name": "Claudeあれこれ(あんなことこんなことClaude)",
+   "path": "/anna-konna-claude/",
+   "last30": {
+    "views": 0,
+    "users": 0,
+    "sessions": 0
+   },
+   "daily": [],
+   "top_pages": []
+  },
+  {
+   "key": "kasegi",
+   "name": "稼ぎ方トリセツ(稼ぎのトリセツ)",
+   "path": "/kasegi-torisetsu/",
+   "last30": {
+    "views": 0,
+    "users": 0,
+    "sessions": 0
+   },
+   "daily": [],
+   "top_pages": []
+  }
+ ]
+}
