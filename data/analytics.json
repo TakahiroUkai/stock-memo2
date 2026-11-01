@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01 08:10 JST",
+ "updated_at": "2026-11-01 21:24 JST",
  "sites": [
   {
    "key": "stock",
@@ -44,14 +44,20 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 4,
-    "users": 1,
-    "sessions": 1
+    "views": 5,
+    "users": 2,
+    "sessions": 2
    },
    "daily": [
     {
      "date": "2026-10-31",
      "views": 4,
+     "users": 1,
+     "sessions": 1
+    },
+    {
+     "date": "2026-11-01",
+     "views": 1,
      "users": 1,
      "sessions": 1
     }
@@ -60,8 +66,8 @@
     {
      "path": "/anna-konna-claude/",
      "title": "あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
+     "views": 2,
+     "users": 2
     },
     {
      "path": "/anna-konna-claude/tips/md-log.html",
@@ -114,6 +120,18 @@
      "users": 1
     }
    ]
+  },
+  {
+   "key": "tsukue",
+   "name": "机タイム素材集",
+   "path": "/tsukue-time/",
+   "last30": {
+    "views": 0,
+    "users": 0,
+    "sessions": 0
+   },
+   "daily": [],
+   "top_pages": []
   }
  ]
 }
