@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""GA4 Data API から3サイト分のアクセス数を取得し、data/analytics.json に保存する。
+"""GA4 Data API から4サイト分のアクセス数を取得し、data/analytics.json に保存する。
 
 認証: 環境変数 GA_KEY にサービスアカウントのJSONキー(文字列)を入れる。
       (GitHub の Secrets に登録。リポジトリにはコミットしない)
@@ -17,11 +17,12 @@ from google.analytics.data_v1beta.types import (
 PROPERTY_ID = os.environ.get("GA_PROPERTY_ID", "384833511")
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "analytics.json")
 
-# 3サイトの見分け方: URLの最初のパス(リポジトリ名)
+# サイトの見分け方: URLの最初のパス(リポジトリ名)
 SITES = [
     {"key": "stock", "name": "投資銘柄ピックアップ(注目銘柄メモ)", "path": "/stock-memo2/"},
     {"key": "claude", "name": "Claudeあれこれ(あんなことこんなことClaude)", "path": "/anna-konna-claude/"},
     {"key": "kasegi", "name": "稼ぎ方トリセツ(稼ぎのトリセツ)", "path": "/kasegi-torisetsu/"},
+    {"key": "tsukue", "name": "机タイム素材集", "path": "/tsukue-time/"},
 ]
 DAILY_RANGE = "89daysAgo"   # 日別は直近90日
 TOP_RANGE = "29daysAgo"     # ページ別は直近30日

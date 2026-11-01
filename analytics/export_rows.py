@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""data/analytics.json を、ダッシュボード用の3つの行データ(JSON配列)に変換する。
+"""data/analytics.json を、ダッシュボード用の3つの行データ(サイト数は analytics.json の sites に従う)(JSON配列)に変換する。
 
 使い方: python3 analytics/export_rows.py <出力フォルダ>
   → sites.json(サイト別の直近30日合計) / daily.json(日別) / pages.json(人気ページ)
