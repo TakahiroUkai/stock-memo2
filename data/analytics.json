@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-04 09:27 JST",
+ "updated_at": "2026-11-05 09:47 JST",
  "sites": [
   {
    "key": "stock",
@@ -168,9 +168,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 19,
-    "users": 12,
-    "sessions": 12
+    "views": 20,
+    "users": 13,
+    "sessions": 13
    },
    "daily": [
     {
@@ -184,14 +184,20 @@
      "views": 2,
      "users": 2,
      "sessions": 2
+    },
+    {
+     "date": "2026-11-04",
+     "views": 1,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
     {
      "path": "/tsukue-time/",
      "title": "机タイム素材集",
-     "views": 11,
-     "users": 10
+     "views": 12,
+     "users": 11
     },
     {
      "path": "/tsukue-time/research/",
