@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://takahiroukai.github.io/stock-memo2/sitemap.xml

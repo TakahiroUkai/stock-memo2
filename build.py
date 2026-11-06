@@ -369,6 +369,31 @@ def learn_page():
         page("先人から知る投資 | " + SITE, intro, 1, f"{author}さんの書籍を、読みやすい順に紹介するページです。"))
 
 
+BASE_URL = "https://takahiroukai.github.io/stock-memo2/"
+
+
+def write_sitemap():
+    """docs/ にある公開ページから sitemap.xml と robots.txt を作る(毎回のビルドで更新される)。"""
+    urls = []
+    for dirpath, _, files in os.walk(OUT):
+        for f in files:
+            if not f.endswith(".html") or f.startswith("google"):
+                continue
+            rel = os.path.relpath(os.path.join(dirpath, f), OUT).replace(os.sep, "/")
+            if rel == "index.html":
+                rel = ""
+            elif rel.endswith("/index.html"):
+                rel = rel[: -len("index.html")]
+            urls.append(BASE_URL + rel)
+    body = "".join(f"<url><loc>{html.escape(u)}</loc></url>" for u in sorted(set(urls)))
+    open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n')
+    open(os.path.join(OUT, "robots.txt"), "w", encoding="utf8").write(
+        f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n")
+    return len(set(urls))
+
+
 def main():
     picks = json.load(open(os.path.join(ROOT, "data", "picks.json"), encoding="utf8"))
     quizzes = json.load(open(os.path.join(ROOT, "data", "quizzes.json"), encoding="utf8"))
@@ -429,7 +454,8 @@ def main():
     learn_page()
     open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN + CSS_LIST)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
-    print("built", len(picks), "posts,", len(quizzes), "quizzes")
+    n_urls = write_sitemap()
+    print("built", len(picks), "posts,", len(quizzes), "quizzes, sitemap", n_urls, "urls")
 
 
 if __name__ == "__main__":
