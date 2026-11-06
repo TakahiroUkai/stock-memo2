@@ -11,7 +11,7 @@ description: 注目銘柄メモの「改善の1周」で、このサイトだけ
 
 - 項目の接頭辞: `SM`(司令塔の `site` は `stock`)
 - 既定ブランチ: `main`。公開URL: https://takahiroukai.github.io/stock-memo2/
-- 改善の曜日: 木曜
+- 改善の順番: 4番目(稼ぎのトリセツ → あんなことこんなことClaude → 机タイム素材集 → 注目銘柄メモの順に、実行のたびに次へ進む)
 - このリポジトリの `data/analytics.json` は、GitHub Actions が毎朝更新する(4サイト分のアクセス数)。改善の回では読むだけで、変えない。
 
 ## ユーザー役の読者像
