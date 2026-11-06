@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-05 09:47 JST",
+ "updated_at": "2026-11-06 09:53 JST",
  "sites": [
   {
    "key": "stock",
@@ -50,9 +50,9 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 11,
+    "views": 18,
     "users": 2,
-    "sessions": 3
+    "sessions": 4
    },
    "daily": [
     {
@@ -72,18 +72,60 @@
      "views": 6,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-05",
+     "views": 7,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
     {
      "path": "/anna-konna-claude/",
      "title": "あんなことこんなことClaude",
-     "views": 5,
+     "views": 6,
      "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/glossary/",
+     "title": "用語解説 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/guides/claude-code-vs-cowork.html",
+     "title": "Claude CodeとCoworkを徹底比較:使い所・長所と短所・使用例・機能の違い | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/guides/cloud-environments.html",
+     "title": "Claude Codeのクラウド環境を読み解く:通信・変数・秘密の鍵・セットアップの仕組み | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
     },
     {
      "path": "/anna-konna-claude/news/2026-10-21-claude-duet.html",
      "title": "Claude Duet、先回りして動くエージェントアプリがリサーチプレビューで登場 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-11-02-message-threads.html",
+     "title": "Claude APIに「メッセージスレッド」(ベータ)が追加されました | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/tips/artifact-mini-tool.html",
+     "title": "Artifactで、割り勘の計算ツールを作る | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/tips/artifact-quiz-app.html",
+     "title": "Artifactで、自作のクイズアプリを作る | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
@@ -124,9 +166,9 @@
    "name": "稼ぎ方トリセツ(稼ぎのトリセツ)",
    "path": "/kasegi-torisetsu/",
    "last30": {
-    "views": 6,
+    "views": 8,
     "users": 1,
-    "sessions": 2
+    "sessions": 3
    },
    "daily": [
     {
@@ -140,13 +182,19 @@
      "views": 4,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-05",
+     "views": 2,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
     {
      "path": "/kasegi-torisetsu/",
      "title": "稼ぎのトリセツ",
-     "views": 4,
+     "views": 5,
      "users": 1
     },
     {
@@ -160,6 +208,12 @@
      "title": "ネズミ講(無限連鎖講) | 稼ぎのトリセツ",
      "views": 1,
      "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/side-job-fraud.html",
+     "title": "内職・副業詐欺(先にお金を払わせる型) | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
     }
    ]
   },
@@ -168,9 +222,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 20,
+    "views": 41,
     "users": 13,
-    "sessions": 13
+    "sessions": 14
    },
    "daily": [
     {
@@ -190,20 +244,44 @@
      "views": 1,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-05",
+     "views": 21,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
     {
      "path": "/tsukue-time/",
      "title": "机タイム素材集",
-     "views": 12,
+     "views": 17,
      "users": 11
+    },
+    {
+     "path": "/tsukue-time/art/",
+     "title": "ぬりえ | 机タイム素材集",
+     "views": 3,
+     "users": 1
     },
     {
      "path": "/tsukue-time/research/",
      "title": "子育て研究 | 机タイム素材集",
-     "views": 2,
+     "views": 3,
      "users": 1
+    },
+    {
+     "path": "/tsukue-time/abc/",
+     "title": "アルファベット | 机タイム素材集",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/tsukue-time/kana/",
+     "title": "ひらがな・数字 | 机タイム素材集",
+     "views": 2,
+     "users": 2
     },
     {
      "path": "/tsukue-time/research/2026-11-02-dialogic-reading.html",
@@ -212,14 +290,14 @@
      "users": 2
     },
     {
-     "path": "/tsukue-time/abc/",
-     "title": "アルファベット | 机タイム素材集",
-     "views": 1,
+     "path": "/tsukue-time/seal/",
+     "title": "シールアート | 机タイム素材集",
+     "views": 2,
      "users": 1
     },
     {
-     "path": "/tsukue-time/art/",
-     "title": "ぬりえ | 机タイム素材集",
+     "path": "/tsukue-time/about.html",
+     "title": "このサイトについて | 机タイム素材集",
      "views": 1,
      "users": 1
     },
@@ -230,8 +308,50 @@
      "users": 1
     },
     {
-     "path": "/tsukue-time/kana/",
-     "title": "ひらがな・数字 | 机タイム素材集",
+     "path": "/tsukue-time/cards/",
+     "title": "お題カード | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/daily/",
+     "title": "まいにち つづける | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/plan/",
+     "title": "週間表・お手紙 | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/privacy.html",
+     "title": "プライバシーポリシー | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/research/2026-11-03-emotion-coaching-online.html",
+     "title": "子どもの気持ちを受けとめる関わり方を学ぶオンライン講座で、親の接し方や子どもの行動の得点はどう変わった? | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/seal/seal-fish.html",
+     "title": "シールアート さかな | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/seal/seal-xmas.html",
+     "title": "シールアート クリスマスツリー | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/trace/",
+     "title": "なぞり・点つなぎ | 机タイム素材集",
      "views": 1,
      "users": 1
     }
