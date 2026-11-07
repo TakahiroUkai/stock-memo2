@@ -122,7 +122,10 @@ GA_TAG = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-MS94
 def page(title, body, depth=0, desc=""):
     pre = "../" * depth
     return ('<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{esc(title)}</title><meta name="description" content="{esc(desc or TAGLINE)}">{FONT_LINK}{GA_TAG}'
+            f'<title>{esc(title)}</title><meta name="description" content="{esc(desc or TAGLINE)}">'
+            f'<meta property="og:type" content="website"><meta property="og:site_name" content="{SITE}">'
+            f'<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc or TAGLINE)}">'
+            f'<meta name="twitter:card" content="summary">{FONT_LINK}{GA_TAG}'
             f'<link rel="stylesheet" href="{pre}style.css"></head><body><div class="wrap">'
             f'<header><h1><a href="{pre}index.html">{SITE}</a></h1><p class="tag">{TAGLINE}</p>'
             f'<nav class="links"><a href="{pre}index.html">新着一覧</a><a href="{pre}learn/index.html">先人から知る投資</a><a href="{pre}quiz/index.html">投資用語クイズ</a>'
@@ -301,7 +304,7 @@ def post(p):
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
             f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul><p class="disc">{DISC}</p></article>')
-    return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, p["theme"])
+    return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
 
 
 QUIZ_JS = """<script>(function(){
