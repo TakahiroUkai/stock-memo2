@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-07 08:59 JST",
+ "updated_at": "2026-11-08 08:30 JST",
  "sites": [
   {
    "key": "stock",
@@ -252,9 +252,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 46,
+    "views": 48,
     "users": 13,
-    "sessions": 15
+    "sessions": 16
    },
    "daily": [
     {
@@ -286,24 +286,30 @@
      "views": 5,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-07",
+     "views": 2,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
     {
      "path": "/tsukue-time/",
      "title": "机タイム素材集",
-     "views": 20,
+     "views": 21,
      "users": 11
-    },
-    {
-     "path": "/tsukue-time/art/",
-     "title": "ぬりえ | 机タイム素材集",
-     "views": 3,
-     "users": 1
     },
     {
      "path": "/tsukue-time/research/",
      "title": "子育て研究 | 机タイム素材集",
+     "views": 4,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/art/",
+     "title": "ぬりえ | 机タイム素材集",
      "views": 3,
      "users": 1
     },
