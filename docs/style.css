@@ -80,3 +80,5 @@ footer{margin-top:24px;font-size:.8rem;color:var(--mu)}
 .fbox input[type=search],.fbox select{font:inherit;font-size:.92rem;padding:6px 10px;border:1px solid var(--ln);border-radius:10px;background:#fff;color:var(--fg);max-width:100%}
 .fbox input[type=search]{width:100%;margin-bottom:8px}.fbox label{font-size:.88rem;margin-right:12px;display:inline-block;margin-top:6px}
 .sh{font-size:1.1rem;margin:22px 0 6px}
+.toc{margin:14px 0 4px}.toc .note{display:block;margin-bottom:4px}
+article h3[id]{scroll-margin-top:12px}

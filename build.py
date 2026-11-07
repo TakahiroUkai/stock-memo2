@@ -282,6 +282,8 @@ CSS_LIST = """
 .fbox input[type=search],.fbox select{font:inherit;font-size:.92rem;padding:6px 10px;border:1px solid var(--ln);border-radius:10px;background:#fff;color:var(--fg);max-width:100%}
 .fbox input[type=search]{width:100%;margin-bottom:8px}.fbox label{font-size:.88rem;margin-right:12px;display:inline-block;margin-top:6px}
 .sh{font-size:1.1rem;margin:22px 0 6px}
+.toc{margin:14px 0 4px}.toc .note{display:block;margin-bottom:4px}
+article h3[id]{scroll-margin-top:12px}
 """
 
 
@@ -289,14 +291,16 @@ def post(p):
     st = "".join(f"<div><dt>{k}</dt><dd>{esc(v)}</dd></div>" for k, v in
                  [("株価", f"{p['price']}({p['asOf']})"), ("最低購入代金", p["minBuy"]), ("PER", p["per"]), ("PBR", p["pbr"]), ("配当利回り", p["yield"])])
     secs = ""
+    toc = []
     for i, (t, h) in enumerate(apply_extras(p)):
-        secs += f"<h3>{esc(t)}</h3>{h}"
+        toc.append(f'<a class="chip" href="#s{i}">{esc(t)}</a>')
+        secs += f'<h3 id="s{i}">{esc(t)}</h3>{h}'
         if i == 0:
             secs += AD_SLOT
     src = "".join(f'<li><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>' for x in p["sources"])
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
-            f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p>{secs}'
-            f'{AD_SLOT}<h3>参考にした資料</h3><ul class="src">{src}</ul><p class="disc">{DISC}</p></article>')
+            f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
+            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul><p class="disc">{DISC}</p></article>')
     return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, p["theme"])
 
 
