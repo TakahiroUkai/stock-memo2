@@ -13,6 +13,9 @@ AD_SLOT = '<aside class="ad" aria-label="広告"><!-- AdSense承認後、ここ�
 DISC = ("本ページは個人の調査メモであり、特定の銘柄の売買を勧めるものではありません。"
         "掲載内容の正確性には注意していますが、誤りや時間の経過による変化があり得ます。"
         "投資の判断はご自身の責任で行ってください。株価などの数値は記載時点のものです。")
+KASEGI_URL = "https://takahiroukai.github.io/kasegi-torisetsu/methods/index-investing.html"
+KASEGI_CARD = ('<aside class="teaser2"><b>個別の銘柄を調べる前に</b><br>'
+               f'積立で分散して持つ「インデックス投資」の考え方と、向き不向きは、<a href="{KASEGI_URL}" rel="noopener">稼ぎのトリセツのインデックス投資(積立)のページ</a>にまとめています。</aside>')
 QUIZ_DISC = "クイズは投資用語を学ぶための教育目的のもので、特定の銘柄や売買を勧めるものではありません。"
 CSS_LEARN = """
 .bk{border-top:1px solid var(--ln);padding:12px 0}.bk:first-child{border-top:0}
@@ -92,6 +95,8 @@ footer{margin-top:24px;font-size:.8rem;color:var(--mu)}
 .pager a{color:var(--ac);background:var(--s);border:1px solid var(--ln);border-radius:99px;padding:6px 16px;text-decoration:none;font-size:.9rem}
 .teaser{display:block;margin-top:14px;padding:14px 18px;background:var(--gr);border-radius:var(--r);color:var(--fg);text-decoration:none}
 .teaser b{color:var(--gr2)}
+.teaser2{margin:16px 0;padding:12px 16px;background:var(--gr);border-radius:var(--r);font-size:.9rem}
+.teaser2 b{color:var(--gr2)}.teaser2 a{color:var(--ac);overflow-wrap:anywhere}
 """
 
 FONT_LINK = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
@@ -303,7 +308,7 @@ def post(p):
     src = "".join(f'<li><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>' for x in p["sources"])
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
-            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul><p class="disc">{DISC}</p></article>')
+            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{KASEGI_CARD}<p class="disc">{DISC}</p></article>')
     return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
 
 
