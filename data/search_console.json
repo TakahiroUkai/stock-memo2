@@ -1,0 +1,33 @@
+{
+ "updated_at": "2026-11-09 08:28 JST",
+ "range": {
+  "start": "2026-10-11",
+  "end": "2026-11-07"
+ },
+ "sites": [
+  {
+   "key": "stock",
+   "name": "注目銘柄メモ",
+   "site_url": "https://takahiroukai.github.io/stock-memo2/",
+   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fstock-memo2%2F/searchAnalytics/query?alt=json returned \"Google Search Console API has not been used in project 909117726724 before or it is disabled. Enable it by visiting h"
+  },
+  {
+   "key": "claude",
+   "name": "あんなことこんなことClaude",
+   "site_url": "https://takahiroukai.github.io/anna-konna-claude/",
+   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fanna-konna-claude%2F/searchAnalytics/query?alt=json returned \"Google Search Console API has not been used in project 909117726724 before or it is disabled. Enable it by visi"
+  },
+  {
+   "key": "kasegi",
+   "name": "稼ぎのトリセツ",
+   "site_url": "https://takahiroukai.github.io/kasegi-torisetsu/",
+   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fkasegi-torisetsu%2F/searchAnalytics/query?alt=json returned \"Google Search Console API has not been used in project 909117726724 before or it is disabled. Enable it by visit"
+  },
+  {
+   "key": "tsukue",
+   "name": "机タイム素材集",
+   "site_url": "https://takahiroukai.github.io/tsukue-time/",
+   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Ftsukue-time%2F/searchAnalytics/query?alt=json returned \"Google Search Console API has not been used in project 909117726724 before or it is disabled. Enable it by visiting h"
+  }
+ ]
+}
