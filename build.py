@@ -308,7 +308,7 @@ def post(p):
     src = "".join(f'<li><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>' for x in p["sources"])
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
-            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{KASEGI_CARD}<p class="disc">{DISC}</p></article>')
+            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{KASEGI_CARD}</article>')
     return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
 
 
@@ -406,6 +406,26 @@ def write_sitemap():
     return len(set(urls))
 
 
+def add_canonical():
+    """全ページに、そのページ自身のURLを正規URL(canonical)として入れる。"""
+    for dirpath, _, files in os.walk(OUT):
+        for f in files:
+            if not f.endswith(".html") or f.startswith("google"):
+                continue
+            path = os.path.join(dirpath, f)
+            rel = os.path.relpath(path, OUT).replace(os.sep, "/")
+            if rel == "index.html":
+                rel = ""
+            elif rel.endswith("/index.html"):
+                rel = rel[: -len("index.html")]
+            h = open(path, encoding="utf8").read()
+            if 'rel="canonical"' in h:
+                continue
+            tag = f'<link rel="canonical" href="{html.escape(BASE_URL + rel)}">'
+            h = h.replace('<meta name="twitter:card"', tag + '<meta name="twitter:card"', 1)
+            open(path, "w", encoding="utf8").write(h)
+
+
 def main():
     picks = json.load(open(os.path.join(ROOT, "data", "picks.json"), encoding="utf8"))
     quizzes = json.load(open(os.path.join(ROOT, "data", "quizzes.json"), encoding="utf8"))
@@ -466,6 +486,7 @@ def main():
     learn_page()
     open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN + CSS_LIST)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
+    add_canonical()
     n_urls = write_sitemap()
     print("built", len(picks), "posts,", len(quizzes), "quizzes, sitemap", n_urls, "urls")
 
