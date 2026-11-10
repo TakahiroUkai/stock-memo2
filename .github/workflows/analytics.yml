@@ -42,3 +42,15 @@ jobs:
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
+      - name: Search Console の取得結果を確認(失敗があれば、この実行を失敗にして知らせる)
+        run: |
+          python3 - <<'PYEOF'
+          import json, sys
+          d = json.load(open("data/search_console.json", encoding="utf8"))
+          bad = [s["key"] + ": " + s["error"][:160] for s in d["sites"] if "error" in s]
+          if bad:
+              print("Search Console を取得できなかったサイト:")
+              print("\n".join(bad))
+              sys.exit(1)
+          print("Search Console: 4サイトとも取得できました")
+          PYEOF
