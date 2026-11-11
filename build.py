@@ -309,7 +309,7 @@ def post(p):
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
             f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{KASEGI_CARD}</article>')
-    return page(f"{p['name']}({p['code']}) | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
+    return page(f"{p['name']}({p['code']})の事業内容・PER・PBR | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
 
 
 QUIZ_JS = """<script>(function(){
@@ -343,7 +343,7 @@ def quiz_page(qz, prev, nxt, total):
             f'<div id="explain" class="explain" hidden><h4>解説</h4><p class="calc">{esc(qz["calc"])}</p>{memo}{tip}</div></div>'
             '<noscript><style>#explain[hidden]{display:block}</style></noscript>'
             f'{AD_SLOT}{pager}<p class="disc">{QUIZ_DISC}</p></article>{QUIZ_JS}')
-    return page(f"{qz['term']}クイズ 第{n}問 | {SITE}", body, 1, f"{qz['term']}の選択式クイズ。回答後に初心者向けの解説が表示されます。")
+    return page(f"{qz['term']}クイズ 第{n}問 | {SITE}", body, 1, f"投資用語「{qz['term']}」の選択式クイズ(第{n}問)。答えたあとに、初心者向けの解説と、数字を見るときのポイントが出ます。")
 
 
 def learn_page():
@@ -468,12 +468,12 @@ def main():
                 f'<nav class="list">{"".join(row(p, "../") for p in sub)}</nav>{AD_SLOT}</article>')
         open(os.path.join(OUT, "theme", k + ".html"), "w", encoding="utf8").write(
             page(f"{n} | {SITE}", body, 1, f"{n}に関わる日本の上場企業の調査メモ一覧。"))
-    open(os.path.join(OUT, "index.html"), "w", encoding="utf8").write(page(SITE, idx))
+    open(os.path.join(OUT, "index.html"), "w", encoding="utf8").write(page(f"{SITE} | 日本株の事業内容・PER・PBRを、1社ずつまとめた個人メモ", idx, 0, "日本株の注目銘柄を1日1社ずつ、事業内容・PER・PBR・配当利回り・気をつける点でまとめた個人の調査メモ。スマホで3分ほどで読めます。10万円前後で買える銘柄の一覧、テーマ別の一覧つき。"))
     qrows = "".join(f'<a href="{q["id"]}.html"><span class="d">第{int(q["id"][1:])}問</span><span><b>{esc(q["term"])}</b></span>'
                     f'<span class="t">{esc(q["question"])}</span></a>' for q in quizzes)
     qbody = (f'<article><h2>投資用語クイズ</h2><p>投資指標の用語を、選択式のクイズで学べます。1問ごとに1ページで、回答すると初心者向けの解説が出ます。</p>'
              f'<nav class="list">{qrows}</nav>{AD_SLOT}<p class="disc">{QUIZ_DISC}</p></article>')
-    open(os.path.join(OUT, "quiz", "index.html"), "w", encoding="utf8").write(page("投資用語クイズ | " + SITE, qbody, 1))
+    open(os.path.join(OUT, "quiz", "index.html"), "w", encoding="utf8").write(page("投資用語クイズ(PER・PBRなど) | " + SITE, qbody, 1, "PER・PBR・配当利回りなどの投資用語を、選択式クイズで確かめられます。答えたあとに初心者向けの解説が出ます。"))
     for i, q in enumerate(quizzes):
         prev = quizzes[i - 1] if i > 0 else None
         nxt = quizzes[i + 1] if i + 1 < len(quizzes) else None
@@ -482,7 +482,7 @@ def main():
              f"株価指標や用語の簡単な解説、投資用語のクイズもあります。</p><h3>免責事項</h3><p>{DISC}</p>"
              f"<p>情報の出典は各記事の末尾に記載しています。確認できなかった項目は「未確認」と書き、推測では埋めないようにしています。</p>"
              f"<h3>広告について</h3><p>当サイトは広告を掲載することがあります。広告の内容と記事の評価は無関係です。</p></article>")
-    open(os.path.join(OUT, "about.html"), "w", encoding="utf8").write(page("このサイトについて | " + SITE, about))
+    open(os.path.join(OUT, "about.html"), "w", encoding="utf8").write(page("このサイトについて・免責 | " + SITE, about, 0, "注目銘柄メモの書き方、数字の時点と出典の扱い、免責事項。売買を勧めるものではなく、個人の調査メモです。"))
     learn_page()
     open(os.path.join(OUT, "style.css"), "w", encoding="utf8").write(CSS + CSS_LEARN + CSS_LIST)
     open(os.path.join(OUT, ".nojekyll"), "w").close()
