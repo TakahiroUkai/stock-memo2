@@ -12,7 +12,10 @@ Search Console の数字は、2〜3日前までの分が確定している。
 """
 import json
 import os
+import re
 import sys
+import time
+import urllib.request
 from datetime import datetime, timedelta, timezone
 
 from google.oauth2 import service_account
@@ -28,6 +31,8 @@ SITES = [
     {"key": "kasegi", "name": "稼ぎのトリセツ", "site_url": "https://takahiroukai.github.io/kasegi-torisetsu/"},
     {"key": "tsukue", "name": "机タイム素材集", "site_url": "https://takahiroukai.github.io/tsukue-time/"},
 ]
+INSPECT_LIMIT = 200   # 1サイトあたり、登録状況を調べるページ数の上限(API の上限は1サイト1日2000回)
+INSPECT_SLEEP = 0.2   # 1回ごとの待ち(秒)
 DAYS = 28          # 直近28日
 LAG_DAYS = 2       # 確定していない直近の日は除く
 
@@ -42,6 +47,41 @@ def row_out(r, names):
     d.update(clicks=int(r["clicks"]), impressions=int(r["impressions"]),
              ctr=round(r["ctr"], 4), position=round(r["position"], 1))
     return d
+
+
+def sitemap_urls(site_url):
+    """公開中の sitemap.xml から、ページのURLの一覧を読む。"""
+    with urllib.request.urlopen(site_url + "sitemap.xml", timeout=30) as r:
+        xml = r.read().decode("utf8", "replace")
+    return re.findall(r"<loc>\s*([^<\s]+)\s*</loc>", xml)
+
+
+def inspect_index(svc, site_url):
+    """URL検査 API で、sitemap のページが Google に登録(インデックス)されているかを数える。"""
+    urls = sitemap_urls(site_url)
+    todo = urls[:INSPECT_LIMIT]
+    states, not_indexed, indexed, checked, stopped = {}, [], 0, 0, None
+    for u in todo:
+        try:
+            body = {"inspectionUrl": u, "siteUrl": site_url, "languageCode": "ja"}
+            r = svc.urlInspection().index().inspect(body=body).execute()
+            st = r.get("inspectionResult", {}).get("indexStatusResult", {})
+        except Exception as e:  # 上限超過など。ここまでの分で打ち切る
+            stopped = f"{type(e).__name__}: {str(e)[:160]}"
+            break
+        checked += 1
+        state = st.get("coverageState") or st.get("verdict") or "不明"
+        states[state] = states.get(state, 0) + 1
+        if st.get("verdict") == "PASS":
+            indexed += 1
+        elif len(not_indexed) < 5:
+            not_indexed.append({"url": u, "state": state})
+        time.sleep(INSPECT_SLEEP)
+    out = {"total": len(urls), "checked": checked, "indexed": indexed,
+           "states": states, "not_indexed_sample": not_indexed}
+    if stopped:
+        out["stopped"] = stopped
+    return out
 
 
 def fetch_site(svc, site, start, end):
@@ -64,8 +104,13 @@ def fetch_site(svc, site, start, end):
                          "lastDownloaded": s.get("lastDownloaded"),
                          "errors": int(s.get("errors", 0)), "warnings": int(s.get("warnings", 0)),
                          "isPending": bool(s.get("isPending", False))})
-    return {**site, "last28": total, "daily": daily, "top_pages": pages,
-            "top_queries": queries, "sitemaps": sitemaps}
+    res = {**site, "last28": total, "daily": daily, "top_pages": pages,
+           "top_queries": queries, "sitemaps": sitemaps}
+    try:  # 登録状況の取得に失敗しても、ほかの数字は残す
+        res["index"] = inspect_index(svc, url)
+    except Exception as e:
+        res["index_error"] = f"{type(e).__name__}: {str(e)[:200]}"
+    return res
 
 
 def main():
@@ -95,7 +140,9 @@ def main():
         f.write("\n")
     for s in sites:
         if "last28" in s:
-            print(s["key"], f"{start}〜{end} 表示:", s["last28"]["impressions"], "クリック:", s["last28"]["clicks"])
+            ix = s.get("index")
+            extra = f" 登録済み: {ix['indexed']}/{ix['total']}" if ix else f" 登録状況: 取得できず({s.get('index_error', '')[:60]})"
+            print(s["key"], f"{start}〜{end} 表示:", s["last28"]["impressions"], "クリック:", s["last28"]["clicks"], extra)
     if failed == len(SITES):
         sys.exit("4サイトとも取得できませんでした")
 
