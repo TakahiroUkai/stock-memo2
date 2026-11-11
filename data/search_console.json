@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 07:10 JST",
+ "updated_at": "2026-11-12 07:36 JST",
  "range": {
   "start": "2026-10-14",
   "end": "2026-11-10"
@@ -63,7 +63,39 @@
      "warnings": 0,
      "isPending": true
     }
-   ]
+   ],
+   "index": {
+    "total": 34,
+    "checked": 14,
+    "indexed": 1,
+    "states": {
+     "送信して登録されました": 1,
+     "URL が Google に認識されていません": 13
+    },
+    "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/about.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/learn/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/posts/20261026.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/posts/20261027-2.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/posts/20261027.html",
+      "state": "URL が Google に認識されていません"
+     }
+    ],
+    "stopped": "時間切れ(90秒)"
+   }
   },
   {
    "key": "claude",
@@ -123,7 +155,39 @@
      "warnings": 0,
      "isPending": true
     }
-   ]
+   ],
+   "index": {
+    "total": 93,
+    "checked": 14,
+    "indexed": 1,
+    "states": {
+     "送信して登録されました": 1,
+     "URL が Google に認識されていません": 13
+    },
+    "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/guides/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/news/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/tags/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/glossary/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/guides/claude-code-vs-cowork.html",
+      "state": "URL が Google に認識されていません"
+     }
+    ],
+    "stopped": "時間切れ(90秒)"
+   }
   },
   {
    "key": "kasegi",
@@ -199,7 +263,39 @@
      "warnings": 0,
      "isPending": true
     }
-   ]
+   ],
+   "index": {
+    "total": 17,
+    "checked": 14,
+    "indexed": 1,
+    "states": {
+     "送信して登録されました": 1,
+     "URL が Google に認識されていません": 13
+    },
+    "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/account-trading.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/app-development.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/blog-ads-affiliate.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/dark-baito.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/index-investing.html",
+      "state": "URL が Google に認識されていません"
+     }
+    ],
+    "stopped": "時間切れ(90秒)"
+   }
   },
   {
    "key": "tsukue",
@@ -275,7 +371,39 @@
      "warnings": 0,
      "isPending": true
     }
-   ]
+   ],
+   "index": {
+    "total": 145,
+    "checked": 14,
+    "indexed": 1,
+    "states": {
+     "送信して登録されました": 1,
+     "URL が Google に認識されていません": 13
+    },
+    "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/tsukue-time/about.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/tsukue-time/privacy.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/tsukue-time/cards/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/tsukue-time/kana/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/tsukue-time/abc/",
+      "state": "URL が Google に認識されていません"
+     }
+    ],
+    "stopped": "時間切れ(90秒)"
+   }
   }
  ]
 }
