@@ -1,33 +1,281 @@
 {
- "updated_at": "2026-11-11 09:28 JST",
+ "updated_at": "2026-11-12 07:10 JST",
  "range": {
-  "start": "2026-10-13",
-  "end": "2026-11-09"
+  "start": "2026-10-14",
+  "end": "2026-11-10"
  },
  "sites": [
   {
    "key": "stock",
    "name": "注目銘柄メモ",
    "site_url": "https://takahiroukai.github.io/stock-memo2/",
-   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fstock-memo2%2F/searchAnalytics/query?alt=json returned \"User does not have sufficient permission for site 'https://takahiroukai.github.io/stock-memo2/'. See also: https://su"
+   "last28": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "position": 0
+   },
+   "daily": [
+    {
+     "date": "2026-11-05",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-06",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-07",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-08",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-09",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    }
+   ],
+   "top_pages": [],
+   "top_queries": [],
+   "sitemaps": [
+    {
+     "path": "https://takahiroukai.github.io/stock-memo2/sitemap.xml",
+     "lastSubmitted": "2026-11-06T21:03:56.231Z",
+     "lastDownloaded": null,
+     "errors": 0,
+     "warnings": 0,
+     "isPending": true
+    }
+   ]
   },
   {
    "key": "claude",
    "name": "あんなことこんなことClaude",
    "site_url": "https://takahiroukai.github.io/anna-konna-claude/",
-   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fanna-konna-claude%2F/searchAnalytics/query?alt=json returned \"User does not have sufficient permission for site 'https://takahiroukai.github.io/anna-konna-claude/'. See also"
+   "last28": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "position": 0
+   },
+   "daily": [
+    {
+     "date": "2026-11-05",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-06",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-07",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-08",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-09",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    }
+   ],
+   "top_pages": [],
+   "top_queries": [],
+   "sitemaps": [
+    {
+     "path": "https://takahiroukai.github.io/anna-konna-claude/sitemap.xml",
+     "lastSubmitted": "2026-11-06T21:04:08.719Z",
+     "lastDownloaded": null,
+     "errors": 0,
+     "warnings": 0,
+     "isPending": true
+    }
+   ]
   },
   {
    "key": "kasegi",
    "name": "稼ぎのトリセツ",
    "site_url": "https://takahiroukai.github.io/kasegi-torisetsu/",
-   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Fkasegi-torisetsu%2F/searchAnalytics/query?alt=json returned \"User does not have sufficient permission for site 'https://takahiroukai.github.io/kasegi-torisetsu/'. See also: "
+   "last28": {
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 29
+   },
+   "daily": [
+    {
+     "date": "2026-11-05",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-06",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 29
+    },
+    {
+     "date": "2026-11-07",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-08",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-09",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    }
+   ],
+   "top_pages": [
+    {
+     "page": "https://takahiroukai.github.io/kasegi-torisetsu/",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 29
+    }
+   ],
+   "top_queries": [
+    {
+     "query": "site:github.io",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 29
+    }
+   ],
+   "sitemaps": [
+    {
+     "path": "https://takahiroukai.github.io/kasegi-torisetsu/sitemap.xml",
+     "lastSubmitted": "2026-11-06T21:02:38.412Z",
+     "lastDownloaded": null,
+     "errors": 0,
+     "warnings": 0,
+     "isPending": true
+    }
+   ]
   },
   {
    "key": "tsukue",
    "name": "机タイム素材集",
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
-   "error": "HttpError: <HttpError 403 when requesting https://searchconsole.googleapis.com/webmasters/v3/sites/https%3A%2F%2Ftakahiroukai.github.io%2Ftsukue-time%2F/searchAnalytics/query?alt=json returned \"User does not have sufficient permission for site 'https://takahiroukai.github.io/tsukue-time/'. See also: https://su"
+   "last28": {
+    "clicks": 0,
+    "impressions": 1,
+    "ctr": 0,
+    "position": 2
+   },
+   "daily": [
+    {
+     "date": "2026-11-05",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-06",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    },
+    {
+     "date": "2026-11-07",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-08",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-09",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    }
+   ],
+   "top_pages": [
+    {
+     "page": "https://takahiroukai.github.io/tsukue-time/",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    }
+   ],
+   "top_queries": [
+    {
+     "query": "site:github.io",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
+    }
+   ],
+   "sitemaps": [
+    {
+     "path": "https://takahiroukai.github.io/tsukue-time/sitemap.xml",
+     "lastSubmitted": "2026-11-06T21:02:57.511Z",
+     "lastDownloaded": null,
+     "errors": 0,
+     "warnings": 0,
+     "isPending": true
+    }
+   ]
   }
  ]
 }
