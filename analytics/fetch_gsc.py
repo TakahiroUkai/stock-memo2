@@ -13,6 +13,7 @@ Search Console の数字は、2〜3日前までの分が確定している。
 import json
 import os
 import re
+import socket
 import sys
 import time
 import urllib.request
@@ -31,7 +32,9 @@ SITES = [
     {"key": "kasegi", "name": "稼ぎのトリセツ", "site_url": "https://takahiroukai.github.io/kasegi-torisetsu/"},
     {"key": "tsukue", "name": "机タイム素材集", "site_url": "https://takahiroukai.github.io/tsukue-time/"},
 ]
+socket.setdefaulttimeout(30)  # 応答が返らないまま止まらないように
 INSPECT_LIMIT = 200   # 1サイトあたり、登録状況を調べるページ数の上限(API の上限は1サイト1日2000回)
+INSPECT_BUDGET = 90    # 1サイトあたりの制限時間(秒)。超えたらそこまでの分で打ち切る
 INSPECT_SLEEP = 0.2   # 1回ごとの待ち(秒)
 DAYS = 28          # 直近28日
 LAG_DAYS = 2       # 確定していない直近の日は除く
@@ -61,7 +64,11 @@ def inspect_index(svc, site_url):
     urls = sitemap_urls(site_url)
     todo = urls[:INSPECT_LIMIT]
     states, not_indexed, indexed, checked, stopped = {}, [], 0, 0, None
+    t0 = time.time()
     for u in todo:
+        if time.time() - t0 > INSPECT_BUDGET:
+            stopped = f"時間切れ({INSPECT_BUDGET}秒)"
+            break
         try:
             body = {"inspectionUrl": u, "siteUrl": site_url, "languageCode": "ja"}
             r = svc.urlInspection().index().inspect(body=body).execute()
