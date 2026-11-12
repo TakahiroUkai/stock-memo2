@@ -275,7 +275,7 @@ if(ok&&c.checked){var m=val(a,'minbuy');ok=m!==null&&m<=10}
 a.style.display=ok?'':'none';if(ok)n++});
 var key=s.value,arr=items.slice();
 var L5=document.getElementById('latest5'),plain=!w&&!tag&&!c.checked&&key==='new',top={};
-if(L5){[].forEach.call(L5.querySelectorAll('a[data-id]'),function(a){top[a.getAttribute('data-id')]=1});L5.style.display=plain?'':'none';
+if(L5){[].forEach.call(L5.querySelectorAll('a[data-id]'),function(a){top[a.getAttribute('data-id')]=1});var fb=document.querySelector('.fbox'),t0=fb?fb.getBoundingClientRect().top:0,was=L5.style.display;L5.style.display=plain?'':'none';if(fb&&was!==L5.style.display&&window.scrollY>0){var d=fb.getBoundingClientRect().top-t0;if(d)window.scrollBy(0,d)}
 if(plain)items.forEach(function(a){if(top[a.getAttribute('data-id')])a.style.display='none'})}
 if(key!=='new'){var dir=key==='yield'?-1:1;arr.sort(function(x,y){var a=val(x,key==='min'?'minbuy':key),b=val(y,key==='min'?'minbuy':key);
 if(a===null&&b===null)return 0;if(a===null)return 1;if(b===null)return -1;return dir*(a-b)})}
