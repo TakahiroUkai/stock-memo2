@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-12 07:29 JST",
+ "updated_at": "2026-11-12 10:50 JST",
  "sites": [
   {
    "key": "stock",
    "name": "投資銘柄ピックアップ(注目銘柄メモ)",
    "path": "/stock-memo2/",
    "last30": {
-    "views": 7,
-    "users": 3,
-    "sessions": 5
+    "views": 42,
+    "users": 4,
+    "sessions": 6
    },
    "daily": [
     {
@@ -22,6 +22,12 @@
      "views": 1,
      "users": 1,
      "sessions": 2
+    },
+    {
+     "date": "2026-11-12",
+     "views": 35,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -32,14 +38,176 @@
      "users": 3
     },
     {
+     "path": "/stock-memo2/",
+     "title": "注目銘柄メモ | 日本株の事業内容・PER・PBRを、1社ずつまとめた個人メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/about.html",
+     "title": "このサイトについて・免責 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/index.html",
+     "title": "注目銘柄メモ | 日本株の事業内容・PER・PBRを、1社ずつまとめた個人メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/learn/index.html",
+     "title": "先人から知る投資 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261026.html",
+     "title": "学研ホールディングス(9470)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261027-2.html",
+     "title": "翻訳センター(2483)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261027.html",
+     "title": "プログリット(9560)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-2.html",
+     "title": "ヒューマンホールディングス(2415)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-3.html",
+     "title": "スプリックス(7030)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-4.html",
+     "title": "アルー(7043)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-5.html",
+     "title": "バルテス・ホールディングス(4442)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/stock-memo2/posts/20261028-6.html",
      "title": "Sun Asterisk(サン・アスタリスク)(4053) | 注目銘柄メモ",
      "views": 1,
      "users": 1
     },
     {
+     "path": "/stock-memo2/posts/20261028-6.html",
+     "title": "Sun Asterisk(サン・アスタリスク)(4053)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028-7.html",
+     "title": "Aoba-BBT(アオバ・ビービーティー)(2464)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261028.html",
+     "title": "アドバンスト・メディア(3773)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/stock-memo2/posts/20261029.html",
      "title": "システナ(2317) | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261029.html",
+     "title": "システナ(2317)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261031.html",
+     "title": "ヤプリ(4168)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/index.html",
+     "title": "投資用語クイズ(PER・PBRなど) | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q01.html",
+     "title": "PERクイズ 第1問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q02.html",
+     "title": "PBRクイズ 第2問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q03.html",
+     "title": "配当利回りクイズ 第3問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q04.html",
+     "title": "配当利回りと株価クイズ 第4問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q05.html",
+     "title": "ROEクイズ 第5問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q06.html",
+     "title": "配当性向クイズ 第6問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q07.html",
+     "title": "自己資本比率クイズ 第7問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q08.html",
+     "title": "流動比率クイズ 第8問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q09.html",
+     "title": "時価総額クイズ 第9問 | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/quiz/q10.html",
+     "title": "最低購入代金クイズ 第10問 | 注目銘柄メモ",
      "views": 1,
      "users": 1
     }
@@ -50,9 +218,9 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 31,
-    "users": 2,
-    "sessions": 7
+    "views": 89,
+    "users": 3,
+    "sessions": 8
    },
    "daily": [
     {
@@ -96,6 +264,12 @@
      "views": 2,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-12",
+     "views": 58,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -104,6 +278,54 @@
      "title": "あんなことこんなことClaude",
      "views": 14,
      "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/artifact-mini-tool.html",
+     "title": "Artifactで、割り勘の計算ツールを作る | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/ask-claude-to-ask-you.html",
+     "title": "「質問してから答えて」と頼んで、条件を詰める | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-log.html",
+     "title": "log.mdに、やったことを日付つきで残して、続きから始める | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-sources.html",
+     "title": "sources.mdに、確認済みの出典をまとめて、毎回の調べ直しをなくす | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/md-todo.html",
+     "title": "todo.mdに、やることを書き出して、優先順位をClaudeと決める | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/meeting-notes-to-actions.html",
+     "title": "メモから、やることリストを取り出す | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/tips/memory-preferences.html",
+     "title": "メモリに、答え方の好みを覚えてもらう | あんなことこんなことClaude",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/",
+     "title": "あんなことこんなことClaude|Claudeの使い方を、コピーして試せるプロンプトつきで紹介",
+     "views": 1,
+     "users": 1
     },
     {
      "path": "/anna-konna-claude/glossary/",
@@ -136,8 +358,68 @@
      "users": 1
     },
     {
+     "path": "/anna-konna-claude/news/2026-09-01-claude-fable-mythos-5-1.html",
+     "title": "Claude Fable 5.1とMythos 5.1が公開、コードと知的作業向けの最上位モデル | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-09-16-cowork-every-conversation.html",
+     "title": "Claude Coworkの機能が、どの会話からでも使えるように(ProとMaxで段階的に) | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-09-22-claude-opus-5-5.html",
+     "title": "Claude Opus 5.5が登場、Opus 5より約4割安く、Fable 5.1並みと案内 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-09-25-build-plugins.html",
+     "title": "Claudeのプラグインを、開発者ポータルから公開できるようになりました | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-09-28-claude-sonnet-5-5.html",
+     "title": "Claude Sonnet 5.5が登場、Sonnet 5より速く、費用は最大約3割減と案内 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-10-07-claude-haiku-5-5.html",
+     "title": "Claude Haiku 5.5が登場、小型モデルの新版がAPIで提供開始 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-10-08-docs-slides-design.html",
+     "title": "Docs・Slides・Designが全プランで正式版に。DashboardsとMotionもベータで登場 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-10-08-usage-policy-update.html",
+     "title": "Anthropicの利用ポリシーが改定され、2026年11月12日に施行されます | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/anna-konna-claude/news/2026-10-21-claude-duet.html",
      "title": "Claude Duet、先回りして動くエージェントアプリがリサーチプレビューで登場 | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-10-27-drug-development-progress.html",
+     "title": "創薬の研究で、Claudeが書類の点検と下書きに使われた例が公開されました | あんなことこんなことClaude",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/anna-konna-claude/news/2026-10-28-request-size-128mb.html",
+     "title": "Claude APIで1回に送れるデータが、32MBから128MBに広がりました | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
@@ -148,62 +430,26 @@
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tips/artifact-mini-tool.html",
-     "title": "Artifactで、割り勘の計算ツールを作る | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/news/2026-11-06-project-tags.html",
+     "title": "Claude Enterpriseに、プロジェクトのタグごとに利用額を見られる機能(ベータ) | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tips/artifact-quiz-app.html",
-     "title": "Artifactで、自作のクイズアプリを作る | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/news/2026-11-09-claude-fable-5-2.html",
+     "title": "Claude Fable 5.2とMythos 5.2が登場。Fableは全ユーザー向け、Mythosは審査を受けた組織向け | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tips/ask-claude-to-ask-you.html",
-     "title": "「質問してから答えて」と頼んで、条件を詰める | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/tags/feature-artifacts.html",
+     "title": "タグ: Artifacts | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tips/long-task-checklist.html",
-     "title": "大きな作業を、チェックリストに分けて進める | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/md-log.html",
-     "title": "log.mdに、やったことを日付つきで残して、続きから始める | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/md-sources.html",
-     "title": "sources.mdに、確認済みの出典をまとめて、毎回の調べ直しをなくす | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/md-todo.html",
-     "title": "todo.mdに、やることを書き出して、優先順位をClaudeと決める | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/meeting-notes-to-actions.html",
-     "title": "メモから、やることリストを取り出す | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/memory-preferences.html",
-     "title": "メモリに、答え方の好みを覚えてもらう | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tips/trip-plan-by-day.html",
-     "title": "旅行の予定を、1日ごとの表にして、雨の日の案も作る | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/tags/feature-chat.html",
+     "title": "タグ: 基本のチャット | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     }
@@ -214,9 +460,9 @@
    "name": "稼ぎ方トリセツ(稼ぎのトリセツ)",
    "path": "/kasegi-torisetsu/",
    "last30": {
-    "views": 13,
-    "users": 1,
-    "sessions": 5
+    "views": 23,
+    "users": 2,
+    "sessions": 6
    },
    "daily": [
     {
@@ -248,6 +494,12 @@
      "views": 3,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-12",
+     "views": 10,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -260,24 +512,66 @@
     {
      "path": "/kasegi-torisetsu/methods/side-job-fraud.html",
      "title": "内職・副業詐欺(先にお金を払わせる型) | 稼ぎのトリセツ",
-     "views": 2,
-     "users": 1
+     "views": 3,
+     "users": 2
     },
     {
      "path": "/kasegi-torisetsu/methods/account-trading.html",
      "title": "口座の売買・貸し(口座を売ると犯罪になる) | 稼ぎのトリセツ",
-     "views": 1,
-     "users": 1
+     "views": 2,
+     "users": 2
     },
     {
      "path": "/kasegi-torisetsu/methods/pyramid-scheme.html",
      "title": "ネズミ講(無限連鎖講) | 稼ぎのトリセツ",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/kasegi-torisetsu/",
+     "title": "副業のやり方としくみ・リスク・詐欺の見分け方 | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/index-investing.html",
+     "title": "インデックス投資(積立) | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/note-paid-articles.html",
+     "title": "noteの有料記事 | 稼ぎのトリセツ",
      "views": 1,
      "users": 1
     },
     {
      "path": "/kasegi-torisetsu/methods/reselling.html",
      "title": "せどり・転売 | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/suspicious-claims.html",
+     "title": "怪しい稼ぎ話の見分け方 | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/ticket-resale.html",
+     "title": "チケットの不正転売と、無許可の転売 | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/methods/web-writer.html",
+     "title": "Webライター | 稼ぎのトリセツ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/kasegi-torisetsu/quiz/",
+     "title": "副業詐欺・もうけ話を見分けるクイズ | 稼ぎのトリセツ",
      "views": 1,
      "users": 1
     }
