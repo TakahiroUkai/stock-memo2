@@ -274,10 +274,13 @@ var ok=(!w||a.getAttribute('data-q').toLowerCase().indexOf(w)>=0)&&(!tag||(' '+a
 if(ok&&c.checked){var m=val(a,'minbuy');ok=m!==null&&m<=10}
 a.style.display=ok?'':'none';if(ok)n++});
 var key=s.value,arr=items.slice();
+var L5=document.getElementById('latest5'),plain=!w&&!tag&&!c.checked&&key==='new',top={};
+if(L5){[].forEach.call(L5.querySelectorAll('a[data-id]'),function(a){top[a.getAttribute('data-id')]=1});L5.style.display=plain?'':'none';
+if(plain)items.forEach(function(a){if(top[a.getAttribute('data-id')])a.style.display='none'})}
 if(key!=='new'){var dir=key==='yield'?-1:1;arr.sort(function(x,y){var a=val(x,key==='min'?'minbuy':key),b=val(y,key==='min'?'minbuy':key);
 if(a===null&&b===null)return 0;if(a===null)return 1;if(b===null)return -1;return dir*(a-b)})}
 else{arr.sort(function(x,y){return x.getAttribute('data-id')<y.getAttribute('data-id')?1:-1})}
-arr.forEach(function(a){L.appendChild(a)});cnt.textContent=n+'件を表示';document.getElementById('fe').style.display=n?'none':''}
+arr.forEach(function(a){L.appendChild(a)});cnt.textContent=plain&&L5?'最新の5件は上に表示中。ここには残りの'+(n-5)+'件を表示':n+'件を表示';document.getElementById('fe').style.display=n?'none':''}
 q.addEventListener('input',run);s.addEventListener('change',run);c.addEventListener('change',run);
 chips.forEach(function(b){b.addEventListener('click',function(){tag=b.getAttribute('data-tagbtn')===tag?'':b.getAttribute('data-tagbtn');
 chips.forEach(function(x){x.setAttribute('aria-pressed',x.getAttribute('data-tagbtn')===tag?'true':'false')});run()})});run()})();</script>"""
@@ -442,6 +445,7 @@ def main():
     for p in picks:
         open(os.path.join(OUT, "posts", p["id"] + ".html"), "w", encoding="utf8").write(post(p))
     rows = "".join(row(p) for p in picks)
+    latest = "".join(row(p) for p in picks[:5])
     teaser = (f'<a class="teaser" href="quiz/index.html"><b>投資用語クイズ(全{len(quizzes)}問)</b><br>'
               'PER・PBR・配当利回りなどを、選択式で楽しく学べます。回答後に初心者向けの解説つき。</a>')
     teaser += ('<a class="teaser" href="learn/index.html" style="margin-top:10px"><b>先人から知る投資</b><br>'
@@ -455,8 +459,9 @@ def main():
             '<label>並べ替え <select id="fs"><option value="new">新しい順</option><option value="min">最低購入代金が安い順</option>'
             '<option value="per">PERが低い順</option><option value="pbr">PBRが低い順</option><option value="yield">配当利回りが高い順</option></select></label>'
             '<label><input type="checkbox" id="fc"> 最低購入代金10万円以下</label> <span class="note" id="fn"></span></div>')
-    idx = (f'{teaser}<h2 class="sh">テーマから探す</h2><div>{theme_links}</div>{AD_SLOT}'
-           f'<h2 class="sh">記事の一覧(新しい順・全{len(picks)}件)</h2>{fbox}'
+    idx = (f'{teaser}<div id="latest5"><h2 class="sh">最新の5件</h2><nav class="list">{latest}</nav></div>'
+           f'<h2 class="sh">テーマから探す</h2><div>{theme_links}</div>{AD_SLOT}'
+           f'<h2 class="sh">すべての記事(全{len(picks)}件)</h2>{fbox}'
            f'<nav class="list" id="plist">{rows}</nav><p class="note" id="fe" style="display:none">条件に合う記事はありません。</p>{FILTER_JS}')
     for k, n, _ in TAGS:
         sub = [p for p in picks if k in tags_of(p)]
