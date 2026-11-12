@@ -442,7 +442,6 @@ def main():
     for p in picks:
         open(os.path.join(OUT, "posts", p["id"] + ".html"), "w", encoding="utf8").write(post(p))
     rows = "".join(row(p) for p in picks)
-    latest = "".join(row(p) for p in picks[:5])
     teaser = (f'<a class="teaser" href="quiz/index.html"><b>投資用語クイズ(全{len(quizzes)}問)</b><br>'
               'PER・PBR・配当利回りなどを、選択式で楽しく学べます。回答後に初心者向けの解説つき。</a>')
     teaser += ('<a class="teaser" href="learn/index.html" style="margin-top:10px"><b>先人から知る投資</b><br>'
@@ -456,9 +455,8 @@ def main():
             '<label>並べ替え <select id="fs"><option value="new">新しい順</option><option value="min">最低購入代金が安い順</option>'
             '<option value="per">PERが低い順</option><option value="pbr">PBRが低い順</option><option value="yield">配当利回りが高い順</option></select></label>'
             '<label><input type="checkbox" id="fc"> 最低購入代金10万円以下</label> <span class="note" id="fn"></span></div>')
-    idx = (f'{teaser}<h2 class="sh">最新の5件</h2><nav class="list">{latest}</nav>'
-           f'<h2 class="sh">テーマから探す</h2><div>{theme_links}</div>{AD_SLOT}'
-           f'<h2 class="sh">すべての記事(全{len(picks)}件)</h2>{fbox}'
+    idx = (f'{teaser}<h2 class="sh">テーマから探す</h2><div>{theme_links}</div>{AD_SLOT}'
+           f'<h2 class="sh">記事の一覧(新しい順・全{len(picks)}件)</h2>{fbox}'
            f'<nav class="list" id="plist">{rows}</nav><p class="note" id="fe" style="display:none">条件に合う記事はありません。</p>{FILTER_JS}')
     for k, n, _ in TAGS:
         sub = [p for p in picks if k in tags_of(p)]
@@ -471,7 +469,10 @@ def main():
     open(os.path.join(OUT, "index.html"), "w", encoding="utf8").write(page(f"{SITE} | 日本株の事業内容・PER・PBRを、1社ずつまとめた個人メモ", idx, 0, "日本株の注目銘柄を1日1社ずつ、事業内容・PER・PBR・配当利回り・気をつける点でまとめた個人の調査メモ。スマホで3分ほどで読めます。10万円前後で買える銘柄の一覧、テーマ別の一覧つき。"))
     qrows = "".join(f'<a href="{q["id"]}.html"><span class="d">第{int(q["id"][1:])}問</span><span><b>{esc(q["term"])}</b></span>'
                     f'<span class="t">{esc(q["question"])}</span></a>' for q in quizzes)
-    qbody = (f'<article><h2>投資用語クイズ</h2><p>投資指標の用語を、選択式のクイズで学べます。1問ごとに1ページで、回答すると初心者向けの解説が出ます。</p>'
+    first = [q for q in quizzes if q["term"] in ("PER", "PBR", "配当利回り", "最低購入代金")]
+    qfirst = ('<div class="fbox"><b>記事を読む前に、まずこの%d問</b><br><span class="note">記事の一覧に並ぶ数字(最低購入代金・PER・PBR・利回り)の用語です。</span><div>%s</div></div>'
+              % (len(first), "".join(f'<a class="chip" href="{q["id"]}.html">{esc(q["term"])}</a>' for q in first))) if first else ""
+    qbody = (f'<article><h2>投資用語クイズ</h2><p>投資指標の用語を、選択式のクイズで学べます。1問ごとに1ページで、回答すると初心者向けの解説が出ます。</p>{qfirst}'
              f'<nav class="list">{qrows}</nav>{AD_SLOT}<p class="disc">{QUIZ_DISC}</p></article>')
     open(os.path.join(OUT, "quiz", "index.html"), "w", encoding="utf8").write(page("投資用語クイズ(PER・PBRなど) | " + SITE, qbody, 1, "PER・PBR・配当利回りなどの投資用語を、選択式クイズで確かめられます。答えたあとに初心者向けの解説が出ます。"))
     for i, q in enumerate(quizzes):
