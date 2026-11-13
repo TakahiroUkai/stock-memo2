@@ -1,0 +1,44 @@
+{
+ "code": "6489",
+ "ticker": "6489.T",
+ "fetched_at_jst": "2026-11-13T18:40:16+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [
+  "株価の基準日が取れませんでした"
+ ],
+ "info": {
+  "longName": null,
+  "shortName": null,
+  "sector": null,
+  "industry": null,
+  "exchange": null,
+  "currency": null,
+  "currentPrice": null,
+  "regularMarketPrice": null,
+  "previousClose": null,
+  "trailingPE": null,
+  "forwardPE": null,
+  "priceToBook": null,
+  "trailingEps": null,
+  "forwardEps": null,
+  "bookValue": null,
+  "dividendRate": null,
+  "dividendYield": null,
+  "trailingAnnualDividendRate": null,
+  "payoutRatio": null,
+  "marketCap": null,
+  "sharesOutstanding": null,
+  "fiftyTwoWeekHigh": null,
+  "fiftyTwoWeekLow": null,
+  "returnOnEquity": null,
+  "longBusinessSummary": null
+ },
+ "annual": {},
+ "dividends_by_year": {},
+ "derived": {
+  "min_purchase_yen_100sh": null,
+  "dividend_yield_pct_from_rate": null
+ },
+ "stale": true,
+ "ok": false
+}

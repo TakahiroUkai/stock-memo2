@@ -1,0 +1,120 @@
+{
+ "code": "3423",
+ "ticker": "3423.T",
+ "fetched_at_jst": "2026-11-13T18:40:16+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "SE Corporation",
+  "shortName": "SE CORP",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 251.0,
+  "regularMarketPrice": 251.0,
+  "previousClose": 252.0,
+  "trailingPE": null,
+  "forwardPE": null,
+  "priceToBook": 0.74328303,
+  "trailingEps": -11.66,
+  "forwardEps": null,
+  "bookValue": 337.691,
+  "dividendRate": 12.0,
+  "dividendYield": 4.76,
+  "trailingAnnualDividendRate": 13.0,
+  "payoutRatio": 1.7639,
+  "marketCap": 7582225920,
+  "sharesOutstanding": 30208072,
+  "fiftyTwoWeekHigh": 335.0,
+  "fiftyTwoWeekLow": 234.0,
+  "returnOnEquity": -0.03053,
+  "longBusinessSummary": "SE Corporation engages in construction material and equipment business in Japan and internationally. The company offers environmental and disaster prevention equipment, such as environmental conservation and landslide prevention, anti-seismic reinforcement of port and harbor facilities and underground structures, anti-seismic ties for bridge girders, and systems for durability monitoring; SEEE prestressing cables for prestressed concrete, outer cables, stay cables, and other products, as well as incidental engineering services for bridge and civil structures field; and public-private partnerships/concession works. It also manufactures and sells snap ties for construction of buildings and condominiums; and metal components for concrete forming and interior finishing materials. In addition, the company provides construction consulting services for community development, urban planning, R and D, disaster readiness, water, energy, environment, roads, transport, bridges, structures, repair, equipment supply, and preservation; repair and reinforcement services for roads, bridges, tunnels, dams, ports, and other facilities; construction management services for expressways; stay materials and cable erection services for the bridge; and preparatory surveys for water environment improvement projects, as well as environmental program preparatory surveys. SE Corporation was founded in 1967 and is headquartered in Shinjuku, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 251.0,
+ "volume": 63800.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 243.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 244.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 250.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 252.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 251.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 25401038000.0,
+   "Operating Income": 599002000.0,
+   "Pretax Income": 586660000.0,
+   "Net Income": -434947000.0,
+   "Basic EPS": -14.4
+  },
+  "2025-03-31": {
+   "Total Revenue": 25887450000.0,
+   "Operating Income": 849633000.0,
+   "Pretax Income": 886885000.0,
+   "Net Income": 543833000.0,
+   "Basic EPS": 18.0
+  },
+  "2024-03-31": {
+   "Total Revenue": 26474833000.0,
+   "Operating Income": 1364759000.0,
+   "Pretax Income": 1422147000.0,
+   "Net Income": 969858000.0,
+   "Basic EPS": 32.11
+  },
+  "2023-03-31": {
+   "Total Revenue": 25452377000.0,
+   "Operating Income": 1336607000.0,
+   "Pretax Income": 1379927000.0,
+   "Net Income": 870019000.0,
+   "Basic EPS": 28.82
+  }
+ },
+ "dividends_by_year": {
+  "2000": 8.75,
+  "2001": 7.5,
+  "2002": 7.5,
+  "2003": 7.5,
+  "2004": 7.5,
+  "2010": 10.0,
+  "2011": 10.0,
+  "2012": 10.0,
+  "2013": 7.5,
+  "2014": 11.0,
+  "2015": 11.0,
+  "2016": 10.0,
+  "2017": 8.0,
+  "2018": 9.0,
+  "2019": 10.0,
+  "2020": 10.0,
+  "2021": 10.0,
+  "2022": 14.0,
+  "2023": 13.0,
+  "2024": 13.0,
+  "2025": 13.0,
+  "2026": 13.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 25100,
+  "dividend_yield_pct_from_rate": 4.78
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

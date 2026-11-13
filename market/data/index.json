@@ -1,0 +1,31 @@
+{
+ "generated_at_jst": "2026-11-13T18:40:16+09:00",
+ "items": [
+  {
+   "code": "3423",
+   "ok": true,
+   "price_date": "2026-11-13",
+   "close": 251.0,
+   "stale": false,
+   "errors": []
+  },
+  {
+   "code": "6489",
+   "ok": false,
+   "price_date": null,
+   "close": null,
+   "stale": true,
+   "errors": [
+    "株価の基準日が取れませんでした"
+   ]
+  },
+  {
+   "code": "1914",
+   "ok": true,
+   "price_date": "2026-11-13",
+   "close": 898.0,
+   "stale": false,
+   "errors": []
+  }
+ ]
+}
