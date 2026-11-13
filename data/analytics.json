@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-12 10:50 JST",
+ "updated_at": "2026-11-13 09:56 JST",
  "sites": [
   {
    "key": "stock",
    "name": "投資銘柄ピックアップ(注目銘柄メモ)",
    "path": "/stock-memo2/",
    "last30": {
-    "views": 42,
+    "views": 48,
     "users": 4,
-    "sessions": 6
+    "sessions": 8
    },
    "daily": [
     {
@@ -25,9 +25,9 @@
     },
     {
      "date": "2026-11-12",
-     "views": 35,
-     "users": 1,
-     "sessions": 1
+     "views": 41,
+     "users": 2,
+     "sessions": 3
     }
    ],
    "top_pages": [
@@ -40,8 +40,14 @@
     {
      "path": "/stock-memo2/",
      "title": "注目銘柄メモ | 日本株の事業内容・PER・PBRを、1社ずつまとめた個人メモ",
-     "views": 1,
-     "users": 1
+     "views": 4,
+     "users": 2
+    },
+    {
+     "path": "/stock-memo2/posts/20261031.html",
+     "title": "ヤプリ(4168)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 2,
+     "users": 2
     },
     {
      "path": "/stock-memo2/about.html",
@@ -140,8 +146,14 @@
      "users": 1
     },
     {
-     "path": "/stock-memo2/posts/20261031.html",
-     "title": "ヤプリ(4168)の事業内容・PER・PBR | 注目銘柄メモ",
+     "path": "/stock-memo2/posts/20261112-2.html",
+     "title": "モバイルファクトリー(3912)の事業内容・PER・PBR | 注目銘柄メモ",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/stock-memo2/posts/20261112.html",
+     "title": "データ・アプリケーション(3848)の事業内容・PER・PBR | 注目銘柄メモ",
      "views": 1,
      "users": 1
     },
@@ -198,18 +210,6 @@
      "title": "流動比率クイズ 第8問 | 注目銘柄メモ",
      "views": 1,
      "users": 1
-    },
-    {
-     "path": "/stock-memo2/quiz/q09.html",
-     "title": "時価総額クイズ 第9問 | 注目銘柄メモ",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/stock-memo2/quiz/q10.html",
-     "title": "最低購入代金クイズ 第10問 | 注目銘柄メモ",
-     "views": 1,
-     "users": 1
     }
    ]
   },
@@ -218,9 +218,9 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 89,
+    "views": 95,
     "users": 3,
-    "sessions": 8
+    "sessions": 9
    },
    "daily": [
     {
@@ -267,9 +267,9 @@
     },
     {
      "date": "2026-11-12",
-     "views": 58,
-     "users": 1,
-     "sessions": 1
+     "views": 64,
+     "users": 2,
+     "sessions": 2
     }
    ],
    "top_pages": [
@@ -278,6 +278,18 @@
      "title": "あんなことこんなことClaude",
      "views": 14,
      "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/",
+     "title": "あんなことこんなことClaude|Claudeの使い方を、コピーして試せるプロンプトつきで紹介",
+     "views": 3,
+     "users": 2
+    },
+    {
+     "path": "/anna-konna-claude/news/",
+     "title": "Claude最新情報 | あんなことこんなことClaude",
+     "views": 3,
+     "users": 1
     },
     {
      "path": "/anna-konna-claude/tips/artifact-mini-tool.html",
@@ -322,12 +334,6 @@
      "users": 2
     },
     {
-     "path": "/anna-konna-claude/",
-     "title": "あんなことこんなことClaude|Claudeの使い方を、コピーして試せるプロンプトつきで紹介",
-     "views": 1,
-     "users": 1
-    },
-    {
      "path": "/anna-konna-claude/glossary/",
      "title": "用語解説 | あんなことこんなことClaude",
      "views": 1,
@@ -348,12 +354,6 @@
     {
      "path": "/anna-konna-claude/guides/cloud-environments.html",
      "title": "Claude Codeのクラウド環境を読み解く:通信・変数・秘密の鍵・セットアップの仕組み | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/news/",
-     "title": "Claude最新情報 | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
@@ -442,14 +442,14 @@
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tags/feature-artifacts.html",
-     "title": "タグ: Artifacts | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/news/2026-11-10-sheets-whiteboards.html",
+     "title": "Claude SheetsとClaude Whiteboardsがベータで登場。有料プランで使えます | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     },
     {
-     "path": "/anna-konna-claude/tags/feature-chat.html",
-     "title": "タグ: 基本のチャット | あんなことこんなことClaude",
+     "path": "/anna-konna-claude/tags/feature-artifacts.html",
+     "title": "タグ: Artifacts | あんなことこんなことClaude",
      "views": 1,
      "users": 1
     }
@@ -582,9 +582,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 75,
-    "users": 13,
-    "sessions": 19
+    "views": 92,
+    "users": 14,
+    "sessions": 23
    },
    "daily": [
     {
@@ -634,6 +634,12 @@
      "views": 17,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-12",
+     "views": 17,
+     "users": 2,
+     "sessions": 4
     }
    ],
    "top_pages": [
@@ -644,6 +650,12 @@
      "users": 11
     },
     {
+     "path": "/tsukue-time/art/",
+     "title": "ぬりえ | 机タイム素材集",
+     "views": 6,
+     "users": 2
+    },
+    {
      "path": "/tsukue-time/daily/",
      "title": "まいにち つづける | 机タイム素材集",
      "views": 6,
@@ -652,6 +664,24 @@
     {
      "path": "/tsukue-time/research/",
      "title": "子育て研究 | 机タイム素材集",
+     "views": 5,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/",
+     "title": "机タイム素材集|幼児向けの無料ぬりえ・なぞり書きプリント",
+     "views": 4,
+     "users": 2
+    },
+    {
+     "path": "/tsukue-time/abc/",
+     "title": "アルファベット | 机タイム素材集",
+     "views": 4,
+     "users": 2
+    },
+    {
+     "path": "/tsukue-time/seal/",
+     "title": "シールアート | 机タイム素材集",
      "views": 4,
      "users": 1
     },
@@ -662,26 +692,8 @@
      "users": 1
     },
     {
-     "path": "/tsukue-time/abc/",
-     "title": "アルファベット | 机タイム素材集",
-     "views": 3,
-     "users": 2
-    },
-    {
-     "path": "/tsukue-time/art/",
-     "title": "ぬりえ | 机タイム素材集",
-     "views": 3,
-     "users": 1
-    },
-    {
      "path": "/tsukue-time/plan/",
      "title": "週間表・お手紙 | 机タイム素材集",
-     "views": 3,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/seal/",
-     "title": "シールアート | 机タイム素材集",
      "views": 3,
      "users": 1
     },
@@ -710,8 +722,32 @@
      "users": 1
     },
     {
+     "path": "/tsukue-time/art/a-ambulance.html",
+     "title": "ぬりえ きゅうきゅうしゃ | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/art/a-flag-us.html",
+     "title": "ぬりえ こっき(アメリカ) | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/tsukue-time/art/s-newyear.html",
      "title": "ぬりえ お正月(だるまと松) | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/art/s-xmas-bear.html",
+     "title": "ぬりえ クリスマスのくま | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/art/xmas-tree-maker.html",
+     "title": "クリスマスツリーメーカー(ぬりえ・シール台紙) | 机タイム素材集",
      "views": 1,
      "users": 1
     },
@@ -784,24 +820,6 @@
     {
      "path": "/tsukue-time/research/2026-11-03-emotion-coaching-online.html",
      "title": "子どもの気持ちを受けとめる関わり方を学ぶオンライン講座で、親の接し方や子どもの行動の得点はどう変わった? | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/seal/seal-fish.html",
-     "title": "シールアート さかな | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/seal/seal-xmas.html",
-     "title": "シールアート クリスマスツリー | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/ti-sensei/",
-     "title": "てぃ先生 特設ページ|本・動画・SNSのまとめ | 机タイム素材集",
      "views": 1,
      "users": 1
     }
