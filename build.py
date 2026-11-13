@@ -119,7 +119,17 @@ def fmt(v, k=0):
     return f"{v:,.{k}f}"
 
 
-GA_TAG = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-MS9416YMMM"></script>'
+NOGA = ('<script>(function(){try{var m=location.search.match(/[?&]noga=([01])/),k="noga",id="G-MS9416YMMM";'
+        'if(m){if(m[1]=="1")localStorage.setItem(k,"1");else localStorage.removeItem(k);'
+        'var f=function(){var d=document.createElement("div");d.setAttribute("role","status");'
+        'd.style.cssText="position:fixed;left:8px;right:8px;bottom:8px;z-index:99;padding:10px 14px;background:#222;color:#fff;border-radius:8px;font:14px sans-serif;text-align:center";'
+        'd.textContent=m[1]=="1"?"この端末のブラウザを、アクセス解析から除外しました":"この端末のブラウザの、アクセス解析の除外をやめました";'
+        'document.body.appendChild(d);setTimeout(function(){d.remove()},4000)};'
+        'if(document.body)f();else addEventListener("DOMContentLoaded",f)}'
+        'if(localStorage.getItem(k)=="1")window["ga-disable-"+id]=true}catch(e){}})();</script>')
+
+
+GA_TAG = (NOGA + '<script async src="https://www.googletagmanager.com/gtag/js?id=G-MS9416YMMM"></script>'
           '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
           "gtag('js',new Date());gtag('config','G-MS9416YMMM');</script>")
 
