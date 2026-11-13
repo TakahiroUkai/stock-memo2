@@ -1,11 +1,11 @@
 {
- "generated_at_jst": "2026-11-13T18:40:16+09:00",
+ "generated_at_jst": "2026-11-13T20:08:54+09:00",
  "items": [
   {
-   "code": "3423",
+   "code": "1992",
    "ok": true,
-   "price_date": "2026-11-13",
-   "close": 251.0,
+   "price_date": "2026-11-12",
+   "close": 2906.0,
    "stale": false,
    "errors": []
   },

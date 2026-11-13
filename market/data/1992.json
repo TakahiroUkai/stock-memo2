@@ -1,0 +1,121 @@
+{
+ "code": "1992",
+ "ticker": "1992.T",
+ "fetched_at_jst": "2026-11-13T20:08:54+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Kanda Tsushinki Co., Ltd.",
+  "shortName": "KANDA TSUSHINKI CO",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 2906.0,
+  "regularMarketPrice": 2906.0,
+  "previousClose": 2906.0,
+  "trailingPE": 28.892424,
+  "forwardPE": null,
+  "priceToBook": 1.0314021,
+  "trailingEps": 100.58,
+  "forwardEps": null,
+  "bookValue": 2817.524,
+  "dividendRate": 85.0,
+  "dividendYield": 2.93,
+  "trailingAnnualDividendRate": 82.0,
+  "payoutRatio": 0.8124,
+  "marketCap": 6653731840,
+  "sharesOutstanding": 2289653,
+  "fiftyTwoWeekHigh": 3150.0,
+  "fiftyTwoWeekLow": 2646.0,
+  "returnOnEquity": 0.03556,
+  "longBusinessSummary": "Kanda Tsushinki Co., Ltd., together with its subsidiaries, engages in the information and communications, lighting control, and real estate leasing businesses in Japan. The company is involved in planning, proposal, construction, and support services for information and lighting control systems; sale of information equipment and software; outsourcing of contact center operations; and real estate leasing activities. It also offers various network systems and telephone exchange equipment. The company was incorporated in 1947 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-12",
+ "close": 2906.0,
+ "volume": 200.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-06",
+   "close": 2905.0
+  },
+  {
+   "date": "2026-11-09",
+   "close": 2878.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 2904.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 2905.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 2906.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 6777857000.0,
+   "Operating Income": 438484000.0,
+   "Pretax Income": 596241000.0,
+   "Net Income": 372763000.0,
+   "Basic EPS": 163.1
+  },
+  "2025-03-31": {
+   "Total Revenue": 7179706000.0,
+   "Operating Income": 625592000.0,
+   "Pretax Income": 614403000.0,
+   "Net Income": 431625000.0,
+   "Basic EPS": 189.357131
+  },
+  "2024-03-31": {
+   "Total Revenue": 7152302000.0,
+   "Operating Income": 721310000.0,
+   "Pretax Income": 804643000.0,
+   "Net Income": 545176000.0,
+   "Basic EPS": 232.47
+  },
+  "2023-03-31": {
+   "Total Revenue": 5978641000.0,
+   "Operating Income": 483709000.0,
+   "Pretax Income": 590090000.0,
+   "Net Income": 383802000.0,
+   "Basic EPS": 161.49
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2000": 16.67,
+  "2007": 16.67,
+  "2010": 10.0,
+  "2013": 10.0,
+  "2014": 10.0,
+  "2016": 10.0,
+  "2017": 16.67,
+  "2018": 16.67,
+  "2019": 20.0,
+  "2020": 20.0,
+  "2021": 20.0,
+  "2022": 60.0,
+  "2023": 60.0,
+  "2024": 66.0,
+  "2025": 70.0,
+  "2026": 82.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 290600,
+  "dividend_yield_pct_from_rate": 2.92
+ },
+ "business_days_old": 1,
+ "stale": false,
+ "ok": true
+}
