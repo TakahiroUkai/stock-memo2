@@ -1,0 +1,53 @@
+name: 株価・指標・業績の取得(yfinance)
+
+on:
+  schedule:
+    - cron: "30 7 * * 1-5"   # 平日 16:30 JST(大引け後)
+  workflow_dispatch:
+    inputs:
+      codes:
+        description: "追加で取得する銘柄コード(空白区切り。例: 6489 1914)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-market
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance
+      - name: 取得(watchlist.txt と、手動実行で入力したコード)
+        env:
+          EXTRA_CODES: ${{ github.event.inputs.codes }}
+        run: |
+          WL=$(grep -v '^#' market/watchlist.txt | sed 's/#.*//' | tr -s ' \n' ' ')
+          python3 market/fetch_market.py "$RUNNER_TEMP/market_out" $WL $EXTRA_CODES
+      - name: market-data ブランチにコミット(main の履歴と公開サイトを汚さない)
+        if: always()
+        run: |
+          [ -d "$RUNNER_TEMP/market_out" ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin market-data >/dev/null 2>&1; then
+            git fetch origin market-data
+            git checkout -B market-data origin/market-data
+          else
+            git checkout -B market-data
+          fi
+          mkdir -p market/data
+          cp "$RUNNER_TEMP"/market_out/*.json market/data/
+          git add market/data
+          if git diff --cached --quiet; then echo "変更なし"; else
+            git commit -m "株価・指標データを更新"
+            git push origin market-data
+          fi
