@@ -1,0 +1,124 @@
+{
+ "code": "9755",
+ "ticker": "9755.T",
+ "fetched_at_jst": "2026-11-14T08:54:57+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "OYO Corporation",
+  "shortName": "OYO CORP",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 2712.0,
+  "regularMarketPrice": 2712.0,
+  "previousClose": 2685.0,
+  "trailingPE": 18.359058,
+  "forwardPE": 19.637943,
+  "priceToBook": 0.80418295,
+  "trailingEps": 147.72,
+  "forwardEps": 138.1,
+  "bookValue": 3372.367,
+  "dividendRate": 122.0,
+  "dividendYield": 4.54,
+  "trailingAnnualDividendRate": 67.0,
+  "payoutRatio": 0.82699996,
+  "marketCap": 60451721216,
+  "sharesOutstanding": 22290458,
+  "fiftyTwoWeekHigh": 3175.0,
+  "fiftyTwoWeekLow": 2570.0,
+  "returnOnEquity": 0.0435,
+  "longBusinessSummary": "OYO Corporation provides geological survey services in Japan and internationally. It operates through three segments: Disaster Prevention and Infrastructure, Environment and Energy, and International. The Disaster Prevention and Infrastructure engages in surveying and restoration design of areas damaged by natural disasters; forecasting damage, such as earthquakes, tsunamis, fires, etc. related to national and local governments disaster prevention plans; consulting on natural disaster risk surveys, loss forecasting, and countermeasures related to corporate business continuity plans; and building, installing, and updating monitoring systems related to natural disasters, including seismometer networks and volcano monitoring systems. This segment also offers inspection, diagnosis, and maintenance services for social infrastructure; survey, design, and measurement services for the development of resilient infrastructure; develops, sells, constructs, installs, and renews non-destructive testing products used for inspections and diagnoses; and constructs, installs, and renews environmental monitoring systems. The Environment and Energy segment provides consulting on surveys and countermeasures focusing on soil and groundwater contamination, asbestos, waste, etc.; surveys and consulting for global warming countermeasures and biodiversity conservation; geological survey consulting related to the construction, installation, and renewal of environmental monitoring systems; methane hydrate development research; support for the commercialization of renewable energy; Undersea3D resource exploration services; and develops and sells resource exploration equipment and systems. The International segment develops, manufactures, and sells non-destructive testing equipment and seismic observation systems, geophysical exploration equipment; and offers survey, design, and construction management services. OYO Corporation was founded in 1954 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 2712.0,
+ "volume": 136900.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 2606.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 2645.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 2650.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 2685.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 2712.0
+  }
+ ],
+ "annual": {
+  "2025-12-31": {
+   "Total Revenue": 76285000000.0,
+   "Operating Income": 4115000000.0,
+   "Pretax Income": 6716000000.0,
+   "Net Income": 4331000000.0,
+   "Basic EPS": 189.21
+  },
+  "2024-12-31": {
+   "Total Revenue": 74085000000.0,
+   "Operating Income": 4385000000.0,
+   "Pretax Income": 5518000000.0,
+   "Net Income": 4010000000.0,
+   "Basic EPS": 170.39
+  },
+  "2023-12-31": {
+   "Total Revenue": 65602000000.0,
+   "Operating Income": 2848000000.0,
+   "Pretax Income": 4163000000.0,
+   "Net Income": 4006000000.0,
+   "Basic EPS": 167.19
+  },
+  "2022-12-31": {
+   "Total Revenue": 59011000000.0,
+   "Operating Income": 2459000000.0,
+   "Pretax Income": 3163000000.0,
+   "Net Income": 1808000000.0,
+   "Basic EPS": 73.08
+  }
+ },
+ "dividends_by_year": {
+  "2001": 12.5,
+  "2002": 10.0,
+  "2003": 10.0,
+  "2004": 10.0,
+  "2005": 10.0,
+  "2006": 10.0,
+  "2007": 12.5,
+  "2008": 12.5,
+  "2009": 12.5,
+  "2010": 12.5,
+  "2011": 12.5,
+  "2012": 15.0,
+  "2013": 21.0,
+  "2014": 26.0,
+  "2015": 28.0,
+  "2016": 28.0,
+  "2017": 38.0,
+  "2018": 28.0,
+  "2019": 30.0,
+  "2020": 32.0,
+  "2021": 46.0,
+  "2022": 48.0,
+  "2023": 58.0,
+  "2024": 86.0,
+  "2025": 110.0,
+  "2026": 55.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 271200,
+  "dividend_yield_pct_from_rate": 4.5
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

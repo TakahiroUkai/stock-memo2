@@ -1,0 +1,97 @@
+{
+ "code": "3694",
+ "ticker": "3694.T",
+ "fetched_at_jst": "2026-11-14T08:54:57+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "OPTiM Corporation",
+  "shortName": "OPTIM CORPORATION",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 431.0,
+  "regularMarketPrice": 431.0,
+  "previousClose": 443.0,
+  "trailingPE": 20.83132,
+  "forwardPE": 18.986784,
+  "priceToBook": 2.4921074,
+  "trailingEps": 20.69,
+  "forwardEps": 22.7,
+  "bookValue": 172.946,
+  "dividendRate": null,
+  "dividendYield": 0.0,
+  "trailingAnnualDividendRate": 0.0,
+  "payoutRatio": 0.0,
+  "marketCap": 23488913408,
+  "sharesOutstanding": 54498640,
+  "fiftyTwoWeekHigh": 581.0,
+  "fiftyTwoWeekLow": 380.0,
+  "returnOnEquity": 0.12802,
+  "longBusinessSummary": "OPTiM Corporation provides IoT platform, remote management, support, and other services in Japan. It operates through two segments: AX Business and Agritech Business. The company offers AI services, including OPTiM artificial intelligence (AI) Camera, an image analysis service, as well as OPTiM Physical Security service. It also operates OPTiM Store, a platform to create business app marketplace; and OPTiM Cloud IoT OS, a platform which provides management services for various devices in IoT network. In addition, the company offers Optimal Biz, which allows an IT administrator to manage IT devices in an office; Optimal Biz Secure Shield; Optimal Remote, a support tool to provide support and reduce diagnostic time, as well as a maintenance tool to control terminals located in distant places; and Optimal Second Sight, a solution for live video to be shared through a smart glass, smartphone, or tablet. Further, it provides support services, which include Optimal Diagnosis and Repair, a tool to find and repair troubles on smartphones, tablets, PCs, and routers on the network; Optimal Setup, a technology that automatically setup routers, which are available for telecommunication carriers; and Optimal Guard to prevent spoofing and information leakage by detecting, stopping, and deleting malicious executable files. Additionally, the company engages in the smart agriculture business. OPTiM Corporation was incorporated in 2000 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 431.0,
+ "volume": 123500.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 426.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 447.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 446.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 443.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 431.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 11731804000.0,
+   "Operating Income": 1969897000.0,
+   "Pretax Income": 1742865000.0,
+   "Net Income": 1114311000.0,
+   "Basic EPS": 20.25
+  },
+  "2025-03-31": {
+   "Total Revenue": 10580636000.0,
+   "Operating Income": 1954347000.0,
+   "Pretax Income": 1863407000.0,
+   "Net Income": 1178350000.0,
+   "Basic EPS": 21.39
+  },
+  "2024-03-31": {
+   "Total Revenue": 10243411000.0,
+   "Operating Income": 1940239000.0,
+   "Pretax Income": 1863440000.0,
+   "Net Income": 1171356000.0,
+   "Basic EPS": 21.28
+  },
+  "2023-03-31": {
+   "Total Revenue": 9277336000.0,
+   "Operating Income": 1750122000.0,
+   "Pretax Income": 1612024000.0,
+   "Net Income": 962761000.0,
+   "Basic EPS": 17.49
+  }
+ },
+ "dividends_by_year": {},
+ "derived": {
+  "min_purchase_yen_100sh": 43100,
+  "dividend_yield_pct_from_rate": null
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

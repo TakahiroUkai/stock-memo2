@@ -1,0 +1,97 @@
+{
+ "code": "6232",
+ "ticker": "6232.T",
+ "fetched_at_jst": "2026-11-14T08:54:57+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "ACSL Ltd.",
+  "shortName": "ACSL LTD",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 995.0,
+  "regularMarketPrice": 995.0,
+  "previousClose": 1020.0,
+  "trailingPE": null,
+  "forwardPE": -18.563433,
+  "priceToBook": 6.545579,
+  "trailingEps": -83.78,
+  "forwardEps": -53.6,
+  "bookValue": 152.011,
+  "dividendRate": null,
+  "dividendYield": 0.0,
+  "trailingAnnualDividendRate": 0.0,
+  "payoutRatio": 0.0,
+  "marketCap": 19474380800,
+  "sharesOutstanding": 19572242,
+  "fiftyTwoWeekHigh": 4130.0,
+  "fiftyTwoWeekLow": 836.0,
+  "returnOnEquity": -0.82763,
+  "longBusinessSummary": "ACSL Ltd. manufactures industrial drones in Japan and internationally. It offers delivery, inspection, disaster relief, and emerging use-case solutions; and solution services for automation with autonomous technology. The company was formerly known as Autonomous Control Systems Laboratory Ltd. and changed its name to ACSL Ltd. in June 2021. ACSL Ltd. was incorporated in 2013 and is headquartered in Edogawa, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 995.0,
+ "volume": 375500.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 976.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 1064.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 1083.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 1020.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 995.0
+  }
+ ],
+ "annual": {
+  "2025-12-31": {
+   "Total Revenue": 2598734000.0,
+   "Operating Income": -1840401000.0,
+   "Pretax Income": -1360081000.0,
+   "Net Income": -1363939000.0,
+   "Basic EPS": -84.71
+  },
+  "2024-12-31": {
+   "Total Revenue": 2655602000.0,
+   "Operating Income": -2293222000.0,
+   "Pretax Income": -2381168000.0,
+   "Net Income": -2371396000.0,
+   "Basic EPS": -159.94
+  },
+  "2023-12-31": {
+   "Total Revenue": 896362000.0,
+   "Operating Income": -2071195000.0,
+   "Pretax Income": -2532793000.0,
+   "Net Income": -2543190000.0,
+   "Basic EPS": -197.05
+  },
+  "2022-12-31": {
+   "Total Revenue": 1635192000.0,
+   "Operating Income": -2203696000.0,
+   "Pretax Income": -2583096000.0,
+   "Net Income": -2591834000.0,
+   "Basic EPS": -209.77
+  }
+ },
+ "dividends_by_year": {},
+ "derived": {
+  "min_purchase_yen_100sh": 99500,
+  "dividend_yield_pct_from_rate": null
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
