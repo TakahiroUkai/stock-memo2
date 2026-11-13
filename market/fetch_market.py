@@ -110,6 +110,9 @@ def main():
         wl = os.path.join(os.path.dirname(__file__), "watchlist.txt")
         codes = [ln.split("#")[0].strip() for ln in open(wl, encoding="utf8")]
     codes = [c for c in dict.fromkeys(c.strip() for c in codes) if c]
+    if not codes:
+        print("取得する銘柄がありません(watchlist.txt が空で、コードの指定もありません)")
+        return
     os.makedirs(out_dir, exist_ok=True)
     now = datetime.now(JST)
     index = {"generated_at_jst": now.isoformat(timespec="seconds"), "items": []}
