@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-13 10:02 JST",
+ "updated_at": "2026-11-14 09:52 JST",
  "range": {
-  "start": "2026-10-15",
-  "end": "2026-11-11"
+  "start": "2026-10-16",
+  "end": "2026-11-12"
  },
  "sites": [
   {
@@ -72,12 +72,12 @@
     }
    ],
    "index": {
-    "total": 47,
-    "checked": 14,
+    "total": 49,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -286,7 +286,7 @@
     }
    ],
    "index": {
-    "total": 20,
+    "total": 21,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -303,15 +303,15 @@
       "state": "URL が Google に認識されていません"
      },
      {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/auto-trading-tools.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/blog-ads-affiliate.html",
       "state": "URL が Google に認識されていません"
      },
      {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/dark-baito.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/flea-market.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -401,12 +401,12 @@
     }
    ],
    "index": {
-    "total": 167,
-    "checked": 14,
+    "total": 168,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
