@@ -324,8 +324,8 @@ def post(p, picks=()):
     same = [x for x in picks if x is not p and mine & set(tags_of(x))][:3]
     rel = ""
     if same:
-        label = "・".join(names[k] for k in tags_of(p))
-        rel = (f'<h3 id="rel">同じテーマの記事</h3><p class="note">「{esc(label)}」に関わる、ほかの会社のメモです。</p>'
+        label = "、".join(f"「{names[k]}」" for k in tags_of(p))
+        rel = (f'<h3 id="rel">同じテーマの記事</h3><p class="note">{esc(label)}{"のいずれか" if len(tags_of(p)) > 1 else ""}に関わる、ほかの会社のメモです。</p>'
                f'<nav class="list">{"".join(row(x, "../") for x in same)}</nav>')
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
