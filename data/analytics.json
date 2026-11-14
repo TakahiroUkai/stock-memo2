@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14 09:45 JST",
+ "updated_at": "2026-11-15 08:43 JST",
  "sites": [
   {
    "key": "stock",
@@ -582,9 +582,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 92,
-    "users": 14,
-    "sessions": 23
+    "views": 93,
+    "users": 15,
+    "sessions": 24
    },
    "daily": [
     {
@@ -640,6 +640,12 @@
      "views": 17,
      "users": 2,
      "sessions": 4
+    },
+    {
+     "date": "2026-11-14",
+     "views": 1,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -662,16 +668,16 @@
      "users": 1
     },
     {
+     "path": "/tsukue-time/",
+     "title": "机タイム素材集|幼児向けの無料ぬりえ・なぞり書きプリント",
+     "views": 5,
+     "users": 3
+    },
+    {
      "path": "/tsukue-time/research/",
      "title": "子育て研究 | 机タイム素材集",
      "views": 5,
      "users": 1
-    },
-    {
-     "path": "/tsukue-time/",
-     "title": "机タイム素材集|幼児向けの無料ぬりえ・なぞり書きプリント",
-     "views": 4,
-     "users": 2
     },
     {
      "path": "/tsukue-time/abc/",

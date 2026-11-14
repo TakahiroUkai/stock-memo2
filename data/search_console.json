@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-14 09:52 JST",
+ "updated_at": "2026-11-15 08:50 JST",
  "range": {
-  "start": "2026-10-16",
-  "end": "2026-11-12"
+  "start": "2026-10-17",
+  "end": "2026-11-13"
  },
  "sites": [
   {
@@ -57,6 +57,20 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-11",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-12",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -72,7 +86,7 @@
     }
    ],
    "index": {
-    "total": 49,
+    "total": 50,
     "checked": 15,
     "indexed": 1,
     "states": {
@@ -156,6 +170,20 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-11",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-12",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -171,12 +199,12 @@
     }
    ],
    "index": {
-    "total": 97,
-    "checked": 14,
+    "total": 101,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -196,7 +224,7 @@
       "state": "URL が Google に認識されていません"
      },
      {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/guides/claude-code-vs-cowork.html",
+      "url": "https://takahiroukai.github.io/anna-konna-claude/cheatsheet.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -255,6 +283,20 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-11",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
+    },
+    {
+     "date": "2026-11-12",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -286,12 +328,12 @@
     }
    ],
    "index": {
-    "total": 21,
-    "checked": 14,
+    "total": 22,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -323,10 +365,10 @@
    "name": "机タイム素材集",
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
-    "clicks": 0,
-    "impressions": 1,
-    "ctr": 0,
-    "position": 2
+    "clicks": 1,
+    "impressions": 4,
+    "ctr": 0.25,
+    "position": 6
    },
    "daily": [
     {
@@ -370,15 +412,29 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-11",
+     "clicks": 1,
+     "impressions": 2,
+     "ctr": 0.5,
+     "position": 6.5
+    },
+    {
+     "date": "2026-11-12",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 9
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
-     "clicks": 0,
-     "impressions": 1,
-     "ctr": 0,
-     "position": 2
+     "clicks": 1,
+     "impressions": 4,
+     "ctr": 0.25,
+     "position": 6
     }
    ],
    "top_queries": [
@@ -401,7 +457,7 @@
     }
    ],
    "index": {
-    "total": 168,
+    "total": 169,
     "checked": 15,
     "indexed": 1,
     "states": {
