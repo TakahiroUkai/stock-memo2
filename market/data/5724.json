@@ -1,0 +1,115 @@
+{
+ "code": "5724",
+ "ticker": "5724.T",
+ "fetched_at_jst": "2026-11-14T20:07:09+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Asaka Riken Co.,Ltd.",
+  "shortName": "ASAKA RIKEN CO LTD",
+  "sector": "Basic Materials",
+  "industry": "Other Industrial Metals & Mining",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1891.0,
+  "regularMarketPrice": 1891.0,
+  "previousClose": 2391.0,
+  "trailingPE": 10.566016,
+  "forwardPE": null,
+  "priceToBook": 1.6221762,
+  "trailingEps": 178.97,
+  "forwardEps": null,
+  "bookValue": 1165.718,
+  "dividendRate": 16.0,
+  "dividendYield": 0.85,
+  "trailingAnnualDividendRate": 16.0,
+  "payoutRatio": 0.08939999,
+  "marketCap": 9520887808,
+  "sharesOutstanding": 5034843,
+  "fiftyTwoWeekHigh": 5500.0,
+  "fiftyTwoWeekLow": 1752.0,
+  "returnOnEquity": 0.16860001,
+  "longBusinessSummary": "Asaka Riken Co.,Ltd., together with its subsidiaries, engages in the precious metal, environmental, and other businesses in Japan. It collects precious metals, such as gold, silver, and white gold from circuit board scraps, defective products, and waste products; provides peeling, surface treatment, and precision cleaning of the film forming equipment; and recovers valuable metals from dentistry scrap. The company also collects and recycles waste solutions of ferric chloride. In addition, it offers filter materials for purified water, as well as designs/constructs filter systems; and develops, manufactures, and sells photocatalyst materials for environmental purification. Further, the company develops and sells measurement software systems and automatic measuring systems, as well as transportation of industrial waste, industrial chemicals, scraps, and other waste. The company was incorporated in 1969 and is headquartered in Koriyama, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 1891.0,
+ "volume": 233100.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 2226.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 2373.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 2388.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 2391.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 1891.0
+  }
+ ],
+ "annual": {
+  "2025-09-30": {
+   "Total Revenue": 8685989000.0,
+   "Operating Income": 492944000.0,
+   "Pretax Income": 380183000.0,
+   "Net Income": 300240000.0,
+   "Basic EPS": 59.77
+  },
+  "2024-09-30": {
+   "Total Revenue": 7967841000.0,
+   "Operating Income": 293587000.0,
+   "Pretax Income": 508994000.0,
+   "Net Income": 371674000.0,
+   "Basic EPS": null
+  },
+  "2023-09-30": {
+   "Total Revenue": 8285656000.0,
+   "Operating Income": 395044000.0,
+   "Pretax Income": 386277000.0,
+   "Net Income": 307327000.0,
+   "Basic EPS": 61.27
+  },
+  "2022-09-30": {
+   "Total Revenue": 8592871000.0,
+   "Operating Income": 815840000.0,
+   "Pretax Income": 802030000.0,
+   "Net Income": 622150000.0,
+   "Basic EPS": 122.7
+  }
+ },
+ "dividends_by_year": {
+  "2010": 7.5,
+  "2011": 7.5,
+  "2012": 7.5,
+  "2013": 7.5,
+  "2014": 7.5,
+  "2015": 7.5,
+  "2016": 7.5,
+  "2017": 7.5,
+  "2018": 7.5,
+  "2019": 7.5,
+  "2020": 7.5,
+  "2021": 8.0,
+  "2022": 16.0,
+  "2023": 8.0,
+  "2024": 8.0,
+  "2025": 12.0,
+  "2026": 16.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 189100,
+  "dividend_yield_pct_from_rate": 0.85
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

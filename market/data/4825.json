@@ -1,0 +1,128 @@
+{
+ "code": "4825",
+ "ticker": "4825.T",
+ "fetched_at_jst": "2026-11-14T20:07:09+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Weathernews Inc.",
+  "shortName": "WEATHERNEWS INC",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1866.0,
+  "regularMarketPrice": 1866.0,
+  "previousClose": 1854.0,
+  "trailingPE": 22.248718,
+  "forwardPE": 6.4400344,
+  "priceToBook": 3.814734,
+  "trailingEps": 83.87,
+  "forwardEps": 289.75,
+  "bookValue": 489.156,
+  "dividendRate": 50.0,
+  "dividendYield": 2.68,
+  "trailingAnnualDividendRate": 45.0,
+  "payoutRatio": 0.53650004,
+  "marketCap": 82876317696,
+  "sharesOutstanding": 44413890,
+  "fiftyTwoWeekHigh": 2200.0,
+  "fiftyTwoWeekLow": 1802.0,
+  "returnOnEquity": 0.17235,
+  "longBusinessSummary": "Weathernews Inc. engages in the provision of weather services in Japan, Asia, Europe, and America. It offers nautical marine, airline, helicopter and small aircraft weather, drone, road, railway, logistics, disaster prevention, event, construction meteorology, facility/factory, insurance, school, distribution, dam, agricultural, sports, mountaineering weather services as well as offshore energy meteorology, climate tech, energy and meteorology. The company was incorporated in 1978 and is headquartered in Chiba, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 1866.0,
+ "volume": 117100.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 1868.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 1871.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 1852.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 1854.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 1866.0
+  }
+ ],
+ "annual": {
+  "2026-05-31": {
+   "Total Revenue": 24479267000.0,
+   "Operating Income": 5244702000.0,
+   "Pretax Income": 5443665000.0,
+   "Net Income": 3806455000.0,
+   "Basic EPS": 85.76
+  },
+  "2025-05-31": {
+   "Total Revenue": 23505624000.0,
+   "Operating Income": 4517300000.0,
+   "Pretax Income": 4468136000.0,
+   "Net Income": 3115362000.0,
+   "Basic EPS": 68.425
+  },
+  "2024-05-31": {
+   "Total Revenue": 22242915000.0,
+   "Operating Income": 3270556000.0,
+   "Pretax Income": 3337228000.0,
+   "Net Income": 2437821000.0,
+   "Basic EPS": 55.2125
+  },
+  "2023-05-31": {
+   "Total Revenue": 21114563000.0,
+   "Operating Income": 3256204000.0,
+   "Pretax Income": 3288614000.0,
+   "Net Income": 2398073000.0,
+   "Basic EPS": 54.4175
+  },
+  "2022-05-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2003": 2.5,
+  "2004": 2.5,
+  "2005": 2.5,
+  "2006": 2.5,
+  "2007": 1.88,
+  "2008": 3.75,
+  "2010": 7.5,
+  "2011": 8.12,
+  "2012": 11.25,
+  "2013": 13.75,
+  "2014": 16.25,
+  "2015": 26.25,
+  "2016": 28.75,
+  "2017": 25.0,
+  "2018": 25.0,
+  "2019": 25.0,
+  "2020": 25.0,
+  "2021": 25.0,
+  "2022": 25.0,
+  "2023": 30.0,
+  "2024": 32.5,
+  "2025": 40.0,
+  "2026": 62.5
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 186600,
+  "dividend_yield_pct_from_rate": 2.68
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
