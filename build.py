@@ -308,7 +308,7 @@ article h3[id]{scroll-margin-top:12px}
 """
 
 
-def post(p):
+def post(p, picks=()):
     st = "".join(f"<div><dt>{k}</dt><dd>{esc(v)}</dd></div>" for k, v in
                  [("株価", f"{p['price']}({p['asOf']})"), ("最低購入代金", p["minBuy"]), ("PER", p["per"]), ("PBR", p["pbr"]), ("配当利回り", p["yield"])])
     secs = ""
@@ -319,9 +319,17 @@ def post(p):
         if i == 0:
             secs += AD_SLOT
     src = "".join(f'<li><a href="{esc(x["url"])}" rel="noopener">{esc(x["title"])}</a></li>' for x in p["sources"])
+    mine = set(tags_of(p))
+    names = {k: n for k, n, _ in TAGS}
+    same = [x for x in picks if x is not p and mine & set(tags_of(x))][:3]
+    rel = ""
+    if same:
+        label = "・".join(names[k] for k in tags_of(p))
+        rel = (f'<h3 id="rel">同じテーマの記事</h3><p class="note">「{esc(label)}」に関わる、ほかの会社のメモです。</p>'
+               f'<nav class="list">{"".join(row(x, "../") for x in same)}</nav>')
     body = (f'<article><div class="note">{p["date"]} ／ 証券コード {esc(p["code"])}</div><h2>{esc(p["name"])}</h2>'
             f'<div>{tag_chips(p, "../")}</div><p class="theme">{esc(p["theme"])}</p><dl class="stats">{st}</dl><p class="concl">{p["conclusion"]}</p><nav class="toc" aria-label="この記事の目次"><span class="note">この記事の目次</span><div>{"".join(toc)}<a class="chip" href="#src">参考にした資料</a></div></nav>{secs}'
-            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{KASEGI_CARD}</article>')
+            f'{AD_SLOT}<h3 id="src">参考にした資料</h3><ul class="src">{src}</ul>{rel}{KASEGI_CARD}</article>')
     return page(f"{p['name']}({p['code']})の事業内容・PER・PBR | {SITE}", body, 1, f"{p['name']}({p['code']})の事業内容・数字・気をつける点のメモ。{p['theme']}")
 
 
@@ -453,7 +461,7 @@ def main():
         for f in os.listdir(os.path.join(OUT, d)):
             os.remove(os.path.join(OUT, d, f))
     for p in picks:
-        open(os.path.join(OUT, "posts", p["id"] + ".html"), "w", encoding="utf8").write(post(p))
+        open(os.path.join(OUT, "posts", p["id"] + ".html"), "w", encoding="utf8").write(post(p, picks))
     rows = "".join(row(p) for p in picks)
     latest = "".join(row(p) for p in picks[:5])
     teaser = (f'<a class="teaser" href="quiz/index.html"><b>投資用語クイズ(全{len(quizzes)}問)</b><br>'
