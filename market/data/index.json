@@ -1,8 +1,8 @@
 {
- "generated_at_jst": "2026-11-14T20:07:09+09:00",
+ "generated_at_jst": "2026-11-15T20:07:17+09:00",
  "items": [
   {
-   "code": "1933",
+   "code": "1913",
    "ok": false,
    "price_date": null,
    "close": null,
@@ -12,18 +12,18 @@
    ]
   },
   {
-   "code": "5724",
+   "code": "9647",
    "ok": true,
    "price_date": "2026-11-13",
-   "close": 1891.0,
+   "close": 6480.0,
    "stale": false,
    "errors": []
   },
   {
-   "code": "4825",
+   "code": "1429",
    "ok": true,
    "price_date": "2026-11-13",
-   "close": 1866.0,
+   "close": 754.0,
    "stale": false,
    "errors": []
   }

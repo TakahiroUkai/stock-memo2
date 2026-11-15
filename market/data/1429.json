@@ -1,0 +1,111 @@
+{
+ "code": "1429",
+ "ticker": "1429.T",
+ "fetched_at_jst": "2026-11-15T20:07:17+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Nippon Aqua Co., Ltd.",
+  "shortName": "NIPPON AQUA CO LTD",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 754.0,
+  "regularMarketPrice": 754.0,
+  "previousClose": 749.0,
+  "trailingPE": 12.312214,
+  "forwardPE": 9.183922,
+  "priceToBook": 2.0565972,
+  "trailingEps": 61.24,
+  "forwardEps": 82.1,
+  "bookValue": 366.625,
+  "dividendRate": 35.0,
+  "dividendYield": 4.64,
+  "trailingAnnualDividendRate": 35.0,
+  "payoutRatio": 0.5716,
+  "marketCap": 24248283136,
+  "sharesOutstanding": 32159529,
+  "fiftyTwoWeekHigh": 925.0,
+  "fiftyTwoWeekLow": 678.0,
+  "returnOnEquity": 0.17541,
+  "longBusinessSummary": "Nippon Aqua Co., Ltd. engages in the development, sale, and installation of insulation materials in Japan. It offers a waterproofing material that is used to prevent leaks, cracks, and deterioration in various buildings, condominiums, multi-story parking garages, warehouses, and wooden houses under Aqua Hazikun brand name. The company is also involved in spray-applied rigid polyurethane foam insulation on buildings apartment buildings, factories, etc. that are made of reinforced concrete, steel-reinforced concrete, or steel-framed construction; and installation of spray-on rigid urethane foam for detached houses. In addition, it offers insulation construction machinery, urethane raw materials, and other auxiliary materials, as well as includes construction projects, such as condominiums, hospitals, schools, office buildings, factories, data center buildings, cold storage warehouses, grain warehouses, and other. The company was incorporated in 2004 and is headquartered in Tokyo, Japan. Nippon Aqua Co., Ltd. operates as a subsidiary of Hinokiya Group Co.,Ltd."
+ },
+ "price_date": "2026-11-13",
+ "close": 754.0,
+ "volume": 89100.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 736.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 741.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 732.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 749.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 754.0
+  }
+ ],
+ "annual": {
+  "2025-12-31": {
+   "Total Revenue": 33670846000.0,
+   "Operating Income": 2774430000.0,
+   "Pretax Income": 2796410000.0,
+   "Net Income": 1895906000.0,
+   "Basic EPS": 59.42
+  },
+  "2024-12-31": {
+   "Total Revenue": 30265345000.0,
+   "Operating Income": 2575689000.0,
+   "Pretax Income": 2598628000.0,
+   "Net Income": 1839630000.0,
+   "Basic EPS": 58.55
+  },
+  "2023-12-31": {
+   "Total Revenue": 28341797000.0,
+   "Operating Income": 2881973000.0,
+   "Pretax Income": 2911201000.0,
+   "Net Income": 2004188000.0,
+   "Basic EPS": 63.83
+  },
+  "2022-12-31": {
+   "Total Revenue": 25670205000.0,
+   "Operating Income": 2329178000.0,
+   "Pretax Income": 2360661000.0,
+   "Net Income": 1549154000.0,
+   "Basic EPS": 47.99
+  }
+ },
+ "dividends_by_year": {
+  "2013": 3.0,
+  "2014": 3.0,
+  "2015": 3.0,
+  "2016": 3.0,
+  "2017": 4.0,
+  "2018": 10.0,
+  "2019": 17.0,
+  "2020": 17.0,
+  "2021": 20.0,
+  "2022": 24.0,
+  "2023": 32.0,
+  "2024": 34.0,
+  "2025": 35.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 75400,
+  "dividend_yield_pct_from_rate": 4.64
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

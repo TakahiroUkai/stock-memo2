@@ -1,0 +1,118 @@
+{
+ "code": "9647",
+ "ticker": "9647.T",
+ "fetched_at_jst": "2026-11-15T20:07:17+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Kyowa Engineering Consultants Co., Ltd.",
+  "shortName": "KYOWA ENGINEERING CONSULTANTS C",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 6480.0,
+  "regularMarketPrice": 6480.0,
+  "previousClose": 6590.0,
+  "trailingPE": 5.827443,
+  "forwardPE": null,
+  "priceToBook": 0.7475125,
+  "trailingEps": 1111.98,
+  "forwardEps": null,
+  "bookValue": 8668.751,
+  "dividendRate": 30.0,
+  "dividendYield": 0.46,
+  "trailingAnnualDividendRate": 30.0,
+  "payoutRatio": 0.027,
+  "marketCap": 3789140992,
+  "sharesOutstanding": 584744,
+  "fiftyTwoWeekHigh": 10900.0,
+  "fiftyTwoWeekLow": 5840.0,
+  "returnOnEquity": 0.14403,
+  "longBusinessSummary": "Kyowa Engineering Consultants Co., Ltd. provides construction consulting services in Japan and internationally. The company offers structure construction and maintenance services, such as survey, planning, and design of bridges, underground structures, water and sewage facilities, tunnels, utility tunnels, etc.; inspection and repair technologies; and construction management services. It also provides regional development and creation services, including urban development, survey, planning, and design of roads, parks, green spaces, and land development; surveys, predictions, and countermeasures for the social and natural environment; and offers landscape studies. In addition, the company provides disaster prevention and mitigation services comprising investigation, planning, and design of rivers, waterways, sluice gates, and related facilities; erosion control-related investigation and planning services; and geotechnical and hydrological investigations and analyses. Further, it offers energy resource surveys for solar, hydro, wind, and biomass; implementation planning and design services; regional utilization plans; and building support services. Additionally, the company provides architecture services, such as seismic diagnosis of buildings, seismic design, and improvement of the asset value of building facilities. It offers investigation and design of drinking water development projects; construction supervision and support for non-revenue water countermeasures; and support for renewable energy development, as well as promotes small-scale hydropower generation. The company also engages in real estate rental and management activities; information processing, personnel dispatch; and software development activities; and sale of information processing equipment. It serves government agencies. The company was incorporated in 1961 and is headquartered in Shibuya, Japan."
+ },
+ "price_date": "2026-11-13",
+ "close": 6480.0,
+ "volume": 200.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-09",
+   "close": 6250.0
+  },
+  {
+   "date": "2026-11-10",
+   "close": 6300.0
+  },
+  {
+   "date": "2026-11-11",
+   "close": 6370.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 6590.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 6480.0
+  }
+ ],
+ "annual": {
+  "2025-11-30": {
+   "Total Revenue": 8441870000.0,
+   "Operating Income": 917299000.0,
+   "Pretax Income": 925888000.0,
+   "Net Income": 610898000.0,
+   "Basic EPS": 1044.7
+  },
+  "2024-11-30": {
+   "Total Revenue": 8061713000.0,
+   "Operating Income": 762681000.0,
+   "Pretax Income": 759016000.0,
+   "Net Income": 512790000.0,
+   "Basic EPS": 876.87
+  },
+  "2023-11-30": {
+   "Total Revenue": 7679762000.0,
+   "Operating Income": 632598000.0,
+   "Pretax Income": 656046000.0,
+   "Net Income": 402879000.0,
+   "Basic EPS": 688.92
+  },
+  "2022-11-30": {
+   "Total Revenue": 7744473000.0,
+   "Operating Income": 546422000.0,
+   "Pretax Income": 549675000.0,
+   "Net Income": 324546000.0,
+   "Basic EPS": 554.94
+  }
+ },
+ "dividends_by_year": {
+  "2000": 100.0,
+  "2004": 60.0,
+  "2006": 80.0,
+  "2007": 80.0,
+  "2010": 60.0,
+  "2011": 30.0,
+  "2012": 30.0,
+  "2013": 30.0,
+  "2014": 30.0,
+  "2015": 30.0,
+  "2016": 30.0,
+  "2017": 30.0,
+  "2018": 30.0,
+  "2019": 30.0,
+  "2020": 30.0,
+  "2021": 30.0,
+  "2022": 30.0,
+  "2023": 30.0,
+  "2024": 30.0,
+  "2025": 30.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 648000,
+  "dividend_yield_pct_from_rate": 0.46
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
