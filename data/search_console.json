@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-15 08:50 JST",
+ "updated_at": "2026-11-16 08:56 JST",
  "range": {
-  "start": "2026-10-17",
-  "end": "2026-11-13"
+  "start": "2026-10-18",
+  "end": "2026-11-14"
  },
  "sites": [
   {
@@ -71,6 +71,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-13",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -86,12 +93,12 @@
     }
    ],
    "index": {
-    "total": 50,
-    "checked": 15,
+    "total": 51,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
@@ -184,6 +191,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-13",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -199,12 +213,12 @@
     }
    ],
    "index": {
-    "total": 101,
-    "checked": 15,
+    "total": 104,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
@@ -297,6 +311,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-13",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -328,12 +349,12 @@
     }
    ],
    "index": {
-    "total": 22,
-    "checked": 15,
+    "total": 23,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
@@ -426,6 +447,13 @@
      "impressions": 1,
      "ctr": 0,
      "position": 9
+    },
+    {
+     "date": "2026-11-13",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -457,12 +485,12 @@
     }
    ],
    "index": {
-    "total": 169,
-    "checked": 15,
+    "total": 170,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
