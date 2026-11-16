@@ -1,7 +1,7 @@
 {
  "code": "4825",
  "ticker": "4825.T",
- "fetched_at_jst": "2026-11-14T20:07:09+09:00",
+ "fetched_at_jst": "2026-11-16T20:07:47+09:00",
  "source": "yfinance(Yahoo Finance、非公式)",
  "errors": [],
  "info": {
@@ -11,12 +11,12 @@
   "industry": "Internet Content & Information",
   "exchange": "JPX",
   "currency": "JPY",
-  "currentPrice": 1866.0,
-  "regularMarketPrice": 1866.0,
-  "previousClose": 1854.0,
-  "trailingPE": 22.248718,
-  "forwardPE": 6.4400344,
-  "priceToBook": 3.814734,
+  "currentPrice": 1873.0,
+  "regularMarketPrice": 1873.0,
+  "previousClose": 1866.0,
+  "trailingPE": 22.33218,
+  "forwardPE": 6.4641933,
+  "priceToBook": 3.8290443,
   "trailingEps": 83.87,
   "forwardEps": 289.75,
   "bookValue": 489.156,
@@ -24,21 +24,17 @@
   "dividendYield": 2.68,
   "trailingAnnualDividendRate": 45.0,
   "payoutRatio": 0.53650004,
-  "marketCap": 82876317696,
+  "marketCap": 83187212288,
   "sharesOutstanding": 44413890,
   "fiftyTwoWeekHigh": 2200.0,
   "fiftyTwoWeekLow": 1802.0,
   "returnOnEquity": 0.17235,
   "longBusinessSummary": "Weathernews Inc. engages in the provision of weather services in Japan, Asia, Europe, and America. It offers nautical marine, airline, helicopter and small aircraft weather, drone, road, railway, logistics, disaster prevention, event, construction meteorology, facility/factory, insurance, school, distribution, dam, agricultural, sports, mountaineering weather services as well as offshore energy meteorology, climate tech, energy and meteorology. The company was incorporated in 1978 and is headquartered in Chiba, Japan."
  },
- "price_date": "2026-11-13",
- "close": 1866.0,
- "volume": 117100.0,
+ "price_date": "2026-11-16",
+ "close": 1873.0,
+ "volume": 162700.0,
  "recent_closes": [
-  {
-   "date": "2026-11-09",
-   "close": 1868.0
-  },
   {
    "date": "2026-11-10",
    "close": 1871.0
@@ -54,6 +50,10 @@
   {
    "date": "2026-11-13",
    "close": 1866.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 1873.0
   }
  ],
  "annual": {
@@ -119,8 +119,8 @@
   "2026": 62.5
  },
  "derived": {
-  "min_purchase_yen_100sh": 186600,
-  "dividend_yield_pct_from_rate": 2.68
+  "min_purchase_yen_100sh": 187300,
+  "dividend_yield_pct_from_rate": 2.67
  },
  "business_days_old": 0,
  "stale": false,
