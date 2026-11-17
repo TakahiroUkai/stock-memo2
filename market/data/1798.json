@@ -1,0 +1,121 @@
+{
+ "code": "1798",
+ "ticker": "1798.T",
+ "fetched_at_jst": "2026-11-17T20:07:18+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Moriya Corporation",
+  "shortName": "MORIYA CORPORATION",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1010.0,
+  "regularMarketPrice": 1010.0,
+  "previousClose": 1004.0,
+  "trailingPE": 4.613768,
+  "forwardPE": null,
+  "priceToBook": 0.5670952,
+  "trailingEps": 218.91,
+  "forwardEps": null,
+  "bookValue": 1781.006,
+  "dividendRate": 38.0,
+  "dividendYield": 3.78,
+  "trailingAnnualDividendRate": 30.0,
+  "payoutRatio": 0.137,
+  "marketCap": 11013746688,
+  "sharesOutstanding": 10904700,
+  "fiftyTwoWeekHigh": 1510.0,
+  "fiftyTwoWeekLow": 965.0,
+  "returnOnEquity": 0.10687,
+  "longBusinessSummary": "Moriya Corporation operates as a general construction company in Japan. It operates in Construction Business, Civil Engineering Business, and Real Estate Business segments. It engages in general and architecture construction work. The company is also involved in buying, selling, renting, and brokering real estate; and leasing of construction materials. Moriya Corporation was founded in 1916 and is headquartered in Nagano, Japan."
+ },
+ "price_date": "2026-11-17",
+ "close": 1010.0,
+ "volume": 2000.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-11",
+   "close": 1010.0
+  },
+  {
+   "date": "2026-11-12",
+   "close": 1000.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 1011.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 1004.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 1010.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 50855693000.0,
+   "Operating Income": 3861470000.0,
+   "Pretax Income": 3912713000.0,
+   "Net Income": 2743675000.0,
+   "Basic EPS": 251.76
+  },
+  "2025-03-31": {
+   "Total Revenue": 50266769000.0,
+   "Operating Income": 2291231000.0,
+   "Pretax Income": 2366012000.0,
+   "Net Income": 1650370000.0,
+   "Basic EPS": 151.659286
+  },
+  "2024-03-31": {
+   "Total Revenue": 43344948000.0,
+   "Operating Income": 2223117000.0,
+   "Pretax Income": 2277887000.0,
+   "Net Income": 1606815000.0,
+   "Basic EPS": 146.506
+  },
+  "2023-03-31": {
+   "Total Revenue": 38975803000.0,
+   "Operating Income": 1201823000.0,
+   "Pretax Income": 1331653000.0,
+   "Net Income": 900315000.0,
+   "Basic EPS": 82.138
+  }
+ },
+ "dividends_by_year": {
+  "2000": 9.0,
+  "2001": 9.0,
+  "2002": 9.0,
+  "2003": 8.0,
+  "2004": 7.0,
+  "2007": 6.0,
+  "2010": 5.0,
+  "2011": 5.0,
+  "2012": 5.0,
+  "2013": 4.0,
+  "2014": 5.0,
+  "2015": 5.0,
+  "2016": 10.0,
+  "2017": 12.0,
+  "2018": 13.0,
+  "2019": 13.0,
+  "2020": 13.0,
+  "2021": 13.0,
+  "2022": 14.0,
+  "2023": 14.0,
+  "2024": 16.0,
+  "2025": 20.0,
+  "2026": 36.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 101000,
+  "dividend_yield_pct_from_rate": 3.76
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

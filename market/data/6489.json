@@ -1,7 +1,7 @@
 {
  "code": "6489",
  "ticker": "6489.T",
- "fetched_at_jst": "2026-11-16T20:07:47+09:00",
+ "fetched_at_jst": "2026-11-17T20:07:18+09:00",
  "source": "yfinance(Yahoo Finance、非公式)",
  "errors": [
   "株価の基準日が取れませんでした"
