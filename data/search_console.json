@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-16 08:56 JST",
+ "updated_at": "2026-11-17 11:56 JST",
  "range": {
-  "start": "2026-10-18",
-  "end": "2026-11-14"
+  "start": "2026-10-19",
+  "end": "2026-11-15"
  },
  "sites": [
   {
@@ -78,6 +78,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-14",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -93,7 +100,7 @@
     }
    ],
    "index": {
-    "total": 51,
+    "total": 52,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -198,6 +205,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-14",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -213,7 +227,7 @@
     }
    ],
    "index": {
-    "total": 104,
+    "total": 107,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -318,6 +332,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-14",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -349,7 +370,7 @@
     }
    ],
    "index": {
-    "total": 23,
+    "total": 25,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -357,6 +378,10 @@
      "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/help/",
+      "state": "URL が Google に認識されていません"
+     },
      {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/account-trading.html",
       "state": "URL が Google に認識されていません"
@@ -372,10 +397,6 @@
      {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/blog-ads-affiliate.html",
       "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/dark-baito.html",
-      "state": "URL が Google に認識されていません"
      }
     ],
     "stopped": "時間切れ(90秒)"
@@ -387,9 +408,9 @@
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
     "clicks": 1,
-    "impressions": 4,
-    "ctr": 0.25,
-    "position": 6
+    "impressions": 7,
+    "ctr": 0.1429,
+    "position": 7.1
    },
    "daily": [
     {
@@ -454,15 +475,22 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-14",
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 8.7
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
      "clicks": 1,
-     "impressions": 4,
-     "ctr": 0.25,
-     "position": 6
+     "impressions": 7,
+     "ctr": 0.1429,
+     "position": 7.1
     }
    ],
    "top_queries": [
@@ -485,7 +513,7 @@
     }
    ],
    "index": {
-    "total": 170,
+    "total": 171,
     "checked": 14,
     "indexed": 1,
     "states": {
