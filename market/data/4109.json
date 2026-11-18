@@ -1,0 +1,131 @@
+{
+ "code": "4109",
+ "ticker": "4109.T",
+ "fetched_at_jst": "2026-11-18T20:08:55+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Stella Chemifa Corporation",
+  "shortName": "STELLA CHEMIFA",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 4335.0,
+  "regularMarketPrice": 4335.0,
+  "previousClose": 4300.0,
+  "trailingPE": 16.649384,
+  "forwardPE": 14.780089,
+  "priceToBook": 1.0886449,
+  "trailingEps": 260.37,
+  "forwardEps": 293.3,
+  "bookValue": 3982.015,
+  "dividendRate": 180.0,
+  "dividendYield": 4.19,
+  "trailingAnnualDividendRate": 85.0,
+  "payoutRatio": 0.672,
+  "marketCap": 51612876800,
+  "sharesOutstanding": 11906085,
+  "fiftyTwoWeekHigh": 8100.0,
+  "fiftyTwoWeekLow": 3890.0,
+  "returnOnEquity": 0.0675,
+  "longBusinessSummary": "Stella Chemifa Corporation manufactures and sells high-purity chemical products in Japan and internationally. It offers hydrofluoric acid, ammonium fluoride, buffered hydrofluoric acid, HG series, and etching solutions used in semiconductors and liquid crystal products; calcium, aluminum, lithium, strontium, barium, magnesium, lead fluoride and fluoride nanoparticles used in optical materials; and lithium hexafluorophosphate and fluoride nanoparticles for batteries. The company also provides boron trifluoride, boron trifluoride diethyl ether, boron trifluoride dimethyl ether, boron trifluoride n-butyl ether, boron trifluoride tetrahydrofuran, boron trifluoride phenol, boron trifluoride monoethyl amine, boron trifluoride piperidine, and triethylamine 3HF used in reactive catalysts; and hydrofluoric acid, ammonium fluoride, ammonium hydrogenfluoride, and borofluoride used in surface treatment and alternatives for CFCs. In addition, it offers potassium fluoroborate and boric acid for nuclear energy applications; tin fluoride (II) USP used in GMP-compliant products; and other products, such as potassium fluoride, calcium fluoride, potassium hexafluorozirconate, potassium hexafluorotitanate, sodium fluoride, potassium fluorosilicate, sodium hexafluorosilicate, magnesium hexafluorosilicate, fluoroboric acid, zinc fluoroborate, potassium fluorosilicate, tin fluoroborate, copper fluoroborate, sodium fluoroborate, lead fluoroborate, ammonium hydrogenfluoride, and potassium hexafluorophosphate. Further, the company transportation business, including shipping, custom brokerage, warehousing, and container services. Additionally, it develops Boron Neutron Capture therapy for the treatment of cancer. The company was formerly known as Hashimoto Chemical Corporation and changed its name to Stella Chemifa Corporation in 1997. Stella Chemifa Corporation was founded in 1916 and is headquartered in Osaka, Japan."
+ },
+ "price_date": "2026-11-18",
+ "close": 4335.0,
+ "volume": 43300.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-12",
+   "close": 4395.0
+  },
+  {
+   "date": "2026-11-13",
+   "close": 4425.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 4330.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 4300.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 4335.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 36799000000.0,
+   "Operating Income": 4645000000.0,
+   "Pretax Income": 4395000000.0,
+   "Net Income": 3058000000.0,
+   "Basic EPS": 258.45
+  },
+  "2025-03-31": {
+   "Total Revenue": 36288000000.0,
+   "Operating Income": 4339000000.0,
+   "Pretax Income": 4224000000.0,
+   "Net Income": 2892000000.0,
+   "Basic EPS": 241.0
+  },
+  "2024-03-31": {
+   "Total Revenue": 30446000000.0,
+   "Operating Income": 2722000000.0,
+   "Pretax Income": 2613000000.0,
+   "Net Income": 1845000000.0,
+   "Basic EPS": 153.48
+  },
+  "2023-03-31": {
+   "Total Revenue": 35382000000.0,
+   "Operating Income": 3514000000.0,
+   "Pretax Income": 3366000000.0,
+   "Net Income": 2280000000.0,
+   "Basic EPS": 186.03
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2001": 29.0,
+  "2002": 18.0,
+  "2003": 20.0,
+  "2004": 25.0,
+  "2005": 28.0,
+  "2006": 31.0,
+  "2007": 33.0,
+  "2008": 33.0,
+  "2009": 34.0,
+  "2010": 39.0,
+  "2011": 38.0,
+  "2012": 38.0,
+  "2013": 38.0,
+  "2014": 38.0,
+  "2015": 38.0,
+  "2016": 40.0,
+  "2017": 44.0,
+  "2018": 41.0,
+  "2019": 47.0,
+  "2020": 45.0,
+  "2021": 47.0,
+  "2022": 66.0,
+  "2023": 90.0,
+  "2024": 179.0,
+  "2025": 170.0,
+  "2026": 185.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 433500,
+  "dividend_yield_pct_from_rate": 4.15
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

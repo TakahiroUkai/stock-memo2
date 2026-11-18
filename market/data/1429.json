@@ -1,7 +1,7 @@
 {
  "code": "1429",
  "ticker": "1429.T",
- "fetched_at_jst": "2026-11-15T20:07:17+09:00",
+ "fetched_at_jst": "2026-11-18T20:08:55+09:00",
  "source": "yfinance(Yahoo Finance、非公式)",
  "errors": [],
  "info": {
@@ -11,42 +11,30 @@
   "industry": "Engineering & Construction",
   "exchange": "JPX",
   "currency": "JPY",
-  "currentPrice": 754.0,
-  "regularMarketPrice": 754.0,
-  "previousClose": 749.0,
-  "trailingPE": 12.312214,
-  "forwardPE": 9.183922,
-  "priceToBook": 2.0565972,
+  "currentPrice": 760.0,
+  "regularMarketPrice": 760.0,
+  "previousClose": 763.0,
+  "trailingPE": 12.410189,
+  "forwardPE": 9.257004,
+  "priceToBook": 2.0729628,
   "trailingEps": 61.24,
   "forwardEps": 82.1,
   "bookValue": 366.625,
   "dividendRate": 35.0,
-  "dividendYield": 4.64,
+  "dividendYield": 4.59,
   "trailingAnnualDividendRate": 35.0,
   "payoutRatio": 0.5716,
-  "marketCap": 24248283136,
+  "marketCap": 24441241600,
   "sharesOutstanding": 32159529,
   "fiftyTwoWeekHigh": 925.0,
   "fiftyTwoWeekLow": 678.0,
   "returnOnEquity": 0.17541,
   "longBusinessSummary": "Nippon Aqua Co., Ltd. engages in the development, sale, and installation of insulation materials in Japan. It offers a waterproofing material that is used to prevent leaks, cracks, and deterioration in various buildings, condominiums, multi-story parking garages, warehouses, and wooden houses under Aqua Hazikun brand name. The company is also involved in spray-applied rigid polyurethane foam insulation on buildings apartment buildings, factories, etc. that are made of reinforced concrete, steel-reinforced concrete, or steel-framed construction; and installation of spray-on rigid urethane foam for detached houses. In addition, it offers insulation construction machinery, urethane raw materials, and other auxiliary materials, as well as includes construction projects, such as condominiums, hospitals, schools, office buildings, factories, data center buildings, cold storage warehouses, grain warehouses, and other. The company was incorporated in 2004 and is headquartered in Tokyo, Japan. Nippon Aqua Co., Ltd. operates as a subsidiary of Hinokiya Group Co.,Ltd."
  },
- "price_date": "2026-11-13",
- "close": 754.0,
- "volume": 89100.0,
+ "price_date": "2026-11-18",
+ "close": 760.0,
+ "volume": 78100.0,
  "recent_closes": [
-  {
-   "date": "2026-11-09",
-   "close": 736.0
-  },
-  {
-   "date": "2026-11-10",
-   "close": 741.0
-  },
-  {
-   "date": "2026-11-11",
-   "close": 732.0
-  },
   {
    "date": "2026-11-12",
    "close": 749.0
@@ -54,6 +42,18 @@
   {
    "date": "2026-11-13",
    "close": 754.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 758.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 763.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 760.0
   }
  ],
  "annual": {
@@ -102,8 +102,8 @@
   "2025": 35.0
  },
  "derived": {
-  "min_purchase_yen_100sh": 75400,
-  "dividend_yield_pct_from_rate": 4.64
+  "min_purchase_yen_100sh": 76000,
+  "dividend_yield_pct_from_rate": 4.61
  },
  "business_days_old": 0,
  "stale": false,
