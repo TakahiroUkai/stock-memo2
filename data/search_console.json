@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-17 11:56 JST",
+ "updated_at": "2026-11-18 11:19 JST",
  "range": {
-  "start": "2026-10-19",
-  "end": "2026-11-15"
+  "start": "2026-10-20",
+  "end": "2026-11-16"
  },
  "sites": [
   {
@@ -85,6 +85,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-15",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -100,7 +107,7 @@
     }
    ],
    "index": {
-    "total": 52,
+    "total": 53,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -212,6 +219,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-15",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -227,7 +241,7 @@
     }
    ],
    "index": {
-    "total": 107,
+    "total": 110,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -339,6 +353,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-15",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -408,9 +429,9 @@
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
     "clicks": 1,
-    "impressions": 7,
-    "ctr": 0.1429,
-    "position": 7.1
+    "impressions": 8,
+    "ctr": 0.125,
+    "position": 6.5
    },
    "daily": [
     {
@@ -482,15 +503,22 @@
      "impressions": 3,
      "ctr": 0,
      "position": 8.7
+    },
+    {
+     "date": "2026-11-15",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 2
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
      "clicks": 1,
-     "impressions": 7,
-     "ctr": 0.1429,
-     "position": 7.1
+     "impressions": 8,
+     "ctr": 0.125,
+     "position": 6.5
     }
    ],
    "top_queries": [
@@ -513,7 +541,7 @@
     }
    ],
    "index": {
-    "total": 171,
+    "total": 172,
     "checked": 14,
     "indexed": 1,
     "states": {
