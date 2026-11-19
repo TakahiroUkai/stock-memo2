@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-18 11:19 JST",
+ "updated_at": "2026-11-19 10:53 JST",
  "range": {
-  "start": "2026-10-20",
-  "end": "2026-11-16"
+  "start": "2026-10-21",
+  "end": "2026-11-17"
  },
  "sites": [
   {
@@ -92,6 +92,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-16",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -107,7 +114,7 @@
     }
    ],
    "index": {
-    "total": 53,
+    "total": 54,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -226,6 +233,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-16",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -241,7 +255,7 @@
     }
    ],
    "index": {
-    "total": 110,
+    "total": 113,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -360,6 +374,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-16",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -391,7 +412,7 @@
     }
    ],
    "index": {
-    "total": 25,
+    "total": 26,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -429,9 +450,9 @@
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
     "clicks": 1,
-    "impressions": 8,
-    "ctr": 0.125,
-    "position": 6.5
+    "impressions": 9,
+    "ctr": 0.1111,
+    "position": 6.1
    },
    "daily": [
     {
@@ -510,15 +531,22 @@
      "impressions": 1,
      "ctr": 0,
      "position": 2
+    },
+    {
+     "date": "2026-11-16",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 3
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
      "clicks": 1,
-     "impressions": 8,
-     "ctr": 0.125,
-     "position": 6.5
+     "impressions": 9,
+     "ctr": 0.1111,
+     "position": 6.1
     }
    ],
    "top_queries": [
@@ -541,12 +569,12 @@
     }
    ],
    "index": {
-    "total": 172,
-    "checked": 14,
+    "total": 173,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
