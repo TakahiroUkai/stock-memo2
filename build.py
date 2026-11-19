@@ -262,7 +262,9 @@ def row(p, pre=""):
     a = {"minbuy": num(p["minBuy"]), "per": num(p["per"]), "pbr": num(p["pbr"]), "yield": num(p["yield"])}
     attrs = " ".join(f'data-{k}="{v}"' for k, v in a.items() if v is not None)
     tg = " ".join(tags_of(p))
-    short = lambda x: re.sub(r"[()（）].*$", "", str(x)).replace("予想", "").replace("約", "").strip()
+    def short(x):
+        s = re.sub(r"[()（）].*$", "", str(x)).replace("約", "").strip()
+        return s if "実績" in s and "予想" in s else s.replace("予想", "").strip()
     meta = (f'最低 {esc(short(p["minBuy"]))} ／ PER {esc(short(p["per"]))} ／ PBR {esc(short(p["pbr"]))} ／ 利回り {esc(short(p["yield"]))}')
     return (f'<a href="{pre}posts/{p["id"]}.html" data-id="{p["id"]}" data-tags="{tg}" {attrs} '
             f'data-q="{esc(p["name"] + " " + p["code"] + " " + p["theme"])}">'
