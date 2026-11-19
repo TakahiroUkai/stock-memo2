@@ -1,0 +1,120 @@
+{
+ "code": "6055",
+ "ticker": "6055.T",
+ "fetched_at_jst": "2026-11-19T20:07:09+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "JAPAN MATERIAL Co., Ltd.",
+  "shortName": "JAPAN MATERIAL CO LTD",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1606.0,
+  "regularMarketPrice": 1606.0,
+  "previousClose": 1588.0,
+  "trailingPE": 13.526488,
+  "forwardPE": 15.245871,
+  "priceToBook": 2.5489879,
+  "trailingEps": 118.73,
+  "forwardEps": 105.34,
+  "bookValue": 630.054,
+  "dividendRate": 35.0,
+  "dividendYield": 2.2,
+  "trailingAnnualDividendRate": 32.0,
+  "payoutRatio": 0.26950002,
+  "marketCap": 165082611712,
+  "sharesOutstanding": 102791171,
+  "fiftyTwoWeekHigh": 2770.0,
+  "fiftyTwoWeekLow": 1484.0,
+  "returnOnEquity": 0.20381,
+  "longBusinessSummary": "JAPAN MATERIAL Co., Ltd. operates in the electronics and graphics businesses in Japan, Taiwan, Singapore, and internationally. The company operates through Electronics Related Business, Graphics Solutions Business, and Solar Power Generation Business segments. The company develops, manufactures, and sells gas supply equipment for semiconductor and LCD manufacturing; total facility and gas management, and maintenance services; and designs and constructs piping for special gas and chemicals, ultrapure water, vacuum, and general equipment, as well as sells gas, vision systems, and advanced driver assistance systems. It also engages in designing, inspection, operation, and maintenance of satellite and rocket tracking equipment; offers specialty chemical management; power and abatement management and maintenance, as well as engages in the maintenance of manufacturing equipment; vacuum pump overhauling; and clean room environmental quality control. In addition, the company is involved in the manufacture, sale, cleaning, and maintenance of ceramic coating and semiconductor manufacturing equipment parts. Further, it imports, sells, and markets graphic boards, I/O boards, other parts for personal computers, digital signage equipment, and application systems for broadcasting and video; offers application development and maintenance support services; and develops and sells handling tools, as well as generates solar power with an output of approximately 3.9 MW. JAPAN MATERIAL Co., Ltd. was incorporated in 1997 and is headquartered in Mie, Japan."
+ },
+ "price_date": "2026-11-19",
+ "close": 1606.0,
+ "volume": 585800.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-13",
+   "close": 1668.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 1580.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 1540.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 1588.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 1606.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 57976000000.0,
+   "Operating Income": 14640000000.0,
+   "Pretax Income": 15091000000.0,
+   "Net Income": 10592000000.0,
+   "Basic EPS": 103.07
+  },
+  "2025-03-31": {
+   "Total Revenue": 52678000000.0,
+   "Operating Income": 11189000000.0,
+   "Pretax Income": 11329000000.0,
+   "Net Income": 7872000000.0,
+   "Basic EPS": 76.62
+  },
+  "2024-03-31": {
+   "Total Revenue": 48592000000.0,
+   "Operating Income": 7759000000.0,
+   "Pretax Income": 8060000000.0,
+   "Net Income": 5681000000.0,
+   "Basic EPS": 55.32
+  },
+  "2023-03-31": {
+   "Total Revenue": 46534000000.0,
+   "Operating Income": 11098000000.0,
+   "Pretax Income": 11214000000.0,
+   "Net Income": 7904000000.0,
+   "Basic EPS": 77.0
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2012": 2.42,
+  "2013": 2.5,
+  "2014": 3.11,
+  "2015": 4.17,
+  "2016": 6.17,
+  "2017": 7.0,
+  "2018": 10.0,
+  "2019": 13.0,
+  "2020": 14.0,
+  "2021": 15.0,
+  "2022": 18.0,
+  "2023": 20.0,
+  "2024": 20.0,
+  "2025": 24.0,
+  "2026": 32.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 160600,
+  "dividend_yield_pct_from_rate": 2.18
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

@@ -1,0 +1,112 @@
+{
+ "code": "6073",
+ "ticker": "6073.T",
+ "fetched_at_jst": "2026-11-19T20:07:09+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Asante Incorporated",
+  "shortName": "ASANTE INCORPORATED",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1186.0,
+  "regularMarketPrice": 1186.0,
+  "previousClose": 1199.0,
+  "trailingPE": 103.40017,
+  "forwardPE": 13.710982,
+  "priceToBook": 1.2012316,
+  "trailingEps": 11.47,
+  "forwardEps": 86.5,
+  "bookValue": 987.32,
+  "dividendRate": 62.0,
+  "dividendYield": 5.17,
+  "trailingAnnualDividendRate": 62.0,
+  "payoutRatio": 5.4054,
+  "marketCap": 11590680576,
+  "sharesOutstanding": 9772918,
+  "fiftyTwoWeekHigh": 1628.0,
+  "fiftyTwoWeekLow": 1090.0,
+  "returnOnEquity": 0.0127,
+  "longBusinessSummary": "Asante Incorporated provides house amenities and total sanitation services in Japan. The company provides termite control, humidity control, earthquake countermeasures, and renovation/new construction services, as well as solar power generation systems. It also offers bed bug, pest, animal, and bird control services. The company was formerly known as Sanyo Shodoku Co., Ltd. and changed its name to Asante Incorporated in January 1994. Asante Incorporated was founded in 1970 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-19",
+ "close": 1186.0,
+ "volume": 21500.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-13",
+   "close": 1200.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 1196.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 1216.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 1199.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 1186.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 14355750000.0,
+   "Operating Income": 835553000.0,
+   "Pretax Income": 552791000.0,
+   "Net Income": 274391000.0,
+   "Basic EPS": 28.09
+  },
+  "2025-03-31": {
+   "Total Revenue": 14024081000.0,
+   "Operating Income": 1226213000.0,
+   "Pretax Income": 1133997000.0,
+   "Net Income": 687898000.0,
+   "Basic EPS": 66.02
+  },
+  "2024-03-31": {
+   "Total Revenue": 13693166000.0,
+   "Operating Income": 946742000.0,
+   "Pretax Income": 965233000.0,
+   "Net Income": 541410000.0,
+   "Basic EPS": 49.24
+  },
+  "2023-03-31": {
+   "Total Revenue": 14141393000.0,
+   "Operating Income": 1380252000.0,
+   "Pretax Income": 1390980000.0,
+   "Net Income": 875818000.0,
+   "Basic EPS": 79.74
+  }
+ },
+ "dividends_by_year": {
+  "2013": 20.0,
+  "2014": 25.0,
+  "2015": 32.0,
+  "2016": 63.0,
+  "2017": 48.0,
+  "2018": 52.0,
+  "2019": 57.0,
+  "2020": 60.0,
+  "2021": 61.0,
+  "2022": 62.0,
+  "2023": 62.0,
+  "2024": 62.0,
+  "2025": 62.0,
+  "2026": 62.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 118600,
+  "dividend_yield_pct_from_rate": 5.23
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

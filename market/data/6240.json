@@ -1,0 +1,117 @@
+{
+ "code": "6240",
+ "ticker": "6240.T",
+ "fetched_at_jst": "2026-11-19T20:07:09+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Yamashin-Filter Corp.",
+  "shortName": "YAMASHIN-FILTER CORP",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 437.0,
+  "regularMarketPrice": 437.0,
+  "previousClose": 436.0,
+  "trailingPE": 16.99067,
+  "forwardPE": 20.278423,
+  "priceToBook": 1.325777,
+  "trailingEps": 25.72,
+  "forwardEps": 21.55,
+  "bookValue": 329.618,
+  "dividendRate": 20.0,
+  "dividendYield": 4.59,
+  "trailingAnnualDividendRate": 20.0,
+  "payoutRatio": 0.7775,
+  "marketCap": 30404096000,
+  "sharesOutstanding": 69574594,
+  "fiftyTwoWeekHigh": 671.0,
+  "fiftyTwoWeekLow": 420.0,
+  "returnOnEquity": 0.07936,
+  "longBusinessSummary": "Yamashin-Filter Corp. operates as a filter manufacturer in Japan, Asia, the United States of America, Europe, and internationally. It operates in two segments, Construction Machinery Filter Business and Air Filter Business. The company manufactures, develops, and sells filters for construction and agricultural machines, drive-trains, fuel systems and various filter products for industrial and precision machines, and industrial filter related parts; and nano filter products. Its construction machinery filters, including hydraulic fluid filters to protect hydraulic equipment, such as cylinders; engine oil filters that are used in various types of engines to filter fine dust in engine oil; fuel filters used to construction machinery to remove dust and moisture contained in fuel for diesel engines; transmission filters for transmission mechanisms such as bulldozers and wheel loaders; industrial filters to filter hydraulic and lubricating oils, and other liquids in a range of industrial machinery; and process filters, which are used for filtration and separation in manufacturing processes across a range of industries, including electronic parts, precision components, LCD displays, and food products. The company also provides various types of air filters for a range of settings, such as office buildings, factories, equipment, and vehicles; and medical-grade masks and replacement inner sheets that are made using YAMASHIN NANO FILTER. The company was formerly known as Yamashin Industry Inc. and changed its name to Yamashin-Filter Corp. in October 2005. Yamashin-Filter Corp. was incorporated in 1956 and is headquartered in Yokohama, Japan."
+ },
+ "price_date": "2026-11-19",
+ "close": 437.0,
+ "volume": 318300.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-13",
+   "close": 452.0
+  },
+  {
+   "date": "2026-11-16",
+   "close": 443.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 438.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 436.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 437.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 20941183000.0,
+   "Operating Income": 2592678000.0,
+   "Pretax Income": 2517269000.0,
+   "Net Income": 1718581000.0,
+   "Basic EPS": 24.62
+  },
+  "2025-03-31": {
+   "Total Revenue": 20104378000.0,
+   "Operating Income": 2630363000.0,
+   "Pretax Income": 2522354000.0,
+   "Net Income": 1723239000.0,
+   "Basic EPS": 24.32
+  },
+  "2024-03-31": {
+   "Total Revenue": 18024732000.0,
+   "Operating Income": 1411383000.0,
+   "Pretax Income": 1138769000.0,
+   "Net Income": 786581000.0,
+   "Basic EPS": 11.01
+  },
+  "2023-03-31": {
+   "Total Revenue": 18605517000.0,
+   "Operating Income": 1235192000.0,
+   "Pretax Income": 889953000.0,
+   "Net Income": 645425000.0,
+   "Basic EPS": 9.03
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2015": 2.9,
+  "2016": 2.0,
+  "2017": 2.8,
+  "2018": 4.7,
+  "2019": 6.5,
+  "2020": 6.0,
+  "2021": 6.0,
+  "2022": 6.0,
+  "2023": 3.0,
+  "2024": 8.0,
+  "2025": 15.0,
+  "2026": 20.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 43700,
+  "dividend_yield_pct_from_rate": 4.58
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
