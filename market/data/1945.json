@@ -1,0 +1,130 @@
+{
+ "code": "1945",
+ "ticker": "1945.T",
+ "fetched_at_jst": "2026-11-20T20:08:15+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Tokyo Energy & Systems Inc.",
+  "shortName": "TOKYO ENERGY & SYSTEMS INC",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1716.0,
+  "regularMarketPrice": 1716.0,
+  "previousClose": 1790.0,
+  "trailingPE": 12.211784,
+  "forwardPE": 26.6874,
+  "priceToBook": 0.78244156,
+  "trailingEps": 140.52,
+  "forwardEps": 64.3,
+  "bookValue": 2193.135,
+  "dividendRate": 78.0,
+  "dividendYield": 4.36,
+  "trailingAnnualDividendRate": 35.0,
+  "payoutRatio": 0.5195,
+  "marketCap": 56892895232,
+  "sharesOutstanding": 33154369,
+  "fiftyTwoWeekHigh": 2657.0,
+  "fiftyTwoWeekLow": 1666.0,
+  "returnOnEquity": 0.065630004,
+  "longBusinessSummary": "Tokyo Energy & Systems Inc. engages in the planning, study, design, construction, and supervision of electric and mechanical facilities in Japan. The company constructs thermal and nuclear power, hydro-electric power, chemical, and industrial plants, as well as substations, environmental facilities, and building and housing projects. It is also involved in the planning, study, design, and construction of telecommunication systems and electronic facilities; design and construction of civil and architectural facilities; and manufacture, sale, and leasing of mechanical equipment, materials, and fuels. In addition, the company engages in the sale, purchase, leasing, and management of real estate, as well as electricity supply, warehousing, and worker dispatching businesses; and investing in other businesses. The company was formerly known as Tokyo Denki Komusho Co., Ltd. and changed its name to Tokyo Energy & Systems Inc. in April 2001. Tokyo Energy & Systems Inc. was incorporated in 1947 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-20",
+ "close": 1716.0,
+ "volume": 233200.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-16",
+   "close": 1846.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 1810.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 1818.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 1790.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 1716.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 83083000000.0,
+   "Operating Income": 4739000000.0,
+   "Pretax Income": 7190000000.0,
+   "Net Income": 4287000000.0,
+   "Basic EPS": 128.96
+  },
+  "2025-03-31": {
+   "Total Revenue": 67722000000.0,
+   "Operating Income": 2667000000.0,
+   "Pretax Income": 4890000000.0,
+   "Net Income": 2900000000.0,
+   "Basic EPS": 86.65
+  },
+  "2024-03-31": {
+   "Total Revenue": 88467000000.0,
+   "Operating Income": 3959000000.0,
+   "Pretax Income": 5367000000.0,
+   "Net Income": 2960000000.0,
+   "Basic EPS": 86.7
+  },
+  "2023-03-31": {
+   "Total Revenue": 79055000000.0,
+   "Operating Income": 3459000000.0,
+   "Pretax Income": 3412000000.0,
+   "Net Income": 2120000000.0,
+   "Basic EPS": 61.91
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2001": 11.5,
+  "2002": 10.0,
+  "2003": 10.0,
+  "2004": 10.0,
+  "2005": 13.0,
+  "2006": 11.0,
+  "2007": 18.5,
+  "2008": 7.5,
+  "2010": 15.0,
+  "2011": 15.0,
+  "2012": 15.0,
+  "2013": 15.0,
+  "2014": 15.0,
+  "2015": 21.5,
+  "2016": 24.0,
+  "2017": 25.0,
+  "2018": 26.0,
+  "2019": 26.5,
+  "2020": 28.0,
+  "2021": 30.0,
+  "2022": 35.0,
+  "2023": 40.0,
+  "2024": 51.0,
+  "2025": 54.0,
+  "2026": 73.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 171600,
+  "dividend_yield_pct_from_rate": 4.55
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

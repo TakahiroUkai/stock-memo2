@@ -1,0 +1,117 @@
+{
+ "code": "9514",
+ "ticker": "9514.T",
+ "fetched_at_jst": "2026-11-20T20:08:15+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "EF-ON Inc.",
+  "shortName": "EF-ON INC",
+  "sector": "Utilities",
+  "industry": "Utilities - Renewable",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 263.0,
+  "regularMarketPrice": 263.0,
+  "previousClose": 279.0,
+  "trailingPE": 4.688893,
+  "forwardPE": 5.3455286,
+  "priceToBook": 0.2837706,
+  "trailingEps": 56.09,
+  "forwardEps": 49.2,
+  "bookValue": 926.805,
+  "dividendRate": 8.0,
+  "dividendYield": 2.87,
+  "trailingAnnualDividendRate": 8.0,
+  "payoutRatio": 0.1426,
+  "marketCap": 5563892224,
+  "sharesOutstanding": 21155484,
+  "fiftyTwoWeekHigh": 439.0,
+  "fiftyTwoWeekLow": 261.0,
+  "returnOnEquity": 0.060749996,
+  "longBusinessSummary": "EF-ON Inc. operates as a comprehensive energy service company in Japan. The company engages in energy conservation support services, including energy conservation diagnoses, energy management services, renewable energy introduction support, carbon dioxide management and reduction consulting, and the design, construction, and operation of energy-saving equipment and systems. It also engages in the green energy business, including wood biomass power generation, renewable energy electricity generation and sales, biomass fuel sales, biomass power plant operation services, forest management, timber production, forest resource visualization, carbon dioxide absorption measurement, and engineered wood development. In addition, the company operates an electricity retail business and supplies renewable energy electricity generated from its wood biomass power plants. EF-ON Inc. was formerly known as The First Energy Service Company Limited and changed its name to EF-ON Inc. in October 2016. The company was incorporated in 1997 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-20",
+ "close": 263.0,
+ "volume": 482900.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-16",
+   "close": 292.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 287.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 287.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 279.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 263.0
+  }
+ ],
+ "annual": {
+  "2026-06-30": {
+   "Total Revenue": 20737000000.0,
+   "Operating Income": 420000000.0,
+   "Pretax Income": 1672000000.0,
+   "Net Income": 1198000000.0,
+   "Basic EPS": 56.67
+  },
+  "2025-06-30": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 33.26
+  },
+  "2024-06-30": {
+   "Total Revenue": 17473000000.0,
+   "Operating Income": 600000000.0,
+   "Pretax Income": 346000000.0,
+   "Net Income": 281000000.0,
+   "Basic EPS": null
+  },
+  "2023-06-30": {
+   "Total Revenue": 16949000000.0,
+   "Operating Income": 1397000000.0,
+   "Pretax Income": 1286000000.0,
+   "Net Income": 824000000.0,
+   "Basic EPS": 38.36
+  },
+  "2022-06-30": {
+   "Total Revenue": 13258000000.0,
+   "Operating Income": 1299000000.0,
+   "Pretax Income": 1336000000.0,
+   "Net Income": 893000000.0,
+   "Basic EPS": 41.46
+  }
+ },
+ "dividends_by_year": {
+  "2015": 2.5,
+  "2016": 4.17,
+  "2017": 6.67,
+  "2018": 8.0,
+  "2019": 8.0,
+  "2020": 8.0,
+  "2021": 8.0,
+  "2022": 8.0,
+  "2023": 8.0,
+  "2024": 8.0,
+  "2025": 8.0,
+  "2026": 8.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 26300,
+  "dividend_yield_pct_from_rate": 3.04
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
