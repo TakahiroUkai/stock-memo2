@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-19 10:53 JST",
+ "updated_at": "2026-11-20 10:47 JST",
  "range": {
-  "start": "2026-10-21",
-  "end": "2026-11-17"
+  "start": "2026-10-22",
+  "end": "2026-11-18"
  },
  "sites": [
   {
@@ -99,6 +99,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-17",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -114,12 +121,12 @@
     }
    ],
    "index": {
-    "total": 54,
-    "checked": 14,
+    "total": 55,
+    "checked": 12,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 11
     },
     "not_indexed_sample": [
      {
@@ -143,7 +150,7 @@
       "state": "URL が Google に認識されていません"
      }
     ],
-    "stopped": "時間切れ(90秒)"
+    "stopped": "TimeoutError: The read operation timed out"
    }
   },
   {
@@ -240,6 +247,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-17",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -255,36 +269,14 @@
     }
    ],
    "index": {
-    "total": 113,
-    "checked": 14,
+    "total": 116,
+    "checked": 1,
     "indexed": 1,
     "states": {
-     "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "送信して登録されました": 1
     },
-    "not_indexed_sample": [
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/guides/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/news/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/tags/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/glossary/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/cheatsheet.html",
-      "state": "URL が Google に認識されていません"
-     }
-    ],
-    "stopped": "時間切れ(90秒)"
+    "not_indexed_sample": [],
+    "stopped": "TimeoutError: The read operation timed out"
    }
   },
   {
@@ -381,6 +373,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-17",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -412,36 +411,12 @@
     }
    ],
    "index": {
-    "total": 26,
-    "checked": 14,
-    "indexed": 1,
-    "states": {
-     "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
-    },
-    "not_indexed_sample": [
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/help/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/account-trading.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/app-development.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/auto-trading-tools.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/blog-ads-affiliate.html",
-      "state": "URL が Google に認識されていません"
-     }
-    ],
-    "stopped": "時間切れ(90秒)"
+    "total": 27,
+    "checked": 0,
+    "indexed": 0,
+    "states": {},
+    "not_indexed_sample": [],
+    "stopped": "TimeoutError: The read operation timed out"
    }
   },
   {
@@ -450,9 +425,9 @@
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
     "clicks": 1,
-    "impressions": 9,
-    "ctr": 0.1111,
-    "position": 6.1
+    "impressions": 12,
+    "ctr": 0.0833,
+    "position": 7
    },
    "daily": [
     {
@@ -538,15 +513,22 @@
      "impressions": 1,
      "ctr": 0,
      "position": 3
+    },
+    {
+     "date": "2026-11-17",
+     "clicks": 0,
+     "impressions": 3,
+     "ctr": 0,
+     "position": 9.7
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
      "clicks": 1,
-     "impressions": 9,
-     "ctr": 0.1111,
-     "position": 6.1
+     "impressions": 12,
+     "ctr": 0.0833,
+     "position": 7
     }
    ],
    "top_queries": [
@@ -569,12 +551,12 @@
     }
    ],
    "index": {
-    "total": 173,
-    "checked": 15,
+    "total": 174,
+    "checked": 9,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 8
     },
     "not_indexed_sample": [
      {
@@ -598,7 +580,7 @@
       "state": "URL が Google に認識されていません"
      }
     ],
-    "stopped": "時間切れ(90秒)"
+    "stopped": "TimeoutError: The read operation timed out"
    }
   }
  ]
