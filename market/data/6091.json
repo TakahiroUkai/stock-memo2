@@ -1,0 +1,130 @@
+{
+ "code": "6091",
+ "ticker": "6091.T",
+ "fetched_at_jst": "2026-11-22T20:06:56+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Wesco Holdings Inc.",
+  "shortName": "WESCO HOLDINGS INC",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 848.0,
+  "regularMarketPrice": 848.0,
+  "previousClose": 852.0,
+  "trailingPE": 12.117747,
+  "forwardPE": null,
+  "priceToBook": 0.657956,
+  "trailingEps": 69.98,
+  "forwardEps": null,
+  "bookValue": 1288.84,
+  "dividendRate": 80.0,
+  "dividendYield": 9.43,
+  "trailingAnnualDividendRate": 30.0,
+  "payoutRatio": 0.4287,
+  "marketCap": 10991151104,
+  "sharesOutstanding": 12961263,
+  "fiftyTwoWeekHigh": 1016.0,
+  "fiftyTwoWeekLow": 802.0,
+  "returnOnEquity": 0.057340004,
+  "longBusinessSummary": "Wesco Holdings Inc. engages in general construction consulting business in Japan. It is also involved in copying and binding, architectural design, compensation consulting, environmental assessment, general surveying, aerial surveying, geological surveying, sports facility management, aquarium operation and management, printing and bookbinding services, and real estate sales, leasing, and facility management services. Wesco Holdings Inc. was founded in 1970 and is headquartered in Okayama, Japan."
+ },
+ "price_date": "2026-11-20",
+ "close": 848.0,
+ "volume": 4800.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-16",
+   "close": 895.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 865.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 855.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 852.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 848.0
+  }
+ ],
+ "annual": {
+  "2026-07-31": {
+   "Total Revenue": 17001471000.0,
+   "Operating Income": 1029302000.0,
+   "Pretax Income": 1404845000.0,
+   "Net Income": 945185000.0,
+   "Basic EPS": 71.09
+  },
+  "2025-07-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 56.02
+  },
+  "2024-07-31": {
+   "Total Revenue": 15725320000.0,
+   "Operating Income": 942252000.0,
+   "Pretax Income": 1228703000.0,
+   "Net Income": 768062000.0,
+   "Basic EPS": 52.25
+  },
+  "2023-07-31": {
+   "Total Revenue": 15593470000.0,
+   "Operating Income": 892706000.0,
+   "Pretax Income": 1088190000.0,
+   "Net Income": 672811000.0,
+   "Basic EPS": 45.72
+  },
+  "2022-07-31": {
+   "Total Revenue": 15672566000.0,
+   "Operating Income": 888027000.0,
+   "Pretax Income": 1228777000.0,
+   "Net Income": 774625000.0,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2000": 5.0,
+  "2001": 10.0,
+  "2002": 10.0,
+  "2003": 10.0,
+  "2004": 10.0,
+  "2005": 5.0,
+  "2007": 5.0,
+  "2008": 5.0,
+  "2010": 2.7,
+  "2011": 7.0,
+  "2012": 6.0,
+  "2013": 6.0,
+  "2014": 7.0,
+  "2015": 8.0,
+  "2016": 10.0,
+  "2017": 12.0,
+  "2018": 13.0,
+  "2019": 15.0,
+  "2020": 15.0,
+  "2021": 16.0,
+  "2022": 16.0,
+  "2023": 16.0,
+  "2024": 22.0,
+  "2025": 24.0,
+  "2026": 30.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 84800,
+  "dividend_yield_pct_from_rate": 9.43
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

@@ -1,0 +1,103 @@
+{
+ "code": "6092",
+ "ticker": "6092.T",
+ "fetched_at_jst": "2026-11-22T20:06:56+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "EnBio Holdings, Inc",
+  "shortName": "ENBIO HOLDINGS INC",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 558.0,
+  "regularMarketPrice": 558.0,
+  "previousClose": 610.0,
+  "trailingPE": 8.168643,
+  "forwardPE": null,
+  "priceToBook": 0.46808073,
+  "trailingEps": 68.31,
+  "forwardEps": null,
+  "bookValue": 1192.102,
+  "dividendRate": 24.0,
+  "dividendYield": 4.3,
+  "trailingAnnualDividendRate": 9.0,
+  "payoutRatio": 0.1318,
+  "marketCap": 4529617920,
+  "sharesOutstanding": 8117595,
+  "fiftyTwoWeekHigh": 1009.0,
+  "fiftyTwoWeekLow": 548.0,
+  "returnOnEquity": 0.01164,
+  "longBusinessSummary": "EnBio Holdings, Inc engages in the soil contamination countermeasure business in Japan. The company is involved in the conducting of soil contamination surveys; design and construction of countermeasures; provision of risk consulting; environmental due diligence; import and sale of equipment, materials, and remediation agents; and design, construction, maintenance, and management of water treatment facilities and other construction projects. It also engages in the real estate revitalization business through the purchase, resale, and rental of soil-contaminated land; generation of electricity from solar and biomass sources; water resource development and groundwater contamination treatment projects; ethical consumption promotion projects; and engineering, procurement, construction, operation, and maintenance services for solar power plants and grid-based energy storage facilities. EnBio Holdings, Inc was incorporated in 1999 and is headquartered in Chiyoda, Japan."
+ },
+ "price_date": "2026-11-20",
+ "close": 558.0,
+ "volume": 230700.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-16",
+   "close": 647.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 618.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 620.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 610.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 558.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 12630000000.0,
+   "Operating Income": 1619000000.0,
+   "Pretax Income": 915000000.0,
+   "Net Income": 265000000.0,
+   "Basic EPS": 32.73
+  },
+  "2025-03-31": {
+   "Total Revenue": 10668000000.0,
+   "Operating Income": 839000000.0,
+   "Pretax Income": 702000000.0,
+   "Net Income": 452000000.0,
+   "Basic EPS": 55.9
+  },
+  "2024-03-31": {
+   "Total Revenue": 9575536000.0,
+   "Operating Income": 815156000.0,
+   "Pretax Income": 1065972000.0,
+   "Net Income": 708764000.0,
+   "Basic EPS": 88.85
+  },
+  "2023-03-31": {
+   "Total Revenue": 8120309000.0,
+   "Operating Income": 1357412000.0,
+   "Pretax Income": 1232759000.0,
+   "Net Income": 812059000.0,
+   "Basic EPS": 122.27
+  }
+ },
+ "dividends_by_year": {
+  "2022": 8.0,
+  "2023": 8.0,
+  "2024": 8.0,
+  "2025": 9.0,
+  "2026": 9.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 55800,
+  "dividend_yield_pct_from_rate": 4.3
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
