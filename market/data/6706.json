@@ -1,0 +1,124 @@
+{
+ "code": "6706",
+ "ticker": "6706.T",
+ "fetched_at_jst": "2026-11-23T20:07:37+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "DKK Co., Ltd.",
+  "shortName": "DKK CO LTD",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 3100.0,
+  "regularMarketPrice": 3100.0,
+  "previousClose": 2960.0,
+  "trailingPE": 8.098859,
+  "forwardPE": 26.182432,
+  "priceToBook": 0.7241475,
+  "trailingEps": 382.77,
+  "forwardEps": 118.4,
+  "bookValue": 4280.896,
+  "dividendRate": 60.0,
+  "dividendYield": 1.94,
+  "trailingAnnualDividendRate": 100.0,
+  "payoutRatio": 0.2616,
+  "marketCap": 27030255616,
+  "sharesOutstanding": 8719437,
+  "fiftyTwoWeekHigh": 3625.0,
+  "fiftyTwoWeekLow": 2560.0,
+  "returnOnEquity": 0.094399996,
+  "longBusinessSummary": "DKK Co., Ltd. engages in the manufacture and sale of telecommunication and radio frequency equipment in Japan and internationally. The company's telecommunication equipment include mobile communication systems comprising cellular base station antennas, wireless equipment, small antennas, peripheral devices, and mobile communication towers, as well as provides cellular base station construction and maintenance services; and broadcasting products, such as broadcasting and microwave antennas, medium and short wave antennas, steel towers, shelters, power supply apparatus, and FPU rotators, as well as provides broadcasting construction and maintenance services. It also offers digital disaster prevention administrative radio/fire and emergency digital radio, multi-channel access, micro line antenna, and satellite communication products; high-altitude monitoring cameras, tsunami evacuation towers, disaster prevention information network systems, and telescopic columns, as well as maintenance services; CATV construction and telescopic masts; LED aviation obstacle lights, wind power towers, marine beacon, and fuel cells; and engages in volcano, fire detection, tsunami, river, and high-altitude monitoring systems; and defense related business, as well as thermal camera and software lineups, and AI automatic detection system. In addition, the company provides induction heating; high frequency oscillators; IoT technology and waveform monitor equipment; heating coils; RF applied equipment; and vacuum furnace. The company was founded in 1925 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-20",
+ "close": 3100.0,
+ "volume": 87000.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-16",
+   "close": 3155.0
+  },
+  {
+   "date": "2026-11-17",
+   "close": 3010.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 2995.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 2960.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 3100.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 35445000000.0,
+   "Operating Income": 1219000000.0,
+   "Pretax Income": 3107000000.0,
+   "Net Income": 1903000000.0,
+   "Basic EPS": 214.12
+  },
+  "2025-03-31": {
+   "Total Revenue": 32580000000.0,
+   "Operating Income": 935000000.0,
+   "Pretax Income": 1042000000.0,
+   "Net Income": 777000000.0,
+   "Basic EPS": 83.36
+  },
+  "2024-03-31": {
+   "Total Revenue": 28863000000.0,
+   "Operating Income": -1788000000.0,
+   "Pretax Income": -2306000000.0,
+   "Net Income": -1977000000.0,
+   "Basic EPS": -198.93
+  },
+  "2023-03-31": {
+   "Total Revenue": 31816000000.0,
+   "Operating Income": -1511000000.0,
+   "Pretax Income": -1190000000.0,
+   "Net Income": -1181000000.0,
+   "Basic EPS": -107.75
+  }
+ },
+ "dividends_by_year": {
+  "2001": 50.0,
+  "2002": 30.0,
+  "2003": 25.0,
+  "2004": 50.0,
+  "2005": 105.0,
+  "2006": 175.0,
+  "2007": 200.0,
+  "2008": 155.0,
+  "2009": 110.0,
+  "2010": 110.0,
+  "2011": 30.0,
+  "2012": 25.0,
+  "2013": 45.0,
+  "2014": 75.0,
+  "2015": 75.0,
+  "2016": 75.0,
+  "2017": 75.0,
+  "2018": 45.0,
+  "2019": 45.0,
+  "2020": 45.0,
+  "2021": 45.0,
+  "2022": 90.0,
+  "2023": 60.0,
+  "2024": 60.0,
+  "2025": 90.0,
+  "2026": 60.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 310000,
+  "dividend_yield_pct_from_rate": 1.94
+ },
+ "business_days_old": 1,
+ "stale": false,
+ "ok": true
+}

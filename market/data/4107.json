@@ -1,7 +1,7 @@
 {
  "code": "4107",
  "ticker": "4107.T",
- "fetched_at_jst": "2026-11-22T20:06:56+09:00",
+ "fetched_at_jst": "2026-11-23T20:07:37+09:00",
  "source": "yfinance(Yahoo Finance、非公式)",
  "errors": [],
  "info": {
@@ -14,10 +14,10 @@
   "currentPrice": 3555.0,
   "regularMarketPrice": 3555.0,
   "previousClose": 3910.0,
-  "trailingPE": 31.285753,
+  "trailingPE": 31.9407,
   "forwardPE": 3.6973479,
   "priceToBook": 4.2730265,
-  "trailingEps": 113.63,
+  "trailingEps": 111.3,
   "forwardEps": 961.5,
   "bookValue": 831.963,
   "dividendRate": 40.0,
@@ -122,7 +122,7 @@
   "min_purchase_yen_100sh": 355500,
   "dividend_yield_pct_from_rate": 1.13
  },
- "business_days_old": 0,
+ "business_days_old": 1,
  "stale": false,
  "ok": true
 }
