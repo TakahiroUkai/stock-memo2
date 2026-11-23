@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-22 09:15 JST",
+ "updated_at": "2026-11-23 09:44 JST",
  "range": {
-  "start": "2026-10-24",
-  "end": "2026-11-20"
+  "start": "2026-10-25",
+  "end": "2026-11-21"
  },
  "sites": [
   {
@@ -120,6 +120,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-20",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -135,7 +142,7 @@
     }
    ],
    "index": {
-    "total": 56,
+    "total": 57,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -282,6 +289,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-20",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -297,7 +311,7 @@
     }
    ],
    "index": {
-    "total": 118,
+    "total": 121,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -444,6 +458,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-20",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -475,7 +496,7 @@
     }
    ],
    "index": {
-    "total": 29,
+    "total": 30,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -513,9 +534,9 @@
    "site_url": "https://takahiroukai.github.io/tsukue-time/",
    "last28": {
     "clicks": 1,
-    "impressions": 13,
-    "ctr": 0.0769,
-    "position": 7.4
+    "impressions": 14,
+    "ctr": 0.0714,
+    "position": 7.5
    },
    "daily": [
     {
@@ -622,15 +643,22 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-20",
+     "clicks": 0,
+     "impressions": 1,
+     "ctr": 0,
+     "position": 9
     }
    ],
    "top_pages": [
     {
      "page": "https://takahiroukai.github.io/tsukue-time/",
      "clicks": 1,
-     "impressions": 13,
-     "ctr": 0.0769,
-     "position": 7.4
+     "impressions": 14,
+     "ctr": 0.0714,
+     "position": 7.5
     }
    ],
    "top_queries": [
@@ -653,7 +681,7 @@
     }
    ],
    "index": {
-    "total": 176,
+    "total": 177,
     "checked": 14,
     "indexed": 1,
     "states": {
