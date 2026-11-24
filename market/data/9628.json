@@ -1,0 +1,130 @@
+{
+ "code": "9628",
+ "ticker": "9628.T",
+ "fetched_at_jst": "2026-11-24T20:07:20+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "SAN Holdings, Inc.",
+  "shortName": "SAN HOLDINGS INC (JAPAN)",
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1059.0,
+  "regularMarketPrice": 1059.0,
+  "previousClose": 1059.0,
+  "trailingPE": 4.9632096,
+  "forwardPE": null,
+  "priceToBook": 0.5577577,
+  "trailingEps": 213.37,
+  "forwardEps": null,
+  "bookValue": 1898.674,
+  "dividendRate": 41.0,
+  "dividendYield": 3.87,
+  "trailingAnnualDividendRate": 40.235,
+  "payoutRatio": 0.23629999,
+  "marketCap": 24908472320,
+  "sharesOutstanding": 23520749,
+  "fiftyTwoWeekHigh": 1545.0,
+  "fiftyTwoWeekLow": 1047.0,
+  "returnOnEquity": null,
+  "longBusinessSummary": "SAN Holdings, Inc. provides funeral services in Japan. The company offers a line of services and support before and after funerals, including consultation and assistance in inheritance and other procedures, a residence, and other matters; real estate management services; and conducts farewell events. SAN Holdings, Inc. was founded in 1932 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-24",
+ "close": 1059.0,
+ "volume": 66700.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-17",
+   "close": 1098.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 1084.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 1087.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 1059.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 1059.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 213.39
+  },
+  "2025-03-31": {
+   "Total Revenue": 31984000000.0,
+   "Operating Income": 4525000000.0,
+   "Pretax Income": 7435000000.0,
+   "Net Income": 4721000000.0,
+   "Basic EPS": 230.96
+  },
+  "2024-03-31": {
+   "Total Revenue": 22437000000.0,
+   "Operating Income": 3795000000.0,
+   "Pretax Income": 3629000000.0,
+   "Net Income": 2363000000.0,
+   "Basic EPS": 114.38
+  },
+  "2023-03-31": {
+   "Total Revenue": 21663000000.0,
+   "Operating Income": 3874000000.0,
+   "Pretax Income": 4127000000.0,
+   "Net Income": 2783000000.0,
+   "Basic EPS": 131.92
+  },
+  "2022-03-31": {
+   "Total Revenue": 20001000000.0,
+   "Operating Income": 3381000000.0,
+   "Pretax Income": 3173000000.0,
+   "Net Income": 2040000000.0,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2001": 7.5,
+  "2002": 7.5,
+  "2003": 7.5,
+  "2004": 10.0,
+  "2005": 10.0,
+  "2006": 10.0,
+  "2007": 10.0,
+  "2008": 1.25,
+  "2010": 11.25,
+  "2011": 10.0,
+  "2012": 10.0,
+  "2013": 10.0,
+  "2014": 10.0,
+  "2015": 10.0,
+  "2016": 10.62,
+  "2017": 11.62,
+  "2018": 13.25,
+  "2019": 15.0,
+  "2020": 16.0,
+  "2021": 16.5,
+  "2022": 21.0,
+  "2023": 23.0,
+  "2024": 24.0,
+  "2025": 53.5,
+  "2026": 28.5
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 105900,
+  "dividend_yield_pct_from_rate": 3.87
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

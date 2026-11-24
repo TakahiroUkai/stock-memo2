@@ -1,0 +1,131 @@
+{
+ "code": "1979",
+ "ticker": "1979.T",
+ "fetched_at_jst": "2026-11-24T20:07:20+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Taikisha Ltd.",
+  "shortName": "TAIKISHA LTD",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 3300.0,
+  "regularMarketPrice": 3300.0,
+  "previousClose": 3240.0,
+  "trailingPE": 14.792236,
+  "forwardPE": 8.646213,
+  "priceToBook": 1.225679,
+  "trailingEps": 223.09,
+  "forwardEps": 381.67,
+  "bookValue": 2692.385,
+  "dividendRate": 138.0,
+  "dividendYield": 4.26,
+  "trailingAnnualDividendRate": 70.0,
+  "payoutRatio": 0.538,
+  "marketCap": 206515748864,
+  "sharesOutstanding": 62580527,
+  "fiftyTwoWeekHigh": 5080.0,
+  "fiftyTwoWeekLow": 3085.0,
+  "returnOnEquity": 0.09060001,
+  "longBusinessSummary": "Taikisha Ltd. engages in the environmental systems and painting systems businesses in Japan. The company operates through two segments: Environmental Systems Business and Painting Systems Business. The company is involved in the design, supervision and construction of building air conditioning equipment for general offices and industrial air conditioning equipment for production facilities in factories and research laboratories; and manufacture and sales of related equipment and materials. It also engages in the design, supervision, and construction of painting equipment related to the automobile and aviation industry, as well as related manufacturing and selling equipment and materials. In addition, the company designs and constructs HVAC systems for various facilities, factories, and research and development facilities. Further, it offers construction and equipment manufacturing, consulting services, manufacturing and sales of precision machine parts, and interior furnishings and interior materials. Taikisha Ltd. was founded in 1913 and is headquartered in Shinjuku, Japan."
+ },
+ "price_date": "2026-11-24",
+ "close": 3300.0,
+ "volume": 159600.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-17",
+   "close": 3350.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 3335.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 3330.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 3240.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 3300.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 286127000000.0,
+   "Operating Income": 23327000000.0,
+   "Pretax Income": 25474000000.0,
+   "Net Income": 15594000000.0,
+   "Basic EPS": 245.14
+  },
+  "2025-03-31": {
+   "Total Revenue": 276212000000.0,
+   "Operating Income": 17975000000.0,
+   "Pretax Income": 19020000000.0,
+   "Net Income": 11026000000.0,
+   "Basic EPS": 169.44
+  },
+  "2024-03-31": {
+   "Total Revenue": 293556000000.0,
+   "Operating Income": 18277000000.0,
+   "Pretax Income": 23001000000.0,
+   "Net Income": 15602000000.0,
+   "Basic EPS": 235.97
+  },
+  "2023-03-31": {
+   "Total Revenue": 214793000000.0,
+   "Operating Income": 11563000000.0,
+   "Pretax Income": 12557000000.0,
+   "Net Income": 7917000000.0,
+   "Basic EPS": 117.31
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2001": 7.5,
+  "2002": 7.5,
+  "2003": 7.5,
+  "2004": 12.5,
+  "2005": 16.25,
+  "2006": 15.0,
+  "2007": 18.75,
+  "2008": 10.0,
+  "2009": 15.0,
+  "2010": 15.0,
+  "2011": 15.0,
+  "2012": 17.5,
+  "2013": 27.5,
+  "2014": 22.5,
+  "2015": 28.5,
+  "2016": 33.5,
+  "2017": 35.0,
+  "2018": 37.5,
+  "2019": 48.0,
+  "2020": 50.0,
+  "2021": 45.0,
+  "2022": 60.0,
+  "2023": 60.5,
+  "2024": 70.5,
+  "2025": 82.0,
+  "2026": 120.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 330000,
+  "dividend_yield_pct_from_rate": 4.18
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

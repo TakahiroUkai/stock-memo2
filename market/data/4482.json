@@ -1,0 +1,112 @@
+{
+ "code": "4482",
+ "ticker": "4482.T",
+ "fetched_at_jst": "2026-11-24T20:07:20+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "WILLs Inc.",
+  "shortName": "WILLS INC",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 704.0,
+  "regularMarketPrice": 704.0,
+  "previousClose": 714.0,
+  "trailingPE": 23.451033,
+  "forwardPE": 21.849781,
+  "priceToBook": 5.486113,
+  "trailingEps": 30.02,
+  "forwardEps": 32.22,
+  "bookValue": 128.324,
+  "dividendRate": 18.0,
+  "dividendYield": 2.52,
+  "trailingAnnualDividendRate": 13.0,
+  "payoutRatio": 0.433,
+  "marketCap": 14236448768,
+  "sharesOutstanding": 20222228,
+  "fiftyTwoWeekHigh": 829.0,
+  "fiftyTwoWeekLow": 690.0,
+  "returnOnEquity": 0.35446,
+  "longBusinessSummary": "WILLs Inc. develops and offers a shareholder management platform utilizing blockchain technology in Japan and internationally. It offers Premium preferential treatment Club, a digital transformation support service for shareholder management; IR-navi, a marketing tool for institutional investors; and online financial results briefing and virtual shareholder meeting support services. The company is also involved in planning and production of reports, ESG disclosure support, sustainability reports, etc., as well as shareholder identification survey services. WILLs Inc. was incorporated in 2004 and is headquartered in Minato, Japan."
+ },
+ "price_date": "2026-11-24",
+ "close": 704.0,
+ "volume": 19900.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-17",
+   "close": 735.0
+  },
+  {
+   "date": "2026-11-18",
+   "close": 729.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 725.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 714.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 704.0
+  }
+ ],
+ "annual": {
+  "2025-12-31": {
+   "Total Revenue": 6051801000.0,
+   "Operating Income": 1302339000.0,
+   "Pretax Income": 1269265000.0,
+   "Net Income": 839094000.0,
+   "Basic EPS": null
+  },
+  "2024-12-31": {
+   "Total Revenue": 5072384000.0,
+   "Operating Income": 1035607000.0,
+   "Pretax Income": 1016540000.0,
+   "Net Income": 670706000.0,
+   "Basic EPS": 32.45
+  },
+  "2023-12-31": {
+   "Total Revenue": 4480592000.0,
+   "Operating Income": 914761000.0,
+   "Pretax Income": 744429000.0,
+   "Net Income": 506595000.0,
+   "Basic EPS": 24.39
+  },
+  "2022-12-31": {
+   "Total Revenue": 3816112000.0,
+   "Operating Income": 702807000.0,
+   "Pretax Income": 654959000.0,
+   "Net Income": 417672000.0,
+   "Basic EPS": 21.03
+  },
+  "2021-12-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 17.92
+  }
+ },
+ "dividends_by_year": {
+  "2019": 2.5,
+  "2021": 2.5,
+  "2022": 7.0,
+  "2023": 9.5,
+  "2024": 11.0,
+  "2025": 13.0,
+  "2026": 9.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 70400,
+  "dividend_yield_pct_from_rate": 2.56
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

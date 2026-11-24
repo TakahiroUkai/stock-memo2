@@ -1,29 +1,27 @@
 {
- "generated_at_jst": "2026-11-23T20:07:37+09:00",
+ "generated_at_jst": "2026-11-24T20:07:20+09:00",
  "items": [
   {
-   "code": "4107",
+   "code": "1979",
    "ok": true,
-   "price_date": "2026-11-20",
-   "close": 3555.0,
+   "price_date": "2026-11-24",
+   "close": 3300.0,
    "stale": false,
    "errors": []
   },
   {
-   "code": "4033",
-   "ok": false,
-   "price_date": null,
-   "close": null,
-   "stale": true,
-   "errors": [
-    "株価の基準日が取れませんでした"
-   ]
+   "code": "4482",
+   "ok": true,
+   "price_date": "2026-11-24",
+   "close": 704.0,
+   "stale": false,
+   "errors": []
   },
   {
-   "code": "6706",
+   "code": "9628",
    "ok": true,
-   "price_date": "2026-11-20",
-   "close": 3100.0,
+   "price_date": "2026-11-24",
+   "close": 1059.0,
    "stale": false,
    "errors": []
   }
