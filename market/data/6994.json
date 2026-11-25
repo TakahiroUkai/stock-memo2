@@ -1,0 +1,121 @@
+{
+ "code": "6994",
+ "ticker": "6994.T",
+ "fetched_at_jst": "2026-11-25T20:07:24+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Shizuki Electric Company Inc.",
+  "shortName": "SHIZUKI ELECTRIC CO INC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 780.0,
+  "regularMarketPrice": 780.0,
+  "previousClose": 854.0,
+  "trailingPE": 9.217679,
+  "forwardPE": null,
+  "priceToBook": 0.7171536,
+  "trailingEps": 84.62,
+  "forwardEps": null,
+  "bookValue": 1087.633,
+  "dividendRate": 30.0,
+  "dividendYield": 3.51,
+  "trailingAnnualDividendRate": 14.0,
+  "payoutRatio": 0.31309998,
+  "marketCap": 19698774016,
+  "sharesOutstanding": 25254838,
+  "fiftyTwoWeekHigh": 1537.0,
+  "fiftyTwoWeekLow": 763.0,
+  "returnOnEquity": 0.08252,
+  "longBusinessSummary": "Shizuki Electric Company Inc. provides capacitors, and related equipment and facilities in Japan, North America, Asia, and internationally. It offers power factor correction products, harmonic filters, and voltage sag compensators; and AC and DC filter capacitors, and snubber capacitors for automotive inverters, power electronics circuits, and home appliances. The company also provides electrical machinery and equipment. Shizuki Electric Company Inc. was founded in 1939 and is headquartered in Nishinomiya, Japan."
+ },
+ "price_date": "2026-11-25",
+ "close": 780.0,
+ "volume": 216000.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-18",
+   "close": 870.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 853.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 791.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 854.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 780.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 27995716000.0,
+   "Operating Income": 2529576000.0,
+   "Pretax Income": 2961337000.0,
+   "Net Income": 1990743000.0,
+   "Basic EPS": 78.83
+  },
+  "2025-03-31": {
+   "Total Revenue": 27346541000.0,
+   "Operating Income": 1990792000.0,
+   "Pretax Income": 1797446000.0,
+   "Net Income": 1194672000.0,
+   "Basic EPS": 47.3
+  },
+  "2024-03-31": {
+   "Total Revenue": 26305919000.0,
+   "Operating Income": 1098618000.0,
+   "Pretax Income": 967425000.0,
+   "Net Income": 182146000.0,
+   "Basic EPS": 6.72
+  },
+  "2023-03-31": {
+   "Total Revenue": 26127747000.0,
+   "Operating Income": 937008000.0,
+   "Pretax Income": 1166684000.0,
+   "Net Income": 760676000.0,
+   "Basic EPS": 23.05
+  }
+ },
+ "dividends_by_year": {
+  "2001": 2.5,
+  "2002": 5.0,
+  "2003": 5.0,
+  "2004": 7.5,
+  "2007": 7.0,
+  "2008": 3.5,
+  "2010": 7.0,
+  "2011": 10.0,
+  "2012": 7.5,
+  "2013": 8.0,
+  "2014": 11.0,
+  "2015": 11.0,
+  "2016": 11.0,
+  "2017": 11.0,
+  "2018": 11.0,
+  "2019": 11.0,
+  "2020": 6.0,
+  "2021": 10.0,
+  "2022": 9.5,
+  "2023": 8.0,
+  "2024": 8.5,
+  "2025": 21.0,
+  "2026": 26.5
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 78000,
+  "dividend_yield_pct_from_rate": 3.85
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

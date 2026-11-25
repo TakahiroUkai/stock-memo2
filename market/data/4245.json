@@ -1,0 +1,112 @@
+{
+ "code": "4245",
+ "ticker": "4245.T",
+ "fetched_at_jst": "2026-11-25T20:07:24+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Daiki Axis Co., Ltd.",
+  "shortName": "DAIKI AXIS CO LTD",
+  "sector": "Industrials",
+  "industry": "Waste Management",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 721.0,
+  "regularMarketPrice": 721.0,
+  "previousClose": 721.0,
+  "trailingPE": 11.366861,
+  "forwardPE": null,
+  "priceToBook": 0.9290615,
+  "trailingEps": 63.43,
+  "forwardEps": null,
+  "bookValue": 776.052,
+  "dividendRate": 28.0,
+  "dividendYield": 3.88,
+  "trailingAnnualDividendRate": 24.0,
+  "payoutRatio": 0.3022,
+  "marketCap": 9586057216,
+  "sharesOutstanding": 13295502,
+  "fiftyTwoWeekHigh": 774.0,
+  "fiftyTwoWeekLow": 645.0,
+  "returnOnEquity": 0.107650004,
+  "longBusinessSummary": "Daiki Axis Co., Ltd. manufactures, constructs, maintains, and sells various wastewater treatment equipment in Japan. The company is involved in the manufacturing, distribution, designing, and construction of products using synthetic resin and other materials; distribution and installation of construction materials and household equipment; and production and distribution of drinking water. It operates in China, Indonesia, India, Singapore, Sri Lanka, Vietnam, Myanmar, Bangladesh, and internationally. Daiki Axis Co., Ltd. was incorporated in 2005 and is headquartered in Matsuyama, Japan."
+ },
+ "price_date": "2026-11-25",
+ "close": 721.0,
+ "volume": 6400.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-18",
+   "close": 727.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 728.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 716.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 721.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 721.0
+  }
+ ],
+ "annual": {
+  "2025-12-31": {
+   "Total Revenue": 48321000000.0,
+   "Operating Income": 1272000000.0,
+   "Pretax Income": 1195000000.0,
+   "Net Income": 461000000.0,
+   "Basic EPS": 34.81
+  },
+  "2024-12-31": {
+   "Total Revenue": 46818000000.0,
+   "Operating Income": 1049000000.0,
+   "Pretax Income": 1091000000.0,
+   "Net Income": 352000000.0,
+   "Basic EPS": 26.48
+  },
+  "2023-12-31": {
+   "Total Revenue": 42681000000.0,
+   "Operating Income": 660000000.0,
+   "Pretax Income": 652000000.0,
+   "Net Income": 205000000.0,
+   "Basic EPS": 15.43
+  },
+  "2022-12-31": {
+   "Total Revenue": 39478000000.0,
+   "Operating Income": 827000000.0,
+   "Pretax Income": 1007000000.0,
+   "Net Income": 574000000.0,
+   "Basic EPS": 43.25
+  }
+ },
+ "dividends_by_year": {
+  "2013": 8.25,
+  "2014": 15.0,
+  "2015": 15.0,
+  "2016": 15.0,
+  "2017": 30.0,
+  "2018": 24.0,
+  "2019": 24.0,
+  "2020": 24.0,
+  "2021": 24.0,
+  "2022": 24.0,
+  "2023": 30.0,
+  "2024": 24.0,
+  "2025": 24.0,
+  "2026": 12.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 72100,
+  "dividend_yield_pct_from_rate": 3.88
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

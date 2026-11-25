@@ -1,0 +1,119 @@
+{
+ "code": "6617",
+ "ticker": "6617.T",
+ "fetched_at_jst": "2026-11-25T20:07:24+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Takaoka Toko Co., Ltd.",
+  "shortName": "TAKAOKA TOKO CO LTD",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 4180.0,
+  "regularMarketPrice": 4180.0,
+  "previousClose": 4475.0,
+  "trailingPE": 5.870209,
+  "forwardPE": 25.78655,
+  "priceToBook": 0.93935263,
+  "trailingEps": 712.07,
+  "forwardEps": 162.1,
+  "bookValue": 4449.873,
+  "dividendRate": 134.0,
+  "dividendYield": 2.99,
+  "trailingAnnualDividendRate": 83.0,
+  "payoutRatio": 0.21069999,
+  "marketCap": 64371027968,
+  "sharesOutstanding": 15399767,
+  "fiftyTwoWeekHigh": 8850.0,
+  "fiftyTwoWeekLow": 3550.0,
+  "returnOnEquity": 0.1706,
+  "longBusinessSummary": "Takaoka Toko Co., Ltd., together with its subsidiaries, engages in power equipment, metering, GX solutions, and applied optical inspection equipment businesses. It manufactures and sells applied macromolecular electric equipment and components; SCADA systems for electric power networks; and electric equipment, as well as undertakes electrical engineering and construction works, and power lines and telecommunication construction works. The company also engages in the transportation and logistics business; installation of high-voltage instrument transformers; and development, manufacture, and sale of electric power meters, gas instrument transformers, and mold products. In addition, it manufactures and sells thin client systems and develops custom computer software, as well as develops computer and embedded software; rents real estate, such as buildings; and offers energy measurement and control devices, chargers for electric vehicles, and three-dimensional inspection equipment. The company was formerly known as Takaoka Toko Holdings Co., Ltd. and changed its name to Takaoka Toko Co., Ltd. in April 2014. Takaoka Toko Co., Ltd. was founded in 1918 and is headquartered in Tokyo, Japan. Takaoka Toko Co., Ltd. operates as a subsidiary of TEPCO Power Grid, Incorporated."
+ },
+ "price_date": "2026-11-25",
+ "close": 4180.0,
+ "volume": 78700.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-18",
+   "close": 4720.0
+  },
+  {
+   "date": "2026-11-19",
+   "close": 4565.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 4195.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 4475.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 4180.0
+  }
+ ],
+ "annual": {
+  "2026-03-31": {
+   "Total Revenue": 112093000000.0,
+   "Operating Income": 9763000000.0,
+   "Pretax Income": 10227000000.0,
+   "Net Income": 6602000000.0,
+   "Basic EPS": 411.33
+  },
+  "2025-03-31": {
+   "Total Revenue": 106624000000.0,
+   "Operating Income": 6095000000.0,
+   "Pretax Income": 6177000000.0,
+   "Net Income": 3824000000.0,
+   "Basic EPS": 238.37
+  },
+  "2024-03-31": {
+   "Total Revenue": 107378000000.0,
+   "Operating Income": 8247000000.0,
+   "Pretax Income": 7592000000.0,
+   "Net Income": 4668000000.0,
+   "Basic EPS": 290.29
+  },
+  "2023-03-31": {
+   "Total Revenue": 97752000000.0,
+   "Operating Income": 4848000000.0,
+   "Pretax Income": 4411000000.0,
+   "Net Income": 2919000000.0,
+   "Basic EPS": 180.78
+  },
+  "2022-03-31": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2013": 50.0,
+  "2014": 50.0,
+  "2015": 50.0,
+  "2016": 50.0,
+  "2017": 50.0,
+  "2018": 50.0,
+  "2019": 50.0,
+  "2020": 50.0,
+  "2021": 50.0,
+  "2022": 55.0,
+  "2023": 50.0,
+  "2024": 60.0,
+  "2025": 62.0,
+  "2026": 150.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 418000,
+  "dividend_yield_pct_from_rate": 3.21
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
