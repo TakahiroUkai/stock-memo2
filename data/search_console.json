@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-24 13:46 JST",
+ "updated_at": "2026-11-25 12:32 JST",
  "range": {
-  "start": "2026-10-26",
-  "end": "2026-11-22"
+  "start": "2026-10-27",
+  "end": "2026-11-23"
  },
  "sites": [
   {
@@ -134,6 +134,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-22",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -149,7 +156,7 @@
     }
    ],
    "index": {
-    "total": 58,
+    "total": 59,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -310,6 +317,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-22",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -325,7 +339,7 @@
     }
    ],
    "index": {
-    "total": 124,
+    "total": 127,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -486,6 +500,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-22",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -517,7 +538,7 @@
     }
    ],
    "index": {
-    "total": 32,
+    "total": 33,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -678,6 +699,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-22",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -709,7 +737,7 @@
     }
    ],
    "index": {
-    "total": 178,
+    "total": 179,
     "checked": 14,
     "indexed": 1,
     "states": {
