@@ -1,0 +1,123 @@
+{
+ "code": "4657",
+ "ticker": "4657.T",
+ "fetched_at_jst": "2026-11-26T20:07:42+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Environmental Control Center Co.,Ltd.",
+  "shortName": "ENVIRONMENTAL CONTROL CENTER CO",
+  "sector": "Industrials",
+  "industry": "Waste Management",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 320.0,
+  "regularMarketPrice": 320.0,
+  "previousClose": 320.0,
+  "trailingPE": 67.653275,
+  "forwardPE": null,
+  "priceToBook": 0.68165016,
+  "trailingEps": 4.73,
+  "forwardEps": null,
+  "bookValue": 469.449,
+  "dividendRate": 10.0,
+  "dividendYield": 3.13,
+  "trailingAnnualDividendRate": 8.0,
+  "payoutRatio": 1.6913,
+  "marketCap": 1532348416,
+  "sharesOutstanding": 4788589,
+  "fiftyTwoWeekHigh": 559.0,
+  "fiftyTwoWeekLow": 305.0,
+  "returnOnEquity": 0.01898,
+  "longBusinessSummary": "Environmental Control Center Co.,Ltd. operates as an environmental consulting company in Japan. The company offers monitoring and consulting services for air, water, and soil in the general environment and workplaces. It also provides strange odor surveys, qualification tests on deodorizing equipment/deodorants, odor control in factories/workplaces, odor quality control of products, and odor assessment for product development. In addition, the company offers soil contamination surveys and analysis services; and consulting services for soil contamination control projects, regulatory affairs, information disclosure, and others. Further, it provides environmental impact assessment services, which include preliminary discussions with regulatory authorities, environmental surveys, preparation of environmental assessment statements, post hoc surveys, and discussions with the regulatory authorities for follow-up. The company was incorporated in 1971 and is headquartered in Hachioji, Japan."
+ },
+ "price_date": "2026-11-26",
+ "close": 320.0,
+ "volume": 10900.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-19",
+   "close": 351.0
+  },
+  {
+   "date": "2026-11-20",
+   "close": 341.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 337.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 320.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 320.0
+  }
+ ],
+ "annual": {
+  "2026-06-30": {
+   "Total Revenue": 5587339000.0,
+   "Operating Income": 267935000.0,
+   "Pretax Income": 241523000.0,
+   "Net Income": 122972000.0,
+   "Basic EPS": 25.68
+  },
+  "2025-06-30": {
+   "Total Revenue": 6099354000.0,
+   "Operating Income": 109552000.0,
+   "Pretax Income": 103041000.0,
+   "Net Income": 7902000.0,
+   "Basic EPS": 1.66
+  },
+  "2024-06-30": {
+   "Total Revenue": 5594555000.0,
+   "Operating Income": 329169000.0,
+   "Pretax Income": 307801000.0,
+   "Net Income": 218412000.0,
+   "Basic EPS": 46.26
+  },
+  "2023-06-30": {
+   "Total Revenue": 5343580000.0,
+   "Operating Income": 52973000.0,
+   "Pretax Income": 46926000.0,
+   "Net Income": -41605000.0,
+   "Basic EPS": -8.81
+  },
+  "2022-06-30": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2000": 12.0,
+  "2001": 12.0,
+  "2002": 6.0,
+  "2003": 10.0,
+  "2004": 5.0,
+  "2010": 3.0,
+  "2011": 3.0,
+  "2013": 3.5,
+  "2014": 5.0,
+  "2017": 3.0,
+  "2018": 5.0,
+  "2020": 5.0,
+  "2021": 8.0,
+  "2022": 5.0,
+  "2023": 5.0,
+  "2024": 12.0,
+  "2025": 8.0,
+  "2026": 8.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 32000,
+  "dividend_yield_pct_from_rate": 3.12
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

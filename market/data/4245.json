@@ -1,7 +1,7 @@
 {
  "code": "4245",
  "ticker": "4245.T",
- "fetched_at_jst": "2026-11-25T20:07:24+09:00",
+ "fetched_at_jst": "2026-11-26T20:07:42+09:00",
  "source": "yfinance(Yahoo Finance、非公式)",
  "errors": [],
  "info": {
@@ -11,12 +11,12 @@
   "industry": "Waste Management",
   "exchange": "JPX",
   "currency": "JPY",
-  "currentPrice": 721.0,
-  "regularMarketPrice": 721.0,
+  "currentPrice": 724.0,
+  "regularMarketPrice": 724.0,
   "previousClose": 721.0,
-  "trailingPE": 11.366861,
+  "trailingPE": 11.414157,
   "forwardPE": null,
-  "priceToBook": 0.9290615,
+  "priceToBook": 0.9329272,
   "trailingEps": 63.43,
   "forwardEps": null,
   "bookValue": 776.052,
@@ -24,21 +24,17 @@
   "dividendYield": 3.88,
   "trailingAnnualDividendRate": 24.0,
   "payoutRatio": 0.3022,
-  "marketCap": 9586057216,
+  "marketCap": 9625943040,
   "sharesOutstanding": 13295502,
   "fiftyTwoWeekHigh": 774.0,
   "fiftyTwoWeekLow": 645.0,
   "returnOnEquity": 0.107650004,
   "longBusinessSummary": "Daiki Axis Co., Ltd. manufactures, constructs, maintains, and sells various wastewater treatment equipment in Japan. The company is involved in the manufacturing, distribution, designing, and construction of products using synthetic resin and other materials; distribution and installation of construction materials and household equipment; and production and distribution of drinking water. It operates in China, Indonesia, India, Singapore, Sri Lanka, Vietnam, Myanmar, Bangladesh, and internationally. Daiki Axis Co., Ltd. was incorporated in 2005 and is headquartered in Matsuyama, Japan."
  },
- "price_date": "2026-11-25",
- "close": 721.0,
- "volume": 6400.0,
+ "price_date": "2026-11-26",
+ "close": 724.0,
+ "volume": 7500.0,
  "recent_closes": [
-  {
-   "date": "2026-11-18",
-   "close": 727.0
-  },
   {
    "date": "2026-11-19",
    "close": 728.0
@@ -54,6 +50,10 @@
   {
    "date": "2026-11-25",
    "close": 721.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 724.0
   }
  ],
  "annual": {
@@ -103,8 +103,8 @@
   "2026": 12.0
  },
  "derived": {
-  "min_purchase_yen_100sh": 72100,
-  "dividend_yield_pct_from_rate": 3.88
+  "min_purchase_yen_100sh": 72400,
+  "dividend_yield_pct_from_rate": 3.87
  },
  "business_days_old": 0,
  "stale": false,
