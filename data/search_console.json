@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-25 12:32 JST",
+ "updated_at": "2026-11-26 11:48 JST",
  "range": {
-  "start": "2026-10-27",
-  "end": "2026-11-23"
+  "start": "2026-10-28",
+  "end": "2026-11-24"
  },
  "sites": [
   {
@@ -141,6 +141,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-23",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -156,12 +163,12 @@
     }
    ],
    "index": {
-    "total": 59,
-    "checked": 14,
+    "total": 60,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -324,6 +331,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-23",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -339,12 +353,12 @@
     }
    ],
    "index": {
-    "total": 127,
-    "checked": 14,
+    "total": 130,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -507,6 +521,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-23",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -538,12 +559,12 @@
     }
    ],
    "index": {
-    "total": 33,
-    "checked": 14,
+    "total": 34,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
@@ -555,15 +576,15 @@
       "state": "URL が Google に認識されていません"
      },
      {
+      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/ai-income-claims.html",
+      "state": "URL が Google に認識されていません"
+     },
+     {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/app-development.html",
       "state": "URL が Google に認識されていません"
      },
      {
       "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/auto-trading-tools.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/kasegi-torisetsu/methods/blog-ads-affiliate.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -706,6 +727,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-23",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -737,12 +765,12 @@
     }
    ],
    "index": {
-    "total": 179,
-    "checked": 14,
+    "total": 180,
+    "checked": 15,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 13
+     "URL が Google に認識されていません": 14
     },
     "not_indexed_sample": [
      {
