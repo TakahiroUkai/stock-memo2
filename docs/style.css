@@ -21,7 +21,7 @@ article h4{font-size:1rem;margin:18px 0 4px;color:var(--gr2)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:8px;margin:14px 0}
 .stats div{background:var(--gr);border-radius:12px;padding:8px 12px}
 .stats dt{font-size:.72rem;color:var(--gr2);margin:0}.stats dd{margin:0;font-weight:700}
-.scroll{overflow-x:auto;margin:8px 0}
+.scroll{overflow-x:auto;margin:8px 0;background:linear-gradient(to right,#fff 30%,rgba(255,255,255,0)) left center/40px 100% no-repeat local,linear-gradient(to left,#fff 30%,rgba(255,255,255,0)) right center/40px 100% no-repeat local,radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.28),rgba(0,0,0,0)) left center/12px 100% no-repeat scroll,radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.28),rgba(0,0,0,0)) right center/12px 100% no-repeat scroll}
 table{border-collapse:collapse;width:100%;font-size:.88rem}
 th,td{border-bottom:1px solid var(--ln);padding:6px 8px;text-align:left;vertical-align:top}
 th{color:var(--gr2);white-space:nowrap;background:#f7fbf9}
