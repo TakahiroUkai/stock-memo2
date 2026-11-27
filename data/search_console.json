@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-26 11:48 JST",
+ "updated_at": "2026-11-27 11:47 JST",
  "range": {
-  "start": "2026-10-28",
-  "end": "2026-11-24"
+  "start": "2026-10-29",
+  "end": "2026-11-25"
  },
  "sites": [
   {
@@ -148,6 +148,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-24",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -164,11 +171,11 @@
    ],
    "index": {
     "total": 60,
-    "checked": 15,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
@@ -338,6 +345,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-24",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -353,14 +367,18 @@
     }
    ],
    "index": {
-    "total": 130,
-    "checked": 15,
-    "indexed": 1,
+    "total": 133,
+    "checked": 14,
+    "indexed": 0,
     "states": {
-     "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "クロール済み - インデックス未登録": 1,
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/",
+      "state": "クロール済み - インデックス未登録"
+     },
      {
       "url": "https://takahiroukai.github.io/anna-konna-claude/guides/",
       "state": "URL が Google に認識されていません"
@@ -375,10 +393,6 @@
      },
      {
       "url": "https://takahiroukai.github.io/anna-konna-claude/glossary/",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/cheatsheet.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -528,6 +542,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-24",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -559,12 +580,12 @@
     }
    ],
    "index": {
-    "total": 34,
-    "checked": 15,
+    "total": 35,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
@@ -734,6 +755,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-24",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -765,12 +793,12 @@
     }
    ],
    "index": {
-    "total": 180,
-    "checked": 15,
+    "total": 181,
+    "checked": 14,
     "indexed": 1,
     "states": {
      "送信して登録されました": 1,
-     "URL が Google に認識されていません": 14
+     "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
      {
