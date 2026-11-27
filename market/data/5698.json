@@ -1,0 +1,118 @@
+{
+ "code": "5698",
+ "ticker": "5698.T",
+ "fetched_at_jst": "2026-11-27T20:07:18+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Envipro Holdings Inc.",
+  "shortName": "ENVIPRO HOLDINGS INC",
+  "sector": "Industrials",
+  "industry": "Waste Management",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 590.0,
+  "regularMarketPrice": 590.0,
+  "previousClose": 578.0,
+  "trailingPE": 6.194226,
+  "forwardPE": 11.132075,
+  "priceToBook": 0.8827868,
+  "trailingEps": 95.25,
+  "forwardEps": 53.0,
+  "bookValue": 668.338,
+  "dividendRate": 22.0,
+  "dividendYield": 3.81,
+  "trailingAnnualDividendRate": 25.0,
+  "payoutRatio": 0.2625,
+  "marketCap": 16818372608,
+  "sharesOutstanding": 28505715,
+  "fiftyTwoWeekHigh": 1253.0,
+  "fiftyTwoWeekLow": 533.0,
+  "returnOnEquity": 0.15384,
+  "longBusinessSummary": "Envipro Holdings Inc., through its subsidiaries, engages in the resource recycling, global trading, and lithium-ion battery recycling businesses in Japan and internationally. The company handles, collects, and transports metal scrap and industrial waste, waste materials; produces recycled materials, such as stainless steel, plastics, and rubber; and deals in recycled resources. It also handles import and trilateral trade of natural resources; provides logistics services for import and export businesses; handles process waste materials and used batteries discharged from battery factories to produce rare metals, such as cobalt and nickel; and provides advisory services on environmental management and ESG investment, as well as is involved in the disability welfare service business. Envipro Holdings Inc. was incorporated in 2010 and is headquartered in Fujinomiya, Japan."
+ },
+ "price_date": "2026-11-27",
+ "close": 590.0,
+ "volume": 105400.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-20",
+   "close": 578.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 590.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 580.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 578.0
+  },
+  {
+   "date": "2026-11-27",
+   "close": 590.0
+  }
+ ],
+ "annual": {
+  "2026-06-30": {
+   "Total Revenue": 44430241000.0,
+   "Operating Income": 3224559000.0,
+   "Pretax Income": 3366800000.0,
+   "Net Income": 2423803000.0,
+   "Basic EPS": null
+  },
+  "2025-06-30": {
+   "Total Revenue": 49090744000.0,
+   "Operating Income": 972493000.0,
+   "Pretax Income": 1516746000.0,
+   "Net Income": 1175558000.0,
+   "Basic EPS": 39.19
+  },
+  "2024-06-30": {
+   "Total Revenue": 52214192000.0,
+   "Operating Income": 1409989000.0,
+   "Pretax Income": 816146000.0,
+   "Net Income": 537482000.0,
+   "Basic EPS": 17.87
+  },
+  "2023-06-30": {
+   "Total Revenue": 49189601000.0,
+   "Operating Income": 1542623000.0,
+   "Pretax Income": 1759165000.0,
+   "Net Income": 1236116000.0,
+   "Basic EPS": 41.64
+  },
+  "2022-06-30": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 105.2
+  }
+ },
+ "dividends_by_year": {
+  "2014": 3.75,
+  "2015": 6.25,
+  "2016": 6.25,
+  "2017": 7.5,
+  "2018": 8.5,
+  "2019": 8.0,
+  "2020": 5.0,
+  "2021": 7.5,
+  "2022": 25.0,
+  "2023": 14.0,
+  "2024": 6.0,
+  "2025": 15.0,
+  "2026": 25.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 59000,
+  "dividend_yield_pct_from_rate": 3.73
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
