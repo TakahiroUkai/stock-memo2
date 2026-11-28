@@ -1,8 +1,8 @@
 {
- "updated_at": "2026-11-27 11:47 JST",
+ "updated_at": "2026-11-28 11:38 JST",
  "range": {
-  "start": "2026-10-29",
-  "end": "2026-11-25"
+  "start": "2026-10-30",
+  "end": "2026-11-26"
  },
  "sites": [
   {
@@ -155,6 +155,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-25",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -170,14 +177,18 @@
     }
    ],
    "index": {
-    "total": 60,
+    "total": 61,
     "checked": 14,
-    "indexed": 1,
+    "indexed": 0,
     "states": {
-     "送信して登録されました": 1,
+     "クロール済み - インデックス未登録": 1,
      "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
+     {
+      "url": "https://takahiroukai.github.io/stock-memo2/",
+      "state": "クロール済み - インデックス未登録"
+     },
      {
       "url": "https://takahiroukai.github.io/stock-memo2/about.html",
       "state": "URL が Google に認識されていません"
@@ -192,10 +203,6 @@
      },
      {
       "url": "https://takahiroukai.github.io/stock-memo2/posts/20261027-2.html",
-      "state": "URL が Google に認識されていません"
-     },
-     {
-      "url": "https://takahiroukai.github.io/stock-memo2/posts/20261027.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -352,6 +359,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-25",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [],
@@ -367,18 +381,14 @@
     }
    ],
    "index": {
-    "total": 133,
+    "total": 134,
     "checked": 14,
-    "indexed": 0,
+    "indexed": 1,
     "states": {
-     "クロール済み - インデックス未登録": 1,
+     "送信して登録されました": 1,
      "URL が Google に認識されていません": 13
     },
     "not_indexed_sample": [
-     {
-      "url": "https://takahiroukai.github.io/anna-konna-claude/",
-      "state": "クロール済み - インデックス未登録"
-     },
      {
       "url": "https://takahiroukai.github.io/anna-konna-claude/guides/",
       "state": "URL が Google に認識されていません"
@@ -393,6 +403,10 @@
      },
      {
       "url": "https://takahiroukai.github.io/anna-konna-claude/glossary/",
+      "state": "URL が Google に認識されていません"
+     },
+     {
+      "url": "https://takahiroukai.github.io/anna-konna-claude/cheatsheet.html",
       "state": "URL が Google に認識されていません"
      }
     ],
@@ -549,6 +563,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-25",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -580,7 +601,7 @@
     }
    ],
    "index": {
-    "total": 35,
+    "total": 36,
     "checked": 14,
     "indexed": 1,
     "states": {
@@ -762,6 +783,13 @@
      "impressions": 0,
      "ctr": 0,
      "position": 0
+    },
+    {
+     "date": "2026-11-25",
+     "clicks": 0,
+     "impressions": 0,
+     "ctr": 0,
+     "position": 0
     }
    ],
    "top_pages": [
@@ -793,7 +821,7 @@
     }
    ],
    "index": {
-    "total": 181,
+    "total": 182,
     "checked": 14,
     "indexed": 1,
     "states": {

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27 11:41 JST",
+ "updated_at": "2026-11-28 11:32 JST",
  "sites": [
   {
    "key": "stock",
@@ -218,9 +218,9 @@
    "name": "Claudeあれこれ(あんなことこんなことClaude)",
    "path": "/anna-konna-claude/",
    "last30": {
-    "views": 95,
-    "users": 3,
-    "sessions": 9
+    "views": 100,
+    "users": 4,
+    "sessions": 10
    },
    "daily": [
     {
@@ -270,6 +270,12 @@
      "views": 64,
      "users": 2,
      "sessions": 2
+    },
+    {
+     "date": "2026-11-28",
+     "views": 5,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -282,8 +288,14 @@
     {
      "path": "/anna-konna-claude/",
      "title": "あんなことこんなことClaude|Claudeの使い方を、コピーして試せるプロンプトつきで紹介",
-     "views": 3,
-     "users": 2
+     "views": 4,
+     "users": 3
+    },
+    {
+     "path": "/anna-konna-claude/tips/image-generation-with-actions.html",
+     "title": "Claudeに頼んで、無料のAIで画像を作り、GitHubのページに貼る | あんなことこんなことClaude",
+     "views": 4,
+     "users": 1
     },
     {
      "path": "/anna-konna-claude/news/",
@@ -446,12 +458,6 @@
      "title": "Claude SheetsとClaude Whiteboardsがベータで登場。有料プランで使えます | あんなことこんなことClaude",
      "views": 1,
      "users": 1
-    },
-    {
-     "path": "/anna-konna-claude/tags/feature-artifacts.html",
-     "title": "タグ: Artifacts | あんなことこんなことClaude",
-     "views": 1,
-     "users": 1
     }
    ]
   },
@@ -582,9 +588,9 @@
    "name": "机タイム素材集",
    "path": "/tsukue-time/",
    "last30": {
-    "views": 94,
+    "views": 119,
     "users": 16,
-    "sessions": 25
+    "sessions": 26
    },
    "daily": [
     {
@@ -652,6 +658,12 @@
      "views": 1,
      "users": 1,
      "sessions": 1
+    },
+    {
+     "date": "2026-11-28",
+     "views": 25,
+     "users": 1,
+     "sessions": 1
     }
    ],
    "top_pages": [
@@ -664,8 +676,14 @@
     {
      "path": "/tsukue-time/",
      "title": "机タイム素材集|幼児向けの無料ぬりえ・なぞり書きプリント",
-     "views": 6,
+     "views": 12,
      "users": 4
+    },
+    {
+     "path": "/tsukue-time/research/",
+     "title": "子育て研究 | 机タイム素材集",
+     "views": 8,
+     "users": 2
     },
     {
      "path": "/tsukue-time/art/",
@@ -677,12 +695,6 @@
      "path": "/tsukue-time/daily/",
      "title": "まいにち つづける | 机タイム素材集",
      "views": 6,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/research/",
-     "title": "子育て研究 | 机タイム素材集",
-     "views": 5,
      "users": 1
     },
     {
@@ -710,6 +722,18 @@
      "users": 1
     },
     {
+     "path": "/tsukue-time/research/2026-11-02-dialogic-reading.html",
+     "title": "絵本を読みながら問いかける「対話読み」は、お話を組み立てる力の練習になる? | 机タイム素材集",
+     "views": 3,
+     "users": 3
+    },
+    {
+     "path": "/tsukue-time/cards/",
+     "title": "お題カード|幼児向けの無料・印刷用の絵カード | 机タイム素材集",
+     "views": 2,
+     "users": 1
+    },
+    {
      "path": "/tsukue-time/daily/cal-11.html",
      "title": "カレンダー 11月(ふたりぶん) | 机タイム素材集",
      "views": 2,
@@ -722,14 +746,50 @@
      "users": 2
     },
     {
-     "path": "/tsukue-time/research/2026-11-02-dialogic-reading.html",
-     "title": "絵本を読みながら問いかける「対話読み」は、お話を組み立てる力の練習になる? | 机タイム素材集",
+     "path": "/tsukue-time/research/2026-11-08-caregiver-talk.html",
+     "title": "おうちの人の話しかけと、子どものことばの発達は、どれくらい関係している? | 机タイム素材集",
      "views": 2,
      "users": 2
     },
     {
+     "path": "/tsukue-time/ti-sensei/",
+     "title": "てぃ先生 特設ページ|本・動画・SNSのまとめ | 机タイム素材集",
+     "views": 2,
+     "users": 2
+    },
+    {
+     "path": "/tsukue-time/abc/",
+     "title": "アルファベット表・なぞり書き|幼児向けの無料プリント | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/abc/abc-bingo.html",
+     "title": "アルファベット ビンゴ|幼児向けの無料・印刷用 | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/abc/abc-name.html",
+     "title": "名前入り アルファベット なぞりがき|幼児向けの無料・印刷用 | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/abc/abct2.html",
+     "title": "アルファベット なぞりがき J〜R|幼児向けの無料・印刷用 | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/tsukue-time/about.html",
      "title": "このサイトについて | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
+     "path": "/tsukue-time/art/",
+     "title": "ぬりえ|幼児向けの無料・印刷用ぬりえ | 机タイム素材集",
      "views": 1,
      "users": 1
     },
@@ -770,6 +830,12 @@
      "users": 1
     },
     {
+     "path": "/tsukue-time/daily/",
+     "title": "まいにち つづける|カレンダー・チャレンジ表など幼児向けの無料シート | 机タイム素材集",
+     "views": 1,
+     "users": 1
+    },
+    {
      "path": "/tsukue-time/daily/big-castle-1.html",
      "title": "おおきなぬりえ おしろ 1/4 | 机タイム素材集",
      "views": 1,
@@ -778,60 +844,6 @@
     {
      "path": "/tsukue-time/daily/cal-01.html",
      "title": "カレンダー 1月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/cal-03.html",
-     "title": "カレンダー 3月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/cal-05.html",
-     "title": "カレンダー 5月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/cal-06.html",
-     "title": "カレンダー 6月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/cal-07.html",
-     "title": "カレンダー 7月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/cal-08.html",
-     "title": "カレンダー 8月(ふたりぶん) | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/hira-challenge.html",
-     "title": "ひらがな 46にち チャレンジ | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/daily/weather-cal.html",
-     "title": "おてんき きせつ カレンダー | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/privacy.html",
-     "title": "プライバシーポリシー | 机タイム素材集",
-     "views": 1,
-     "users": 1
-    },
-    {
-     "path": "/tsukue-time/research/2026-11-03-emotion-coaching-online.html",
-     "title": "子どもの気持ちを受けとめる関わり方を学ぶオンライン講座で、親の接し方や子どもの行動の得点はどう変わった? | 机タイム素材集",
      "views": 1,
      "users": 1
     }
