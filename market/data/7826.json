@@ -1,0 +1,117 @@
+{
+ "code": "7826",
+ "ticker": "7826.T",
+ "fetched_at_jst": "2026-11-28T20:07:31+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Furuya Metal Co., Ltd.",
+  "shortName": "FURUYA METAL CO LTD",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 8320.0,
+  "regularMarketPrice": 8320.0,
+  "previousClose": 7340.0,
+  "trailingPE": 9.09737,
+  "forwardPE": 20.84064,
+  "priceToBook": 2.459778,
+  "trailingEps": 914.55,
+  "forwardEps": 399.22,
+  "bookValue": 3382.419,
+  "dividendRate": 165.0,
+  "dividendYield": 1.98,
+  "trailingAnnualDividendRate": 165.0,
+  "payoutRatio": 0.18040001,
+  "marketCap": 204666208256,
+  "sharesOutstanding": 24599305,
+  "fiftyTwoWeekHigh": 12380.0,
+  "fiftyTwoWeekLow": 3050.0,
+  "returnOnEquity": 0.30543,
+  "longBusinessSummary": "Furuya Metal Co., Ltd. manufactures and sells industrial-use precious metal products and temperature sensors in Japan, Asia, Europe, and North America. The company offers various metals processing products, such as iridium crucibles and seed holders, reflectors, and after heaters; platinum (Pt) and Pt alloy glass melting equipment materials for melting optical and LCD glass; Pt crucibles, evaporation dishes, and boats; bead dishes, Pt cells, and tongs with Pt; mesh, sheets, foils, pipes, and wire products; iridium tools for friction stir welding; and thermocouples products. It also provides precious metal sputtering targets for magnetic recording media, flat panel display, semiconductor, and electronic component applications; evaporation materials; and made-to-order sputtering services for magnetic recording, touch panels, non-volatile semiconductor memory, electric devices, and electric components, as well as patterning and thin film analysis services. In addition, the company offers vibration testers and parts palletizers under the IDEX brand; inorganic and organic compounds, and precious metal powders; and develops FT-eco catalyst, nano alloy, and metal powders; and recycling and refining products. Furuya Metal Co., Ltd. was founded in 1951 and is headquartered in Tokyo, Japan."
+ },
+ "price_date": "2026-11-27",
+ "close": 8320.0,
+ "volume": 433700.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-20",
+   "close": 7180.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 7690.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 6830.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 7340.0
+  },
+  {
+   "date": "2026-11-27",
+   "close": 8320.0
+  }
+ ],
+ "annual": {
+  "2026-06-30": {
+   "Total Revenue": 100139000000.0,
+   "Operating Income": 24795000000.0,
+   "Pretax Income": 24458000000.0,
+   "Net Income": 16034000000.0,
+   "Basic EPS": 652.0
+  },
+  "2025-06-30": {
+   "Total Revenue": 57379000000.0,
+   "Operating Income": 9538000000.0,
+   "Pretax Income": 9214000000.0,
+   "Net Income": 6468000000.0,
+   "Basic EPS": 263.29
+  },
+  "2024-06-30": {
+   "Total Revenue": 47527000000.0,
+   "Operating Income": 9814000000.0,
+   "Pretax Income": 10690000000.0,
+   "Net Income": 7410000000.0,
+   "Basic EPS": 301.791333
+  },
+  "2023-06-30": {
+   "Total Revenue": 48115000000.0,
+   "Operating Income": 11485000000.0,
+   "Pretax Income": 12383000000.0,
+   "Net Income": 9406000000.0,
+   "Basic EPS": 449.17
+  }
+ },
+ "dividends_by_year": {
+  "2007": 1.67,
+  "2008": 3.33,
+  "2010": 6.67,
+  "2011": 13.33,
+  "2012": 13.33,
+  "2013": 13.33,
+  "2014": 13.33,
+  "2015": 16.67,
+  "2016": 16.67,
+  "2017": 16.67,
+  "2018": 33.33,
+  "2019": 23.33,
+  "2020": 26.67,
+  "2021": 36.67,
+  "2022": 85.0,
+  "2023": 85.0,
+  "2024": 115.33,
+  "2025": 96.0,
+  "2026": 165.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 832000,
+  "dividend_yield_pct_from_rate": 1.98
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

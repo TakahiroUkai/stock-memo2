@@ -1,0 +1,104 @@
+{
+ "code": "3446",
+ "ticker": "3446.T",
+ "fetched_at_jst": "2026-11-28T20:07:31+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "JTEC Corporation",
+  "shortName": "JTEC CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 1155.0,
+  "regularMarketPrice": 1155.0,
+  "previousClose": 1087.0,
+  "trailingPE": 290.93198,
+  "forwardPE": 12.974613,
+  "priceToBook": 2.5293338,
+  "trailingEps": 3.97,
+  "forwardEps": 89.02,
+  "bookValue": 456.642,
+  "dividendRate": null,
+  "dividendYield": 0.0,
+  "trailingAnnualDividendRate": 0.0,
+  "payoutRatio": 0.0,
+  "marketCap": 6819715072,
+  "sharesOutstanding": 5904515,
+  "fiftyTwoWeekHigh": 2514.0,
+  "fiftyTwoWeekLow": 964.0,
+  "returnOnEquity": 0.008640001,
+  "longBusinessSummary": "JTEC Corporation designs, manufactures, and sells X-ray mirrors for synchrotron facilities in Japan. The company designs, develops, manufactures, and sells automated System and cell culture systems; and surface processing system for various materials. It also offers support services related to regenerative medicine. In addition, the company manufactures thermal desorption analyzers. JTEC Corporation was incorporated in 1993 and is headquartered in Ibaraki, Japan."
+ },
+ "price_date": "2026-11-27",
+ "close": 1155.0,
+ "volume": 18600.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-20",
+   "close": 990.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 1044.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 1007.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 1087.0
+  },
+  {
+   "date": "2026-11-27",
+   "close": 1155.0
+  }
+ ],
+ "annual": {
+  "2026-06-30": {
+   "Total Revenue": 1955936000.0,
+   "Operating Income": 72877000.0,
+   "Pretax Income": 85890000.0,
+   "Net Income": 58686000.0,
+   "Basic EPS": 9.95
+  },
+  "2025-06-30": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 10.25
+  },
+  "2024-06-30": {
+   "Total Revenue": 2010340000.0,
+   "Operating Income": 285837000.0,
+   "Pretax Income": 284742000.0,
+   "Net Income": 199591000.0,
+   "Basic EPS": 33.96
+  },
+  "2023-06-30": {
+   "Total Revenue": 1908375000.0,
+   "Operating Income": 306672000.0,
+   "Pretax Income": 361571000.0,
+   "Net Income": 238189000.0,
+   "Basic EPS": 40.58
+  },
+  "2022-06-30": {
+   "Total Revenue": 1150981000.0,
+   "Operating Income": -71222000.0,
+   "Pretax Income": -28022000.0,
+   "Net Income": -32127000.0,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {},
+ "derived": {
+  "min_purchase_yen_100sh": 115500,
+  "dividend_yield_pct_from_rate": null
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}

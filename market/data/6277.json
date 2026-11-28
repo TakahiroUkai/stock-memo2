@@ -1,0 +1,128 @@
+{
+ "code": "6277",
+ "ticker": "6277.T",
+ "fetched_at_jst": "2026-11-28T20:07:31+09:00",
+ "source": "yfinance(Yahoo Finance、非公式)",
+ "errors": [],
+ "info": {
+  "longName": "Hosokawa Micron Corporation",
+  "shortName": "HOSOKAWA MICRON CORP",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
+  "exchange": "JPX",
+  "currency": "JPY",
+  "currentPrice": 6260.0,
+  "regularMarketPrice": 6260.0,
+  "previousClose": 6060.0,
+  "trailingPE": 26.058361,
+  "forwardPE": 13.532209,
+  "priceToBook": 1.2798005,
+  "trailingEps": 240.23,
+  "forwardEps": 462.6,
+  "bookValue": 4891.387,
+  "dividendRate": 130.0,
+  "dividendYield": 2.08,
+  "trailingAnnualDividendRate": 130.0,
+  "payoutRatio": 0.7705,
+  "marketCap": 91802615808,
+  "sharesOutstanding": 14664955,
+  "fiftyTwoWeekHigh": 6950.0,
+  "fiftyTwoWeekLow": 4705.0,
+  "returnOnEquity": 0.05073,
+  "longBusinessSummary": "Hosokawa Micron Corporation provides powder and plastic processing equipment in Japan, the Americas, Europe, Asia, and internationally. The company offers powder processing equipment for grinding, classifying, blending and drying powder materials and products used in various industries; dust collection equipment for environmental protection and product recovery; and chemical hazard prevention equipment for the protection of workers during pharmaceuticals development and manufacture. It also provides machines for milling, mixing, particle design, agglomeration, feed and discharge, laboratory technology, bag filters, protection and production isolation, and engineering, as well as after-sales, toll processing, analysis, and preventive maintenance services. In addition, the company is involved in the contract research, development, manufacture, and sale of new materials, cosmetics, and hair growth products based on nanocomposite particle technology. Further, the company engages in the development, manufacture, sale, and system engineering of multi-layered performance films for use in food packaging; protection of electronic equipment; and single-layer film manufacturing equipment. It provides its products for energy, IT, automobile, chemicals, minerals, pharmaceuticals, food, polymer drying/SSP, containment, and metal industries. The company was founded in 1916 and is headquartered in Hirakata, Japan."
+ },
+ "price_date": "2026-11-27",
+ "close": 6260.0,
+ "volume": 62300.0,
+ "recent_closes": [
+  {
+   "date": "2026-11-20",
+   "close": 5390.0
+  },
+  {
+   "date": "2026-11-24",
+   "close": 5780.0
+  },
+  {
+   "date": "2026-11-25",
+   "close": 5910.0
+  },
+  {
+   "date": "2026-11-26",
+   "close": 6060.0
+  },
+  {
+   "date": "2026-11-27",
+   "close": 6260.0
+  }
+ ],
+ "annual": {
+  "2026-09-30": {
+   "Total Revenue": null,
+   "Operating Income": null,
+   "Pretax Income": null,
+   "Net Income": null,
+   "Basic EPS": 240.42
+  },
+  "2025-09-30": {
+   "Total Revenue": 77994000000.0,
+   "Operating Income": 7051000000.0,
+   "Pretax Income": 6851000000.0,
+   "Net Income": 4527000000.0,
+   "Basic EPS": 306.09
+  },
+  "2024-09-30": {
+   "Total Revenue": 85432000000.0,
+   "Operating Income": 8279000000.0,
+   "Pretax Income": 7970000000.0,
+   "Net Income": 5580000000.0,
+   "Basic EPS": 371.99
+  },
+  "2023-09-30": {
+   "Total Revenue": 79531000000.0,
+   "Operating Income": 7962000000.0,
+   "Pretax Income": 8330000000.0,
+   "Net Income": 5968000000.0,
+   "Basic EPS": 382.75
+  },
+  "2022-09-30": {
+   "Total Revenue": 66916000000.0,
+   "Operating Income": 5514000000.0,
+   "Pretax Income": 5801000000.0,
+   "Net Income": 4007000000.0,
+   "Basic EPS": null
+  }
+ },
+ "dividends_by_year": {
+  "2001": 12.5,
+  "2005": 12.5,
+  "2006": 20.0,
+  "2007": 30.0,
+  "2008": 40.0,
+  "2009": 12.5,
+  "2010": 12.5,
+  "2011": 17.5,
+  "2012": 22.5,
+  "2013": 30.0,
+  "2014": 37.5,
+  "2015": 37.5,
+  "2016": 43.75,
+  "2017": 43.75,
+  "2018": 55.0,
+  "2019": 55.0,
+  "2020": 55.0,
+  "2021": 55.0,
+  "2022": 75.0,
+  "2023": 87.5,
+  "2024": 120.0,
+  "2025": 120.0,
+  "2026": 140.0
+ },
+ "derived": {
+  "min_purchase_yen_100sh": 626000,
+  "dividend_yield_pct_from_rate": 2.08
+ },
+ "business_days_old": 0,
+ "stale": false,
+ "ok": true
+}
